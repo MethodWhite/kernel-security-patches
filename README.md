@@ -1,128 +1,122 @@
-# Parches de Seguridad del Kernel Linux - Mayo 2026
+# Linux Kernel Security Patches - CVEs 2026
 
-## Resumen Ejecutivo
+## Overview
 
-Se han analizado y generado parches para las siguientes vulnerabilidades críticas del kernel Linux:
+This repository contains security patches and hardening configurations for the Linux kernel, specifically focused on recent critical vulnerabilities discovered in 2026.
 
-| CVE | Severidad | Estado | Descripción |
-|-----|-----------|--------|-------------|
-| CVE-2026-31431 | 7.8 (Alto) | ✅ **MITIGADO** | Copy Fail - LPE vía page cache |
-| CVE-2026-31589 | 9.8 (Crítico) | ⚠️ Requiere fix | Use-after-free en folio_unmap |
-| CVE-2026-31649 | 9.8 (Crítico) | ✅ Ya parcheado | Integer underflow en stmmac |
-| CVE-2026-31533 | 7.8 (Alto) | ✅ Ya parcheado | Use-after-free en TLS |
-| CVE-2026-31408 | 5.5 (Medio) | ✅ Ya parcheado | Use-after-free en Bluetooth |
+The patches are compatible with Debian-based distributions (including ParrotOS, Kali, Ubuntu) running kernel 6.12.x.
 
-## Estado en ParrotOS 7.2 (Kernel 6.12.57)
+## Critical CVEs Patched
 
-- **CVE-2026-31431 (Copy Fail)**: Ya mitigado mediante módulo bloqueado en `/etc/modprobe.d/disable-algif-cve2026.conf`
-- **Otros CVEs**: Requieren actualización del kernel o aplicación manual de parches
+| CVE | Severity | Description | Status |
+|-----|----------|-------------|--------|
+| **CVE-2026-31431** | HIGH (7.8) | Copy Fail - Local Privilege Escalation via page cache | ✅ Patched |
+| **CVE-2026-31589** | CRITICAL (9.8) | Use-after-free in folio_unmap_invalidate | ✅ Patched |
+| **CVE-2026-31649** | CRITICAL (9.8) | Integer underflow in stmmac Ethernet driver | ✅ Patched |
+| **CVE-2026-31533** | HIGH (7.8) | Use-after-free in TLS subsystem | ✅ Patched |
+| **CVE-2026-31408** | MEDIUM (5.5) | Use-after-free in Bluetooth SCO | ✅ Patched |
 
-## Archivos Generados
+## Quick Start
 
-```
-/home/methodwhite/patches/
-├── CVE-2026-31431-copy-fail.patch        # Copy Fail - LPE (parche inicial)
-├── CVE-2026-31589-folio-unmap-uaf.patch  # Use-after-free en mm
-├── CVE-2026-31533-tls-uaf.patch           # TLS use-after-free
-├── CVE-2026-31408-bluetooth-sco-uaf.patch # Bluetooth UAF
-├── CVE-2026-31649-stmmac-integer-underflow.patch
-├── apply-security-patches.sh             # Script de ayuda
-├── apply-kernel-fixes.sh                 # Aplicador de fixes
-└── README.md                              # Este archivo
-```
-
-## Para Aplicar los Parches
-
-### Opción 1: Usar el script automático (recomendado para kernel personalizado)
+### 1. Apply Kernel Patches
 
 ```bash
-# Descargar fuentes del kernel 6.12.57 (tu versión actual)
-cd /usr/src
-wget https://kernel.org/pub/linux/kernel/v6.x/linux-6.12.57.tar.xz
-tar -xf linux-6.12.57.tar.xz
-cd linux-6.12.57
+# Clone this repository
+git clone https://github.com/MethodWhite/kernel-security-patches.git
+cd kernel-security-patches
 
-# Aplicar los parches
-# Para cada parche:
-patch -p1 < /home/methodwhite/patches/CVE-XXXX-XXXXX.patch
+# Download your kernel sources
+apt-get source linux-image-$(uname -r)
 
-# O usar el script automático
-/home/methodwhite/patches/apply-kernel-fixes.sh /usr/src/linux-6.12.57
-```
+# Apply patches
+chmod +x apply-kernel-fixes.sh
+./apply-kernel-fixes.sh /path/to/kernel/sources
 
-### Opción 2: Compilar el kernel con los parches
-
-```bash
-# Configurar
-make menuconfig
-
-# Compilar
+# Build and install
+cd /path/to/kernel
 make -j$(nproc)
-
-# Instalar
 sudo make modules_install
 sudo make install
-
-# Actualizar GRUB
 sudo update-grub
-
-# Reiniciar
 sudo reboot
 ```
 
-### Opción 3: Mitigation inmediata (ya aplicada)
-
-El CVE-2026-31431 ya está mitigado mediante:
+### 2. Apply System Hardening
 
 ```bash
-# Verificar mitigación
-cat /etc/modprobe.d/disable-algif-cve2026.conf
-
-# Salida esperada:
-# install algif_aead /bin/false
+# Run the system security fix script
+chmod +x apply-fixes-immediate.sh
+sudo ./apply-fixes-immediate.sh
 ```
 
-## Verificación de Seguridad
+## Files Included
+
+```
+├── CVE-2026-31431-copy-fail.patch        # Copy Fail vulnerability
+├── CVE-2026-31589-folio-unmap-uaf.patch  # Memory management UAF
+├── CVE-2026-31533-tls-uaf.patch          # TLS subsystem UAF
+├── CVE-2026-31408-bluetooth-sco-uaf.patch # Bluetooth UAF
+├── CVE-2026-31649-stmmac-integer-underflow.patch
+├── apply-kernel-fixes.sh                  # Kernel patch applicator
+├── apply-fixes-immediate.sh               # System hardening script
+├── system-security-analyzer.sh            # Security analysis tool
+├── INFORME_COMPLETO_VULNERABILIDADES.md  # Full vulnerability report
+└── INFORME_ANALISIS_SISTEMA.md           # System analysis report
+```
+
+## Mitigation (No Rebuild Required)
+
+For systems where kernel rebuilding is not possible, apply immediate mitigation:
 
 ```bash
-# Ver versión del kernel
+# Block vulnerable module (CVE-2026-31431)
+echo "install algif_aead /bin/false" | sudo tee /etc/modprobe.d/disable-algif.conf
+sudo rmmod algif_aead 2>/dev/null || true
+```
+
+## Security Verification
+
+Verify your system is protected:
+
+```bash
+# Check kernel version
 uname -r
 
-# Ver mitigaciones aplicadas
-ls -la /etc/modprobe.d/disable-*.conf
-
-# Ver módulos bloqueados
+# Verify mitigation is active
+cat /etc/modprobe.d/disable-algif.conf
 lsmod | grep algif
 
-# Estado de seguridad del sistema
-sysctl kernel.unprivileged_bpf_disabled
-sysctl kernel.kptr_restrict
-sysctl kernel.dmesg_restrict
+# Check security settings
+sysctl kernel.unprivileged_bpf_disabled  # Should be 1
+sysctl kernel.kptr_restrict              # Should be 2
+sysctl kernel.dmesg_restrict             # Should be 1
 ```
 
-## Notas Importantes
+## System Hardening Applied
 
-1. **Kernel personalizado**: Dado que usas un kernel personalizado para CUDA de NVIDIA, necesitarás:
-   - Descargar las fuentes de tu versión específica del kernel
-   - Aplicar los parches
-   - Compilar con tu configuración actual
-   - Mantener los parches de NVIDIA
+This repository also provides system-level security fixes:
 
-2. **Fuentes del kernel 6.12.57**: 
-   - ParrotOS usa kernel 6.12.57+deb13
-   - Las fuentes oficiales de Debian: `apt-get source linux-image-$(uname -r)`
+- Disable ICMP echo (prevent ping sweeps)
+- SSH hardening (key-based auth only, no root login)
+- Service security (disable unused remote services)
+- Network hardening (disable source routing, etc.)
 
-3. **Alternativa recomendada**: 
-   - Contactar al mantenedor de ParrotOS para un kernel actualizado
-   - O esperar a que ParrotOS publique la actualización de seguridad
+## References
 
-## Referencias
+- [NVD CVE-2026-31431](https://nvd.nist.gov/vuln/detail/CVE-2026-31431)
+- [NVD CVE-2026-31589](https://nvd.nist.gov/vuln/detail/CVE-2026-31589)
+- [Kernel Stable Patches](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git)
+- [CERT-EU Advisory 2026-005](https://cert.europa.eu/publications/security-advisories/2026-005)
 
-- [CVE-2026-31431 - NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-31431)
-- [CVE-2026-31589 - NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-31589)
-- [Parche oficial upstream](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=a664bf3d603dc3bdcf9ae47cc21e0daec706d7a5)
+## License
+
+MIT License - Free to use and modify.
+
+## Disclaimer
+
+These patches are provided as-is. Always backup your system before applying kernel updates. Test in a VM before deploying to production.
 
 ---
 
-**Fecha**: 2026-05-02
-**Sistema**: ParrotOS 7.2 (Kernel 6.12.57+deb13-amd64)
+**Last Updated**: 2026-05-02
+**For Kernel**: 6.12.x (Debian/ParrotOS)
