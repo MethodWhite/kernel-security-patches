@@ -1,14 +1,13 @@
 #!/bin/bash
-# SYSTEM SECURITY ANALYSIS TOOL
-# Analiza el sistema en busca de vulnerabilidades y configuration issues
-# Using MATERIA/NUM-JEPA patterns for security analysis
+# System Security Analysis Tool
+# Analyzes system for security issues
 
 echo "========================================"
 echo "SYSTEM SECURITY ANALYSIS"
 echo "========================================"
 
 echo ""
-echo "=== 1. PORTS AND SERVICES ==="
+echo "=== 1. OPEN PORTS AND SERVICES ==="
 ss -tulnp 2>/dev/null | grep LISTEN
 
 echo ""
@@ -28,7 +27,7 @@ echo "dmesg restrict: $(sysctl -n kernel.dmesg_restrict 2>/dev/null)"
 echo "ICMP echo ignore all: $(sysctl -n net.ipv4.icmp_echo_ignore_all 2>/dev/null)"
 
 echo ""
-echo "=== 5. SSH HARDENING CHECK ==="
+echo "=== 5. SSH CONFIGURATION ==="
 grep -E "PermitRootLogin|PasswordAuthentication|PubkeyAuthentication" /etc/ssh/sshd_config 2>/dev/null | head -5
 
 echo ""
@@ -42,9 +41,7 @@ fi
 
 echo ""
 echo "=== 7. NETWORK CONNECTIONS ==="
-ss -tnp 2>/dev/null | grep ESTAB | wc -l
-echo "Active connections"
+echo "Active connections: $(ss -tnp 2>/dev/null | grep ESTAB | wc -l)"
 
 echo ""
 echo "=== ANALYSIS COMPLETE ==="
-echo "Found potential issues may require manual review"
