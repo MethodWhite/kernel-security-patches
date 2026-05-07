@@ -1,4 +1,5 @@
--: include/linux/compiler-version.h include/linux/kconfig.h \
+-: include/linux/compiler-version.h include/generated/gcc-plugins.h \
+ include/generated/randstruct_hash.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/x86/include/generated/uapi/asm/types.h \

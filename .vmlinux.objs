@@ -543,7 +543,6 @@ kernel/trace/power-traces.o
 kernel/trace/rpm-traces.o
 kernel/trace/trace_dynevent.o
 kernel/trace/trace_probe.o
-kernel/trace/trace_btf.o
 kernel/trace/trace_uprobe.o
 kernel/trace/fprobe.o
 kernel/trace/rethook.o
@@ -597,7 +596,6 @@ kernel/bpf/cgroup_iter.o
 kernel/bpf/bpf_cgrp_storage.o
 kernel/bpf/cgroup.o
 kernel/bpf/reuseport_array.o
-kernel/bpf/sysfs_btf.o
 kernel/bpf/bpf_struct_ops.o
 kernel/bpf/cpumask.o
 kernel/bpf/bpf_lsm.o
@@ -2437,7 +2435,6 @@ net/xfrm/xfrm_replay.o
 net/xfrm/xfrm_device.o
 net/xfrm/xfrm_nat_keepalive.o
 net/xfrm/xfrm_proc.o
-net/xfrm/xfrm_state_bpf.o
 net/unix/af_unix.o
 net/unix/garbage.o
 net/unix/sysctl_net_unix.o

@@ -1,1 +1,1 @@
-savedcmd_arch/x86/boot/compressed/vmlinux.bin.zst := { cat arch/x86/boot/compressed/vmlinux.bin arch/x86/boot/compressed/vmlinux.relocs | zstd -22 --ultra; printf \\020\\215\\116\\003; } > arch/x86/boot/compressed/vmlinux.bin.zst
+savedcmd_arch/x86/boot/compressed/vmlinux.bin.zst := { cat arch/x86/boot/compressed/vmlinux.bin arch/x86/boot/compressed/vmlinux.relocs | zstd -22 --ultra; printf \\234\\213\\056\\003; } > arch/x86/boot/compressed/vmlinux.bin.zst

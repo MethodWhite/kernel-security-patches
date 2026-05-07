@@ -32,16 +32,16 @@
 #define saved_context_cr4 224 /* offsetof(struct saved_context, cr4) */
 #define saved_context_gdt_desc 266 /* offsetof(struct saved_context, gdt_desc) */
 
-#define CPUINFO_x86 1 /* offsetof(struct cpuinfo_x86, x86) */
-#define CPUINFO_x86_vendor 2 /* offsetof(struct cpuinfo_x86, x86_vendor) */
-#define CPUINFO_x86_model 0 /* offsetof(struct cpuinfo_x86, x86_model) */
-#define CPUINFO_x86_stepping 4 /* offsetof(struct cpuinfo_x86, x86_stepping) */
-#define CPUINFO_cpuid_level 40 /* offsetof(struct cpuinfo_x86, cpuid_level) */
+#define CPUINFO_x86 37 /* offsetof(struct cpuinfo_x86, x86) */
+#define CPUINFO_x86_vendor 38 /* offsetof(struct cpuinfo_x86, x86_vendor) */
+#define CPUINFO_x86_model 36 /* offsetof(struct cpuinfo_x86, x86_model) */
+#define CPUINFO_x86_stepping 32 /* offsetof(struct cpuinfo_x86, x86_stepping) */
+#define CPUINFO_cpuid_level 20 /* offsetof(struct cpuinfo_x86, cpuid_level) */
 #define CPUINFO_x86_capability 48 /* offsetof(struct cpuinfo_x86, x86_capability) */
-#define CPUINFO_x86_vendor_id 144 /* offsetof(struct cpuinfo_x86, x86_vendor_id) */
+#define CPUINFO_x86_vendor_id 145 /* offsetof(struct cpuinfo_x86, x86_vendor_id) */
 
-#define TASK_threadsp 5520 /* offsetof(struct task_struct, thread.sp) */
-#define TASK_stack_canary 2520 /* offsetof(struct task_struct, stack_canary) */
+#define TASK_threadsp 5712 /* offsetof(struct task_struct, thread.sp) */
+#define TASK_stack_canary 2712 /* offsetof(struct task_struct, stack_canary) */
 
 #define pbe_address 0 /* offsetof(struct pbe, address) */
 #define pbe_orig_address 8 /* offsetof(struct pbe, orig_address) */

@@ -4,16 +4,18 @@
 
 # warning: MPFR header version 4.2.1 differs from library version 4.2.2.
 # GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-# options passed: -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -mno-sse4a -m64 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -march=x86-64 -mtune=generic -mno-red-zone -mcmodel=kernel -mstack-protector-guard-reg=gs -mstack-protector-guard-symbol=__ref_stack_chk_guard -mindirect-branch=thunk-extern -mindirect-branch-register -mindirect-branch-cs-prefix -mfunction-return=thunk-extern -mharden-sls=all -mrecord-mcount -mfentry -O2 -std=gnu11 -p -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -fcf-protection=branch -falign-jumps=1 -falign-loops=1 -fno-asynchronous-unwind-tables -fno-jump-tables -fpatchable-function-entry=16,16 -fno-delete-null-pointer-checks -fno-allow-store-data-races -fstack-protector-strong -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=16 -fstrict-flex-arrays=3 -fms-extensions -fno-strict-overflow -fstack-check=no -fconserve-stack -fno-builtin-wcslen
+#Versions of loaded plugins:
+ #randomize_layout_plugin: 6.19.13
+# options passed: -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -mno-sse4a -m64 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -march=x86-64 -mtune=generic -mno-red-zone -mcmodel=kernel -mstack-protector-guard-reg=gs -mstack-protector-guard-symbol=__ref_stack_chk_guard -mindirect-branch=thunk-extern -mindirect-branch-register -mindirect-branch-cs-prefix -mfunction-return=thunk-extern -mharden-sls=all -mrecord-mcount -mfentry -O2 -std=gnu11 -p -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -fcf-protection=branch -falign-jumps=1 -falign-loops=1 -fno-asynchronous-unwind-tables -fno-jump-tables -fpatchable-function-entry=16,16 -fno-delete-null-pointer-checks -fno-allow-store-data-races -fstack-protector-strong -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fzero-call-used-regs=used-gpr -fmin-function-alignment=16 -fstrict-flex-arrays=3 -fms-extensions -fno-strict-overflow -fstack-check=no -fconserve-stack -fno-builtin-wcslen -fplugin=./scripts/gcc-plugins/randomize_layout_plugin.so -fplugin-arg-randomize_layout_plugin-performance-mode
 	.text
 	.section	.text.startup,"ax",@progbits
 	.align 16
 	.globl	main
-	.section	__patchable_function_entries,"awo",@progbits,.LPFE5213
+	.section	__patchable_function_entries,"awo",@progbits,.LPFE5210
 	.align 8
-	.quad	.LPFE5213
+	.quad	.LPFE5210
 	.section	.text.startup
-.LPFE5213:
+.LPFE5210:
 	nop	
 	nop	
 	nop	
@@ -175,11 +177,11 @@ main:
 	.size	main, .-main
 	.text
 	.align 16
-	.section	__patchable_function_entries,"awo",@progbits,.LPFE5214
+	.section	__patchable_function_entries,"awo",@progbits,.LPFE5211
 	.align 8
-	.quad	.LPFE5214
+	.quad	.LPFE5211
 	.text
-.LPFE5214:
+.LPFE5211:
 	nop	
 	nop	
 	nop	
@@ -207,27 +209,27 @@ common:
 #APP
 # 36 "arch/x86/kernel/asm-offsets.c" 1
 	
-.ascii "->CPUINFO_x86 $1 offsetof(struct cpuinfo_x86, x86)"	#
+.ascii "->CPUINFO_x86 $37 offsetof(struct cpuinfo_x86, x86)"	#
 # 0 "" 2
 # arch/x86/kernel/asm-offsets.c:37: 	OFFSET(CPUINFO_x86_vendor, cpuinfo_x86, x86_vendor);
 # 37 "arch/x86/kernel/asm-offsets.c" 1
 	
-.ascii "->CPUINFO_x86_vendor $2 offsetof(struct cpuinfo_x86, x86_vendor)"	#
+.ascii "->CPUINFO_x86_vendor $38 offsetof(struct cpuinfo_x86, x86_vendor)"	#
 # 0 "" 2
 # arch/x86/kernel/asm-offsets.c:38: 	OFFSET(CPUINFO_x86_model, cpuinfo_x86, x86_model);
 # 38 "arch/x86/kernel/asm-offsets.c" 1
 	
-.ascii "->CPUINFO_x86_model $0 offsetof(struct cpuinfo_x86, x86_model)"	#
+.ascii "->CPUINFO_x86_model $36 offsetof(struct cpuinfo_x86, x86_model)"	#
 # 0 "" 2
 # arch/x86/kernel/asm-offsets.c:39: 	OFFSET(CPUINFO_x86_stepping, cpuinfo_x86, x86_stepping);
 # 39 "arch/x86/kernel/asm-offsets.c" 1
 	
-.ascii "->CPUINFO_x86_stepping $4 offsetof(struct cpuinfo_x86, x86_stepping)"	#
+.ascii "->CPUINFO_x86_stepping $32 offsetof(struct cpuinfo_x86, x86_stepping)"	#
 # 0 "" 2
 # arch/x86/kernel/asm-offsets.c:40: 	OFFSET(CPUINFO_cpuid_level, cpuinfo_x86, cpuid_level);
 # 40 "arch/x86/kernel/asm-offsets.c" 1
 	
-.ascii "->CPUINFO_cpuid_level $40 offsetof(struct cpuinfo_x86, cpuid_level)"	#
+.ascii "->CPUINFO_cpuid_level $20 offsetof(struct cpuinfo_x86, cpuid_level)"	#
 # 0 "" 2
 # arch/x86/kernel/asm-offsets.c:41: 	OFFSET(CPUINFO_x86_capability, cpuinfo_x86, x86_capability);
 # 41 "arch/x86/kernel/asm-offsets.c" 1
@@ -237,7 +239,7 @@ common:
 # arch/x86/kernel/asm-offsets.c:42: 	OFFSET(CPUINFO_x86_vendor_id, cpuinfo_x86, x86_vendor_id);
 # 42 "arch/x86/kernel/asm-offsets.c" 1
 	
-.ascii "->CPUINFO_x86_vendor_id $144 offsetof(struct cpuinfo_x86, x86_vendor_id)"	#
+.ascii "->CPUINFO_x86_vendor_id $145 offsetof(struct cpuinfo_x86, x86_vendor_id)"	#
 # 0 "" 2
 # arch/x86/kernel/asm-offsets.c:44: 	BLANK();
 # 44 "arch/x86/kernel/asm-offsets.c" 1
@@ -247,12 +249,12 @@ common:
 # arch/x86/kernel/asm-offsets.c:45: 	OFFSET(TASK_threadsp, task_struct, thread.sp);
 # 45 "arch/x86/kernel/asm-offsets.c" 1
 	
-.ascii "->TASK_threadsp $5520 offsetof(struct task_struct, thread.sp)"	#
+.ascii "->TASK_threadsp $5712 offsetof(struct task_struct, thread.sp)"	#
 # 0 "" 2
 # arch/x86/kernel/asm-offsets.c:47: 	OFFSET(TASK_stack_canary, task_struct, stack_canary);
 # 47 "arch/x86/kernel/asm-offsets.c" 1
 	
-.ascii "->TASK_stack_canary $2520 offsetof(struct task_struct, stack_canary)"	#
+.ascii "->TASK_stack_canary $2712 offsetof(struct task_struct, stack_canary)"	#
 # 0 "" 2
 # arch/x86/kernel/asm-offsets.c:50: 	BLANK();
 # 50 "arch/x86/kernel/asm-offsets.c" 1
