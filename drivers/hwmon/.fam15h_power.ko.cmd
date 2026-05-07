@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/fam15h_power.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hwmon/fam15h_power.ko drivers/hwmon/fam15h_power.o drivers/hwmon/fam15h_power.mod.o .module-common.o

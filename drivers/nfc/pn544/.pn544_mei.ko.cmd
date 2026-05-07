@@ -1,0 +1,1 @@
+savedcmd_drivers/nfc/pn544/pn544_mei.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/nfc/pn544/pn544_mei.ko drivers/nfc/pn544/pn544_mei.o drivers/nfc/pn544/pn544_mei.mod.o .module-common.o

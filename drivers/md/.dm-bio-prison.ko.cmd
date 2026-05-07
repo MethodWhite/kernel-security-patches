@@ -1,0 +1,1 @@
+savedcmd_drivers/md/dm-bio-prison.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/md/dm-bio-prison.ko drivers/md/dm-bio-prison.o drivers/md/dm-bio-prison.mod.o .module-common.o

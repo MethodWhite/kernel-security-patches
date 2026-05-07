@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/proximity/vl53l0x-i2c.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/iio/proximity/vl53l0x-i2c.ko drivers/iio/proximity/vl53l0x-i2c.o drivers/iio/proximity/vl53l0x-i2c.mod.o .module-common.o

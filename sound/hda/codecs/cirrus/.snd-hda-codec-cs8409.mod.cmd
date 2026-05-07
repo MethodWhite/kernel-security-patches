@@ -1,0 +1,1 @@
+savedcmd_sound/hda/codecs/cirrus/snd-hda-codec-cs8409.mod := printf '%s\n'   cs8409.o cs8409-tables.o | awk '!x[$$0]++ { print("sound/hda/codecs/cirrus/"$$0) }' > sound/hda/codecs/cirrus/snd-hda-codec-cs8409.mod

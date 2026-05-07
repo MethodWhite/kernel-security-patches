@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/chrome/wilco_ec/wilco_ec.mod := printf '%s\n'   core.o keyboard_leds.o mailbox.o properties.o sysfs.o | awk '!x[$$0]++ { print("drivers/platform/chrome/wilco_ec/"$$0) }' > drivers/platform/chrome/wilco_ec/wilco_ec.mod

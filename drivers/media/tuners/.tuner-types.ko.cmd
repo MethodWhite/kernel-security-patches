@@ -1,0 +1,1 @@
+savedcmd_drivers/media/tuners/tuner-types.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/tuners/tuner-types.ko drivers/media/tuners/tuner-types.o drivers/media/tuners/tuner-types.mod.o .module-common.o

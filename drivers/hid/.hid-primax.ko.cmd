@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/hid-primax.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hid/hid-primax.ko drivers/hid/hid-primax.o drivers/hid/hid-primax.mod.o .module-common.o

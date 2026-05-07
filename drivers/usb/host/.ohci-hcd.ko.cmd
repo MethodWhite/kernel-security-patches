@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/host/ohci-hcd.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/usb/host/ohci-hcd.ko drivers/usb/host/ohci-hcd.o drivers/usb/host/ohci-hcd.mod.o .module-common.o

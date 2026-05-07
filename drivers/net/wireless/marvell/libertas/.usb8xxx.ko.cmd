@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/marvell/libertas/usb8xxx.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/wireless/marvell/libertas/usb8xxx.ko drivers/net/wireless/marvell/libertas/usb8xxx.o drivers/net/wireless/marvell/libertas/usb8xxx.mod.o .module-common.o

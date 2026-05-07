@@ -1,0 +1,1 @@
+savedcmd_fs/ntfs3/ntfs3.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o fs/ntfs3/ntfs3.ko fs/ntfs3/ntfs3.o fs/ntfs3/ntfs3.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/sch5636.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hwmon/sch5636.ko drivers/hwmon/sch5636.o drivers/hwmon/sch5636.mod.o .module-common.o

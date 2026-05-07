@@ -1,0 +1,1 @@
+savedcmd_sound/virtio/virtio_snd.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/virtio/virtio_snd.ko sound/virtio/virtio_snd.o sound/virtio/virtio_snd.mod.o .module-common.o

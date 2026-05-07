@@ -1,0 +1,16 @@
+!<thin>
+//                                              100       `
+fallback_table.o/
+main.o/
+fallback.o/
+fallback_platform.o/
+sysfs.o/
+sysfs_upload.o/
+builtin/main.o/
+/0              0           0     0     644     21424     `
+/18             0           0     0     644     555808    `
+/26             0           0     0     644     320448    `
+/38             0           0     0     644     299032    `
+/59             0           0     0     644     362016    `
+/68             0           0     0     644     220608    `
+/84             0           0     0     644     28496     `

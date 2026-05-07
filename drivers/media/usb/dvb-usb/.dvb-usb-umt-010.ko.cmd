@@ -1,0 +1,1 @@
+savedcmd_drivers/media/usb/dvb-usb/dvb-usb-umt-010.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/usb/dvb-usb/dvb-usb-umt-010.ko drivers/media/usb/dvb-usb/dvb-usb-umt-010.o drivers/media/usb/dvb-usb/dvb-usb-umt-010.mod.o .module-common.o

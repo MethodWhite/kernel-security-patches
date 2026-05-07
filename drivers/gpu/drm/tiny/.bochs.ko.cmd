@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/tiny/bochs.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/gpu/drm/tiny/bochs.ko drivers/gpu/drm/tiny/bochs.o drivers/gpu/drm/tiny/bochs.mod.o .module-common.o

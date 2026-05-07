@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/chrome/wilco_ec/modules.order := {   echo drivers/platform/chrome/wilco_ec/wilco_ec.o;   echo drivers/platform/chrome/wilco_ec/wilco_ec_debugfs.o;   echo drivers/platform/chrome/wilco_ec/wilco_ec_events.o;   echo drivers/platform/chrome/wilco_ec/wilco_ec_telem.o; :; } > drivers/platform/chrome/wilco_ec/modules.order

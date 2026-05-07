@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/drm_panel_backlight_quirks.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/gpu/drm/drm_panel_backlight_quirks.ko drivers/gpu/drm/drm_panel_backlight_quirks.o drivers/gpu/drm/drm_panel_backlight_quirks.mod.o .module-common.o

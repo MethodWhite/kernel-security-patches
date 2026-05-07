@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/intel-ish-hid/modules.order := {   echo drivers/hid/intel-ish-hid/intel-ishtp.o;   echo drivers/hid/intel-ish-hid/intel-ish-ipc.o;   echo drivers/hid/intel-ish-hid/intel-ishtp-hid.o; :; } > drivers/hid/intel-ish-hid/modules.order

@@ -1,0 +1,1 @@
+savedcmd_drivers/watchdog/iTCO_vendor_support.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/watchdog/iTCO_vendor_support.ko drivers/watchdog/iTCO_vendor_support.o drivers/watchdog/iTCO_vendor_support.mod.o .module-common.o

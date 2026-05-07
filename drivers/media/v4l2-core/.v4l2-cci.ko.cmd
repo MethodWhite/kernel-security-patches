@@ -1,0 +1,1 @@
+savedcmd_drivers/media/v4l2-core/v4l2-cci.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/v4l2-core/v4l2-cci.ko drivers/media/v4l2-core/v4l2-cci.o drivers/media/v4l2-core/v4l2-cci.mod.o .module-common.o

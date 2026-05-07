@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/mediatek/mt76/mt7925/mt7925-common.mod := printf '%s\n'   mac.o mcu.o regd.o main.o init.o debugfs.o | awk '!x[$$0]++ { print("drivers/net/wireless/mediatek/mt76/mt7925/"$$0) }' > drivers/net/wireless/mediatek/mt76/mt7925/mt7925-common.mod

@@ -1,0 +1,1 @@
+savedcmd_drivers/media/rc/keymaps/rc-medion-x10-or2x.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/rc/keymaps/rc-medion-x10-or2x.ko drivers/media/rc/keymaps/rc-medion-x10-or2x.o drivers/media/rc/keymaps/rc-medion-x10-or2x.mod.o .module-common.o

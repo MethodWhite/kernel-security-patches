@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/broadcom/b43legacy/b43legacy.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/wireless/broadcom/b43legacy/b43legacy.ko drivers/net/wireless/broadcom/b43legacy/b43legacy.o drivers/net/wireless/broadcom/b43legacy/b43legacy.mod.o .module-common.o

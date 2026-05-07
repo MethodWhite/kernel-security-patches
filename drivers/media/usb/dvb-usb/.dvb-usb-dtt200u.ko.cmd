@@ -1,0 +1,1 @@
+savedcmd_drivers/media/usb/dvb-usb/dvb-usb-dtt200u.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/usb/dvb-usb/dvb-usb-dtt200u.ko drivers/media/usb/dvb-usb/dvb-usb-dtt200u.o drivers/media/usb/dvb-usb/dvb-usb-dtt200u.mod.o .module-common.o

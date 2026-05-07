@@ -1,0 +1,1 @@
+savedcmd_sound/soc/intel/boards/snd-soc-intel-sof-maxim-common.mod := printf '%s\n'   sof_maxim_common.o | awk '!x[$$0]++ { print("sound/soc/intel/boards/"$$0) }' > sound/soc/intel/boards/snd-soc-intel-sof-maxim-common.mod

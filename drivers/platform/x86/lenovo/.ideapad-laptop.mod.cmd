@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/lenovo/ideapad-laptop.mod := printf '%s\n'   ideapad-laptop.o | awk '!x[$$0]++ { print("drivers/platform/x86/lenovo/"$$0) }' > drivers/platform/x86/lenovo/ideapad-laptop.mod

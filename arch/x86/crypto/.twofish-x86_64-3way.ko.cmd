@@ -1,0 +1,1 @@
+savedcmd_arch/x86/crypto/twofish-x86_64-3way.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o arch/x86/crypto/twofish-x86_64-3way.ko arch/x86/crypto/twofish-x86_64-3way.o arch/x86/crypto/twofish-x86_64-3way.mod.o .module-common.o

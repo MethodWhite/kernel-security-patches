@@ -1,0 +1,1 @@
+savedcmd_sound/pci/ice1712/snd-ice1724.mod := printf '%s\n'   ice1724.o amp.o revo.o aureon.o vt1720_mobo.o pontis.o prodigy192.o prodigy_hifi.o juli.o phase.o wtm.o se.o maya44.o quartet.o psc724.o wm8766.o wm8776.o | awk '!x[$$0]++ { print("sound/pci/ice1712/"$$0) }' > sound/pci/ice1712/snd-ice1724.mod

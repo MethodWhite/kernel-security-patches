@@ -1,0 +1,1 @@
+savedcmd_sound/soc/intel/boards/snd-soc-sst-bytcr-rt5651.mod := printf '%s\n'   bytcr_rt5651.o | awk '!x[$$0]++ { print("sound/soc/intel/boards/"$$0) }' > sound/soc/intel/boards/snd-soc-sst-bytcr-rt5651.mod

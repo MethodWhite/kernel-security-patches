@@ -1,0 +1,1 @@
+savedcmd_drivers/media/dvb-frontends/bcm3510.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/dvb-frontends/bcm3510.ko drivers/media/dvb-frontends/bcm3510.o drivers/media/dvb-frontends/bcm3510.mod.o .module-common.o

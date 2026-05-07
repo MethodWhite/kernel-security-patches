@@ -1,0 +1,61 @@
+!<thin>
+//                                              486       `
+dmi_scan.o/
+dmi-sysfs.o/
+dmi-id.o/
+iscsi_ibft_find.o/
+memmap.o/
+sysfb.o/
+google/coreboot_table.o/
+google/framebuffer-coreboot.o/
+efi/efi-bgrt.o/
+efi/efi.o/
+efi/vars.o/
+efi/reboot.o/
+efi/memattr.o/
+efi/tpm.o/
+efi/memmap.o/
+efi/capsule.o/
+efi/esrt.o/
+efi/cper.o/
+efi/cper_cxl.o/
+efi/runtime-wrappers.o/
+efi/dev-path-parser.o/
+efi/secureboot.o/
+efi/apple-properties.o/
+efi/embedded-firmware.o/
+efi/mokvar-table.o/
+efi/sysfb_efi.o/
+efi/earlycon.o/
+efi/cper-x86.o/
+efi/unaccepted_memory.o/
+
+/0              0           0     0     644     307816    `
+/12             0           0     0     644     279504    `
+/25             0           0     0     644     203696    `
+/35             0           0     0     644     31072     `
+/54             0           0     0     644     218976    `
+/64             0           0     0     644     268416    `
+/73             0           0     0     644     211336    `
+/98             0           0     0     644     258592    `
+/129            0           0     0     644     34512     `
+/145            0           0     0     644     453368    `
+/156            0           0     0     644     176984    `
+/168            0           0     0     644     181152    `
+/182            0           0     0     644     193216    `
+/197            0           0     0     644     59216     `
+/208            0           0     0     644     31080     `
+/222            0           0     0     644     262928    `
+/237            0           0     0     644     242848    `
+/249            0           0     0     644     105360    `
+/261            0           0     0     644     22456     `
+/277            0           0     0     644     313768    `
+/301            0           0     0     644     210344    `
+/324            0           0     0     644     25712     `
+/342            0           0     0     644     212552    `
+/366            0           0     0     644     44184     `
+/391            0           0     0     644     187912    `
+/411            0           0     0     644     292792    `
+/428            0           0     0     644     228056    `
+/444            0           0     0     644     41144     `
+/460            0           0     0     644     68944     `

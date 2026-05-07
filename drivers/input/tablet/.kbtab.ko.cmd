@@ -1,0 +1,1 @@
+savedcmd_drivers/input/tablet/kbtab.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/input/tablet/kbtab.ko drivers/input/tablet/kbtab.o drivers/input/tablet/kbtab.mod.o .module-common.o

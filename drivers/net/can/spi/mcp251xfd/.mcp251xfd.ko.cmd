@@ -1,0 +1,1 @@
+savedcmd_drivers/net/can/spi/mcp251xfd/mcp251xfd.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/can/spi/mcp251xfd/mcp251xfd.ko drivers/net/can/spi/mcp251xfd/mcp251xfd.o drivers/net/can/spi/mcp251xfd/mcp251xfd.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/roles/intel-xhci-usb-role-switch.mod := printf '%s\n'   intel-xhci-usb-role-switch.o | awk '!x[$$0]++ { print("drivers/usb/roles/"$$0) }' > drivers/usb/roles/intel-xhci-usb-role-switch.mod

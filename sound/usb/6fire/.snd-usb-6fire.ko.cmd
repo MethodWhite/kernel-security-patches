@@ -1,0 +1,1 @@
+savedcmd_sound/usb/6fire/snd-usb-6fire.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/usb/6fire/snd-usb-6fire.ko sound/usb/6fire/snd-usb-6fire.o sound/usb/6fire/snd-usb-6fire.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/ras/amd/atl/amd_atl.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/ras/amd/atl/amd_atl.ko drivers/ras/amd/atl/amd_atl.o drivers/ras/amd/atl/amd_atl.mod.o .module-common.o

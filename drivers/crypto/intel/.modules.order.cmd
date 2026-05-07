@@ -1,0 +1,1 @@
+savedcmd_drivers/crypto/intel/modules.order := {   cat drivers/crypto/intel/keembay/modules.order;   cat drivers/crypto/intel/ixp4xx/modules.order;   cat drivers/crypto/intel/qat/modules.order;   cat drivers/crypto/intel/iaa/modules.order; :; } > drivers/crypto/intel/modules.order

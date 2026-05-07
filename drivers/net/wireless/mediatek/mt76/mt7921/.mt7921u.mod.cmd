@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/mediatek/mt76/mt7921/mt7921u.mod := printf '%s\n'   usb.o | awk '!x[$$0]++ { print("drivers/net/wireless/mediatek/mt76/mt7921/"$$0) }' > drivers/net/wireless/mediatek/mt76/mt7921/mt7921u.mod

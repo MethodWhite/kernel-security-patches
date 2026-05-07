@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/vboxvideo/vboxvideo.mod := printf '%s\n'   hgsmi_base.o modesetting.o vbva_base.o vbox_drv.o vbox_hgsmi.o vbox_irq.o vbox_main.o vbox_mode.o vbox_ttm.o | awk '!x[$$0]++ { print("drivers/gpu/drm/vboxvideo/"$$0) }' > drivers/gpu/drm/vboxvideo/vboxvideo.mod

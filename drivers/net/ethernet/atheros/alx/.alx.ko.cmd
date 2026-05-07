@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/atheros/alx/alx.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/ethernet/atheros/alx/alx.ko drivers/net/ethernet/atheros/alx/alx.o drivers/net/ethernet/atheros/alx/alx.mod.o .module-common.o

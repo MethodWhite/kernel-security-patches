@@ -1,0 +1,1 @@
+savedcmd_drivers/input/misc/atlas_btns.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/input/misc/atlas_btns.ko drivers/input/misc/atlas_btns.o drivers/input/misc/atlas_btns.mod.o .module-common.o

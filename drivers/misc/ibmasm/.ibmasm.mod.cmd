@@ -1,0 +1,1 @@
+savedcmd_drivers/misc/ibmasm/ibmasm.mod := printf '%s\n'   module.o ibmasmfs.o event.o command.o remote.o heartbeat.o r_heartbeat.o dot_command.o lowlevel.o uart.o | awk '!x[$$0]++ { print("drivers/misc/ibmasm/"$$0) }' > drivers/misc/ibmasm/ibmasm.mod

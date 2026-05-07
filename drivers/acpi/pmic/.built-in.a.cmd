@@ -1,0 +1,1 @@
+savedcmd_drivers/acpi/pmic/built-in.a := rm -f drivers/acpi/pmic/built-in.a;  printf "drivers/acpi/pmic/%s " intel_pmic.o intel_pmic_bytcrc.o intel_pmic_chtcrc.o intel_pmic_xpower.o intel_pmic_bxtwc.o intel_pmic_chtwc.o intel_pmic_chtdc_ti.o | xargs ar cDPrST drivers/acpi/pmic/built-in.a

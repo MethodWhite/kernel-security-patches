@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/chrome/wilco_ec/wilco_ec_debugfs.mod := printf '%s\n'   debugfs.o | awk '!x[$$0]++ { print("drivers/platform/chrome/wilco_ec/"$$0) }' > drivers/platform/chrome/wilco_ec/wilco_ec_debugfs.mod

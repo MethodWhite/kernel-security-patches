@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/gadget/udc/modules.order := {   echo drivers/usb/gadget/udc/udc-core.o;   echo drivers/usb/gadget/udc/dummy_hcd.o;   echo drivers/usb/gadget/udc/net2280.o;   echo drivers/usb/gadget/udc/pch_udc.o; :; } > drivers/usb/gadget/udc/modules.order

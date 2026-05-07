@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/hid-steelseries.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hid/hid-steelseries.ko drivers/hid/hid-steelseries.o drivers/hid/hid-steelseries.mod.o .module-common.o

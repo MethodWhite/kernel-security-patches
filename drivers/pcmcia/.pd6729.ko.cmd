@@ -1,0 +1,1 @@
+savedcmd_drivers/pcmcia/pd6729.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/pcmcia/pd6729.ko drivers/pcmcia/pd6729.o drivers/pcmcia/pd6729.mod.o .module-common.o

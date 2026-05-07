@@ -1,0 +1,1 @@
+savedcmd_sound/firewire/motu/snd-firewire-motu.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/firewire/motu/snd-firewire-motu.ko sound/firewire/motu/snd-firewire-motu.o sound/firewire/motu/snd-firewire-motu.mod.o .module-common.o

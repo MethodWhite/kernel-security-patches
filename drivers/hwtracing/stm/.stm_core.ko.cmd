@@ -1,0 +1,1 @@
+savedcmd_drivers/hwtracing/stm/stm_core.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hwtracing/stm/stm_core.ko drivers/hwtracing/stm/stm_core.o drivers/hwtracing/stm/stm_core.mod.o .module-common.o

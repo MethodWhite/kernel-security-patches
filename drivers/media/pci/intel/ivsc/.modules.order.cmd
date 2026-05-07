@@ -1,0 +1,1 @@
+savedcmd_drivers/media/pci/intel/ivsc/modules.order := {   echo drivers/media/pci/intel/ivsc/ivsc-csi.o;   echo drivers/media/pci/intel/ivsc/ivsc-ace.o; :; } > drivers/media/pci/intel/ivsc/modules.order

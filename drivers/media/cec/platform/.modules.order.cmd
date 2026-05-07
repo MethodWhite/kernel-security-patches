@@ -1,0 +1,1 @@
+savedcmd_drivers/media/cec/platform/modules.order := {   cat drivers/media/cec/platform/meson/modules.order;   cat drivers/media/cec/platform/cros-ec/modules.order;   cat drivers/media/cec/platform/seco/modules.order; :; } > drivers/media/cec/platform/modules.order

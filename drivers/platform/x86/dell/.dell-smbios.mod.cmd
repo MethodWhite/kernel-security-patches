@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/dell/dell-smbios.mod := printf '%s\n'   dell-smbios-base.o dell-smbios-wmi.o dell-smbios-smm.o | awk '!x[$$0]++ { print("drivers/platform/x86/dell/"$$0) }' > drivers/platform/x86/dell/dell-smbios.mod

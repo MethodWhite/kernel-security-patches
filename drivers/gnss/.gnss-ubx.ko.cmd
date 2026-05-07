@@ -1,0 +1,1 @@
+savedcmd_drivers/gnss/gnss-ubx.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/gnss/gnss-ubx.ko drivers/gnss/gnss-ubx.o drivers/gnss/gnss-ubx.mod.o .module-common.o

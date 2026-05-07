@@ -1,0 +1,1 @@
+savedcmd_arch/x86/crypto/twofish-x86_64-3way.mod := printf '%s\n'   twofish-x86_64-asm_64-3way.o twofish_glue_3way.o | awk '!x[$$0]++ { print("arch/x86/crypto/"$$0) }' > arch/x86/crypto/twofish-x86_64-3way.mod

@@ -1,0 +1,1 @@
+savedcmd_arch/x86/events/intel/intel-uncore.mod := printf '%s\n'   uncore.o uncore_nhmex.o uncore_snb.o uncore_snbep.o uncore_discovery.o | awk '!x[$$0]++ { print("arch/x86/events/intel/"$$0) }' > arch/x86/events/intel/intel-uncore.mod

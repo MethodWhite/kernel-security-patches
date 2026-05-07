@@ -1,0 +1,1 @@
+savedcmd_drivers/crypto/ccp/ccp.mod := printf '%s\n'   sp-dev.o sp-platform.o ccp-dev.o ccp-ops.o ccp-dev-v3.o ccp-dev-v5.o ccp-dmaengine.o sp-pci.o psp-dev.o sev-dev.o tee-dev.o platform-access.o dbc.o hsti.o sfs.o sev-dev-tsm.o sev-dev-tio.o | awk '!x[$$0]++ { print("drivers/crypto/ccp/"$$0) }' > drivers/crypto/ccp/ccp.mod

@@ -1,0 +1,1 @@
+savedcmd_net/netfilter/ipvs/ip_vs_mh.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o net/netfilter/ipvs/ip_vs_mh.ko net/netfilter/ipvs/ip_vs_mh.o net/netfilter/ipvs/ip_vs_mh.mod.o .module-common.o

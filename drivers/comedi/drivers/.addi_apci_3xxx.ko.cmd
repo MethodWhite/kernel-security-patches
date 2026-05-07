@@ -1,0 +1,1 @@
+savedcmd_drivers/comedi/drivers/addi_apci_3xxx.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/comedi/drivers/addi_apci_3xxx.ko drivers/comedi/drivers/addi_apci_3xxx.o drivers/comedi/drivers/addi_apci_3xxx.mod.o .module-common.o

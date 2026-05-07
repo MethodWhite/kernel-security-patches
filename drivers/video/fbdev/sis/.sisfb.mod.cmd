@@ -1,0 +1,1 @@
+savedcmd_drivers/video/fbdev/sis/sisfb.mod := printf '%s\n'   sis_main.o sis_accel.o init.o init301.o initextlfb.o | awk '!x[$$0]++ { print("drivers/video/fbdev/sis/"$$0) }' > drivers/video/fbdev/sis/sisfb.mod

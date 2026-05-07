@@ -1,0 +1,1 @@
+savedcmd_drivers/input/keyboard/cros_ec_keyb.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/input/keyboard/cros_ec_keyb.ko drivers/input/keyboard/cros_ec_keyb.o drivers/input/keyboard/cros_ec_keyb.mod.o .module-common.o

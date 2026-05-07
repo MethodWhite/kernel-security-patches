@@ -1,0 +1,1 @@
+savedcmd_drivers/cpufreq/cpufreq_ondemand.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/cpufreq/cpufreq_ondemand.ko drivers/cpufreq/cpufreq_ondemand.o drivers/cpufreq/cpufreq_ondemand.mod.o .module-common.o

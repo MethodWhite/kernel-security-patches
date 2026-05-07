@@ -1,0 +1,1 @@
+savedcmd_drivers/char/tpm/st33zp24/modules.order := {   echo drivers/char/tpm/st33zp24/tpm_st33zp24.o;   echo drivers/char/tpm/st33zp24/tpm_st33zp24_i2c.o; :; } > drivers/char/tpm/st33zp24/modules.order

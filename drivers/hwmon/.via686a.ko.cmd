@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/via686a.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hwmon/via686a.ko drivers/hwmon/via686a.o drivers/hwmon/via686a.mod.o .module-common.o

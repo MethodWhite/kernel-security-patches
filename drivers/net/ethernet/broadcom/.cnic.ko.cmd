@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/broadcom/cnic.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/ethernet/broadcom/cnic.ko drivers/net/ethernet/broadcom/cnic.o drivers/net/ethernet/broadcom/cnic.mod.o .module-common.o

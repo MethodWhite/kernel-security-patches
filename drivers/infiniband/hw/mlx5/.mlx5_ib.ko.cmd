@@ -1,0 +1,1 @@
+savedcmd_drivers/infiniband/hw/mlx5/mlx5_ib.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/infiniband/hw/mlx5/mlx5_ib.ko drivers/infiniband/hw/mlx5/mlx5_ib.o drivers/infiniband/hw/mlx5/mlx5_ib.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/memstick/host/modules.order := {   echo drivers/memstick/host/tifm_ms.o;   echo drivers/memstick/host/jmb38x_ms.o;   echo drivers/memstick/host/r592.o;   echo drivers/memstick/host/rtsx_usb_ms.o; :; } > drivers/memstick/host/modules.order

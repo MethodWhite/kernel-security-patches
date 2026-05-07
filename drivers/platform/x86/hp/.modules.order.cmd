@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/hp/modules.order := {   echo drivers/platform/x86/hp/hp_accel.o;   echo drivers/platform/x86/hp/hp-wmi.o;   cat drivers/platform/x86/hp/hp-bioscfg/modules.order; :; } > drivers/platform/x86/hp/modules.order

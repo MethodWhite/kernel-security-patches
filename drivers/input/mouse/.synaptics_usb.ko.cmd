@@ -1,0 +1,1 @@
+savedcmd_drivers/input/mouse/synaptics_usb.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/input/mouse/synaptics_usb.ko drivers/input/mouse/synaptics_usb.o drivers/input/mouse/synaptics_usb.mod.o .module-common.o

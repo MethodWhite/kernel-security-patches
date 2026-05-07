@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/dell/alienware-wmi.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/platform/x86/dell/alienware-wmi.ko drivers/platform/x86/dell/alienware-wmi.o drivers/platform/x86/dell/alienware-wmi.mod.o .module-common.o

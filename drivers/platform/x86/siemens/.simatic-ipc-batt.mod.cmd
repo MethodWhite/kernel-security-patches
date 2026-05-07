@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/siemens/simatic-ipc-batt.mod := printf '%s\n'   simatic-ipc-batt.o | awk '!x[$$0]++ { print("drivers/platform/x86/siemens/"$$0) }' > drivers/platform/x86/siemens/simatic-ipc-batt.mod

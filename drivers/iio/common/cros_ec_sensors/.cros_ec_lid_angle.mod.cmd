@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/common/cros_ec_sensors/cros_ec_lid_angle.mod := printf '%s\n'   cros_ec_lid_angle.o | awk '!x[$$0]++ { print("drivers/iio/common/cros_ec_sensors/"$$0) }' > drivers/iio/common/cros_ec_sensors/cros_ec_lid_angle.mod

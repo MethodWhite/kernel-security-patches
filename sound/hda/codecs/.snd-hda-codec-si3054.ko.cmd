@@ -1,0 +1,1 @@
+savedcmd_sound/hda/codecs/snd-hda-codec-si3054.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/hda/codecs/snd-hda-codec-si3054.ko sound/hda/codecs/snd-hda-codec-si3054.o sound/hda/codecs/snd-hda-codec-si3054.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/host/xhci-pci-renesas.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/usb/host/xhci-pci-renesas.ko drivers/usb/host/xhci-pci-renesas.o drivers/usb/host/xhci-pci-renesas.mod.o .module-common.o

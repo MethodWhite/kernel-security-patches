@@ -1,0 +1,1 @@
+savedcmd_drivers/leds/simatic/simatic-ipc-leds-gpio-apollolake.mod := printf '%s\n'   simatic-ipc-leds-gpio-apollolake.o | awk '!x[$$0]++ { print("drivers/leds/simatic/"$$0) }' > drivers/leds/simatic/simatic-ipc-leds-gpio-apollolake.mod

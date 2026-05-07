@@ -1,0 +1,1 @@
+savedcmd_sound/soc/amd/acp/snd-soc-acpi-amd-match.mod := printf '%s\n'   amd-acp63-acpi-match.o amd-acp70-acpi-match.o | awk '!x[$$0]++ { print("sound/soc/amd/acp/"$$0) }' > sound/soc/amd/acp/snd-soc-acpi-amd-match.mod

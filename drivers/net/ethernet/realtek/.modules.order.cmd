@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/realtek/modules.order := {   echo drivers/net/ethernet/realtek/8139cp.o;   echo drivers/net/ethernet/realtek/8139too.o;   echo drivers/net/ethernet/realtek/r8169.o; :; } > drivers/net/ethernet/realtek/modules.order

@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/typec/altmodes/typec_nvidia.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/usb/typec/altmodes/typec_nvidia.ko drivers/usb/typec/altmodes/typec_nvidia.o drivers/usb/typec/altmodes/typec_nvidia.mod.o .module-common.o

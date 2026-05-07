@@ -1,0 +1,1 @@
+savedcmd_drivers/infiniband/hw/bnxt_re/bnxt_re.mod := printf '%s\n'   main.o ib_verbs.o qplib_res.o qplib_rcfw.o qplib_sp.o qplib_fp.o hw_counters.o debugfs.o | awk '!x[$$0]++ { print("drivers/infiniband/hw/bnxt_re/"$$0) }' > drivers/infiniband/hw/bnxt_re/bnxt_re.mod

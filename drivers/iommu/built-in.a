@@ -1,0 +1,56 @@
+!<thin>
+//                                              430       `
+amd/iommu.o/
+amd/init.o/
+amd/quirks.o/
+amd/ppr.o/
+amd/pasid.o/
+intel/iommu.o/
+intel/pasid.o/
+intel/nested.o/
+intel/cache.o/
+intel/prq.o/
+intel/dmar.o/
+intel/trace.o/
+intel/svm.o/
+intel/irq_remapping.o/
+intel/perfmon.o/
+generic_pt/fmt/iommu_amdv1.o/
+generic_pt/fmt/iommu_vtdss.o/
+generic_pt/fmt/iommu_x86_64.o/
+iommu.o/
+iommu-pages.o/
+iommu-traces.o/
+iommu-sysfs.o/
+dma-iommu.o/
+iova.o/
+irq_remapping.o/
+iommu-sva.o/
+io-pgfault.o/
+/0              0           0     0     644     764368    `
+/13             0           0     0     644     697216    `
+/25             0           0     0     644     18504     `
+/39             0           0     0     644     259352    `
+/50             0           0     0     644     238824    `
+/63             0           0     0     644     924200    `
+/78             0           0     0     644     529376    `
+/93             0           0     0     644     424448    `
+/109            0           0     0     644     468784    `
+/124            0           0     0     644     410256    `
+/137            0           0     0     644     681912    `
+/151            0           0     0     644     560368    `
+/166            0           0     0     644     386600    `
+/179            0           0     0     644     545192    `
+/202            0           0     0     644     509392    `
+/219            0           0     0     644     518040    `
+/249            0           0     0     644     462896    `
+/279            0           0     0     644     425768    `
+/310            0           0     0     644     735512    `
+/319            0           0     0     644     243688    `
+/334            0           0     0     644     464864    `
+/350            0           0     0     644     215696    `
+/365            0           0     0     644     582144    `
+/378            0           0     0     644     168568    `
+/386            0           0     0     644     43672     `
+/403            0           0     0     644     264992    `
+/416            0           0     0     644     295488    `

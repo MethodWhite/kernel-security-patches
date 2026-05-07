@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/imu/inv_mpu6050/inv-mpu6050-spi.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/iio/imu/inv_mpu6050/inv-mpu6050-spi.ko drivers/iio/imu/inv_mpu6050/inv-mpu6050-spi.o drivers/iio/imu/inv_mpu6050/inv-mpu6050-spi.mod.o .module-common.o

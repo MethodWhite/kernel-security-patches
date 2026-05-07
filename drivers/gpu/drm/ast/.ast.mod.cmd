@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/ast/ast.mod := printf '%s\n'   ast_2000.o ast_2100.o ast_2200.o ast_2300.o ast_2400.o ast_2500.o ast_2600.o ast_cursor.o ast_ddc.o ast_dp501.o ast_dp.o ast_drv.o ast_mm.o ast_mode.o ast_post.o ast_sil164.o ast_vbios.o ast_vga.o | awk '!x[$$0]++ { print("drivers/gpu/drm/ast/"$$0) }' > drivers/gpu/drm/ast/ast.mod

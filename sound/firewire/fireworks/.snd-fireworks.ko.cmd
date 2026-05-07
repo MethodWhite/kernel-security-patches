@@ -1,0 +1,1 @@
+savedcmd_sound/firewire/fireworks/snd-fireworks.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/firewire/fireworks/snd-fireworks.ko sound/firewire/fireworks/snd-fireworks.o sound/firewire/fireworks/snd-fireworks.mod.o .module-common.o

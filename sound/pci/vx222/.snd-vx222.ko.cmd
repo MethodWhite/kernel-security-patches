@@ -1,0 +1,1 @@
+savedcmd_sound/pci/vx222/snd-vx222.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/pci/vx222/snd-vx222.ko sound/pci/vx222/snd-vx222.o sound/pci/vx222/snd-vx222.mod.o .module-common.o

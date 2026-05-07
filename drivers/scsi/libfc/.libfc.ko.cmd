@@ -1,0 +1,1 @@
+savedcmd_drivers/scsi/libfc/libfc.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/scsi/libfc/libfc.ko drivers/scsi/libfc/libfc.o drivers/scsi/libfc/libfc.mod.o .module-common.o

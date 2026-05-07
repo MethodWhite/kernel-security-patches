@@ -1,0 +1,1 @@
+savedcmd_drivers/pps/clients/pps_parport.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/pps/clients/pps_parport.ko drivers/pps/clients/pps_parport.o drivers/pps/clients/pps_parport.mod.o .module-common.o

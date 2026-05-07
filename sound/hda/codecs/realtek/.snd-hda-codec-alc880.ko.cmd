@@ -1,0 +1,1 @@
+savedcmd_sound/hda/codecs/realtek/snd-hda-codec-alc880.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/hda/codecs/realtek/snd-hda-codec-alc880.ko sound/hda/codecs/realtek/snd-hda-codec-alc880.o sound/hda/codecs/realtek/snd-hda-codec-alc880.mod.o .module-common.o

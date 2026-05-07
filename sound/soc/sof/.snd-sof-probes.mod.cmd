@@ -1,0 +1,1 @@
+savedcmd_sound/soc/sof/snd-sof-probes.mod := printf '%s\n'   sof-client-probes.o sof-client-probes-ipc3.o sof-client-probes-ipc4.o | awk '!x[$$0]++ { print("sound/soc/sof/"$$0) }' > sound/soc/sof/snd-sof-probes.mod

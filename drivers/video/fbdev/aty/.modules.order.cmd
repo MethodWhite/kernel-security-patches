@@ -1,0 +1,1 @@
+savedcmd_drivers/video/fbdev/aty/modules.order := {   echo drivers/video/fbdev/aty/atyfb.o;   echo drivers/video/fbdev/aty/aty128fb.o;   echo drivers/video/fbdev/aty/radeonfb.o; :; } > drivers/video/fbdev/aty/modules.order

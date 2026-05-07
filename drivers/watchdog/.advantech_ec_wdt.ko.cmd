@@ -1,0 +1,1 @@
+savedcmd_drivers/watchdog/advantech_ec_wdt.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/watchdog/advantech_ec_wdt.ko drivers/watchdog/advantech_ec_wdt.o drivers/watchdog/advantech_ec_wdt.mod.o .module-common.o

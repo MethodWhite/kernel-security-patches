@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/intel-ish-hid/intel-ish-ipc.mod := printf '%s\n'   ipc/ipc.o ipc/pci-ish.o | awk '!x[$$0]++ { print("drivers/hid/intel-ish-hid/"$$0) }' > drivers/hid/intel-ish-hid/intel-ish-ipc.mod

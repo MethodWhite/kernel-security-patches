@@ -1,0 +1,1 @@
+savedcmd_drivers/pinctrl/intel/pinctrl-alderlake.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/pinctrl/intel/pinctrl-alderlake.ko drivers/pinctrl/intel/pinctrl-alderlake.o drivers/pinctrl/intel/pinctrl-alderlake.mod.o .module-common.o

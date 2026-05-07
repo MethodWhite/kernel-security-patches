@@ -1,0 +1,1 @@
+savedcmd_drivers/target/iscsi/cxgbit/cxgbit.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/target/iscsi/cxgbit/cxgbit.ko drivers/target/iscsi/cxgbit/cxgbit.o drivers/target/iscsi/cxgbit/cxgbit.mod.o .module-common.o

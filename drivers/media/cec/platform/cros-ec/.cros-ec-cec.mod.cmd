@@ -1,0 +1,1 @@
+savedcmd_drivers/media/cec/platform/cros-ec/cros-ec-cec.mod := printf '%s\n'   cros-ec-cec.o | awk '!x[$$0]++ { print("drivers/media/cec/platform/cros-ec/"$$0) }' > drivers/media/cec/platform/cros-ec/cros-ec-cec.mod

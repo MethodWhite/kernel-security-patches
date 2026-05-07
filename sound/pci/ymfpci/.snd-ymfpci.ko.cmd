@@ -1,0 +1,1 @@
+savedcmd_sound/pci/ymfpci/snd-ymfpci.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/pci/ymfpci/snd-ymfpci.ko sound/pci/ymfpci/snd-ymfpci.o sound/pci/ymfpci/snd-ymfpci.mod.o .module-common.o

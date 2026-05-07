@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/common/cros_ec_sensors/cros_ec_lid_angle.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/iio/common/cros_ec_sensors/cros_ec_lid_angle.ko drivers/iio/common/cros_ec_sensors/cros_ec_lid_angle.o drivers/iio/common/cros_ec_sensors/cros_ec_lid_angle.mod.o .module-common.o

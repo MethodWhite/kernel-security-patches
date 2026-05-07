@@ -1,0 +1,11 @@
+!<thin>
+//                                              104       `
+i2c-designware-common.o/
+i2c-designware-master.o/
+i2c-designware-platdrv.o/
+i2c-designware-baytrail.o/
+
+/0              0           0     0     644     355968    `
+/25             0           0     0     644     337272    `
+/50             0           0     0     644     289040    `
+/76             0           0     0     644     249584    `

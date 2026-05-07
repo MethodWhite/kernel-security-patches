@@ -1,0 +1,1 @@
+savedcmd_sound/pcmcia/pdaudiocf/snd-pdaudiocf.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/pcmcia/pdaudiocf/snd-pdaudiocf.ko sound/pcmcia/pdaudiocf/snd-pdaudiocf.o sound/pcmcia/pdaudiocf/snd-pdaudiocf.mod.o .module-common.o

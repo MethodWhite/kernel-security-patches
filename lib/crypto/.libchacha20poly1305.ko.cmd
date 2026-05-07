@@ -1,0 +1,1 @@
+savedcmd_lib/crypto/libchacha20poly1305.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o lib/crypto/libchacha20poly1305.ko lib/crypto/libchacha20poly1305.o lib/crypto/libchacha20poly1305.mod.o .module-common.o

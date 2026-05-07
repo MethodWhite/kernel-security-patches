@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/pressure/hid-sensor-press.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/iio/pressure/hid-sensor-press.ko drivers/iio/pressure/hid-sensor-press.o drivers/iio/pressure/hid-sensor-press.mod.o .module-common.o

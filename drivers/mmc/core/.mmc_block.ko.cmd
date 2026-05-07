@@ -1,0 +1,1 @@
+savedcmd_drivers/mmc/core/mmc_block.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/mmc/core/mmc_block.ko drivers/mmc/core/mmc_block.o drivers/mmc/core/mmc_block.mod.o .module-common.o

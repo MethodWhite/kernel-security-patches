@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ppp/ppp_synctty.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/ppp/ppp_synctty.ko drivers/net/ppp/ppp_synctty.o drivers/net/ppp/ppp_synctty.mod.o .module-common.o

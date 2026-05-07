@@ -1,0 +1,1 @@
+savedcmd_net/6lowpan/nhc_ghc_ext_route.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o net/6lowpan/nhc_ghc_ext_route.ko net/6lowpan/nhc_ghc_ext_route.o net/6lowpan/nhc_ghc_ext_route.mod.o .module-common.o

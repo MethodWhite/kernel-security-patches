@@ -1,0 +1,1 @@
+savedcmd_drivers/misc/mei/mei-vsc-hw.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/misc/mei/mei-vsc-hw.ko drivers/misc/mei/mei-vsc-hw.o drivers/misc/mei/mei-vsc-hw.mod.o .module-common.o

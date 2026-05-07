@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/sht21.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hwmon/sht21.ko drivers/hwmon/sht21.o drivers/hwmon/sht21.mod.o .module-common.o

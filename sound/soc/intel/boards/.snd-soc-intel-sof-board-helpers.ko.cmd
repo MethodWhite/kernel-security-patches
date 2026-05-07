@@ -1,0 +1,1 @@
+savedcmd_sound/soc/intel/boards/snd-soc-intel-sof-board-helpers.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/soc/intel/boards/snd-soc-intel-sof-board-helpers.ko sound/soc/intel/boards/snd-soc-intel-sof-board-helpers.o sound/soc/intel/boards/snd-soc-intel-sof-board-helpers.mod.o .module-common.o

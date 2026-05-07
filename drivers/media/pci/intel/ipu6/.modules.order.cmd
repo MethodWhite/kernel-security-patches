@@ -1,0 +1,1 @@
+savedcmd_drivers/media/pci/intel/ipu6/modules.order := {   echo drivers/media/pci/intel/ipu6/intel-ipu6.o;   echo drivers/media/pci/intel/ipu6/intel-ipu6-isys.o; :; } > drivers/media/pci/intel/ipu6/modules.order

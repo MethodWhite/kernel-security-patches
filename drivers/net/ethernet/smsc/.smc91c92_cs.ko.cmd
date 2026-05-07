@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/smsc/smc91c92_cs.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/ethernet/smsc/smc91c92_cs.ko drivers/net/ethernet/smsc/smc91c92_cs.o drivers/net/ethernet/smsc/smc91c92_cs.mod.o .module-common.o

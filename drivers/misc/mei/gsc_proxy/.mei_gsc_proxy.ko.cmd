@@ -1,0 +1,1 @@
+savedcmd_drivers/misc/mei/gsc_proxy/mei_gsc_proxy.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/misc/mei/gsc_proxy/mei_gsc_proxy.ko drivers/misc/mei/gsc_proxy/mei_gsc_proxy.o drivers/misc/mei/gsc_proxy/mei_gsc_proxy.mod.o .module-common.o

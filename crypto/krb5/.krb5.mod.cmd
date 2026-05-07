@@ -1,0 +1,1 @@
+savedcmd_crypto/krb5/krb5.mod := printf '%s\n'   krb5_kdf.o krb5_api.o rfc3961_simplified.o rfc3962_aes.o rfc6803_camellia.o rfc8009_aes2.o | awk '!x[$$0]++ { print("crypto/krb5/"$$0) }' > crypto/krb5/krb5.mod

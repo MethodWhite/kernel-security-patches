@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/common/cros_ec_sensors/modules.order := {   echo drivers/iio/common/cros_ec_sensors/cros-ec-sensors-core.o;   echo drivers/iio/common/cros_ec_sensors/cros_ec_sensors.o;   echo drivers/iio/common/cros_ec_sensors/cros_ec_lid_angle.o; :; } > drivers/iio/common/cros_ec_sensors/modules.order

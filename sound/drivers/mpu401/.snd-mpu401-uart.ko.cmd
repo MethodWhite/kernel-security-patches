@@ -1,0 +1,1 @@
+savedcmd_sound/drivers/mpu401/snd-mpu401-uart.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/drivers/mpu401/snd-mpu401-uart.ko sound/drivers/mpu401/snd-mpu401-uart.o sound/drivers/mpu401/snd-mpu401-uart.mod.o .module-common.o

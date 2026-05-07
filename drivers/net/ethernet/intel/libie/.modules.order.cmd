@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/intel/libie/modules.order := {   echo drivers/net/ethernet/intel/libie/libie.o;   echo drivers/net/ethernet/intel/libie/libie_adminq.o;   echo drivers/net/ethernet/intel/libie/libie_fwlog.o; :; } > drivers/net/ethernet/intel/libie/modules.order

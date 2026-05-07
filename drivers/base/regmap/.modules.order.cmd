@@ -1,0 +1,1 @@
+savedcmd_drivers/base/regmap/modules.order := {   echo drivers/base/regmap/regmap-spi.o;   echo drivers/base/regmap/regmap-sdw.o;   echo drivers/base/regmap/regmap-sdw-mbq.o; :; } > drivers/base/regmap/modules.order

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/cavium/common/cavium_ptp.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/ethernet/cavium/common/cavium_ptp.ko drivers/net/ethernet/cavium/common/cavium_ptp.o drivers/net/ethernet/cavium/common/cavium_ptp.mod.o .module-common.o

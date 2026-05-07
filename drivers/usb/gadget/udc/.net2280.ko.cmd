@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/gadget/udc/net2280.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/usb/gadget/udc/net2280.ko drivers/usb/gadget/udc/net2280.o drivers/usb/gadget/udc/net2280.mod.o .module-common.o

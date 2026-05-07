@@ -1,0 +1,1 @@
+savedcmd_drivers/parport/parport_cs.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/parport/parport_cs.ko drivers/parport/parport_cs.o drivers/parport/parport_cs.mod.o .module-common.o

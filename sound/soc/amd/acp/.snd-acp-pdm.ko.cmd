@@ -1,0 +1,1 @@
+savedcmd_sound/soc/amd/acp/snd-acp-pdm.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/soc/amd/acp/snd-acp-pdm.ko sound/soc/amd/acp/snd-acp-pdm.o sound/soc/amd/acp/snd-acp-pdm.mod.o .module-common.o

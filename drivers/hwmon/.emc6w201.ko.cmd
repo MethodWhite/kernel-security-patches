@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/emc6w201.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hwmon/emc6w201.ko drivers/hwmon/emc6w201.o drivers/hwmon/emc6w201.mod.o .module-common.o

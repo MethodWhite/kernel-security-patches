@@ -1,0 +1,1 @@
+savedcmd_drivers/mtd/spi-nor/spi-nor.mod := printf '%s\n'   core.o sfdp.o swp.o otp.o sysfs.o atmel.o eon.o esmt.o everspin.o gigadevice.o intel.o issi.o macronix.o micron-st.o spansion.o sst.o winbond.o xmc.o debugfs.o | awk '!x[$$0]++ { print("drivers/mtd/spi-nor/"$$0) }' > drivers/mtd/spi-nor/spi-nor.mod

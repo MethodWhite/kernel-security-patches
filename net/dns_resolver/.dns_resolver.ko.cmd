@@ -1,0 +1,1 @@
+savedcmd_net/dns_resolver/dns_resolver.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o net/dns_resolver/dns_resolver.ko net/dns_resolver/dns_resolver.o net/dns_resolver/dns_resolver.mod.o .module-common.o

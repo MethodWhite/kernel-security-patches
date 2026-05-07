@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/storage/ums-cypress.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/usb/storage/ums-cypress.ko drivers/usb/storage/ums-cypress.o drivers/usb/storage/ums-cypress.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/team/team_mode_broadcast.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/team/team_mode_broadcast.ko drivers/net/team/team_mode_broadcast.o drivers/net/team/team_mode_broadcast.mod.o .module-common.o

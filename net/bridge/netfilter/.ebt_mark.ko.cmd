@@ -1,0 +1,1 @@
+savedcmd_net/bridge/netfilter/ebt_mark.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o net/bridge/netfilter/ebt_mark.ko net/bridge/netfilter/ebt_mark.o net/bridge/netfilter/ebt_mark.mod.o .module-common.o

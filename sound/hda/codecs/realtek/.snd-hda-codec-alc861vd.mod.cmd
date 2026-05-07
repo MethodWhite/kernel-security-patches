@@ -1,0 +1,1 @@
+savedcmd_sound/hda/codecs/realtek/snd-hda-codec-alc861vd.mod := printf '%s\n'   alc861vd.o | awk '!x[$$0]++ { print("sound/hda/codecs/realtek/"$$0) }' > sound/hda/codecs/realtek/snd-hda-codec-alc861vd.mod

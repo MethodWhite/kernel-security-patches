@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/mediatek/mt7601u/mt7601u.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/wireless/mediatek/mt7601u/mt7601u.ko drivers/net/wireless/mediatek/mt7601u/mt7601u.o drivers/net/wireless/mediatek/mt7601u/mt7601u.mod.o .module-common.o

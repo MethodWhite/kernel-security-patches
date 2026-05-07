@@ -1,0 +1,1 @@
+savedcmd_drivers/thermal/intel/int340x_thermal/int340x_thermal_zone.mod := printf '%s\n'   int340x_thermal_zone.o | awk '!x[$$0]++ { print("drivers/thermal/intel/int340x_thermal/"$$0) }' > drivers/thermal/intel/int340x_thermal/int340x_thermal_zone.mod

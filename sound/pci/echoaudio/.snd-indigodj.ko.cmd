@@ -1,0 +1,1 @@
+savedcmd_sound/pci/echoaudio/snd-indigodj.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/pci/echoaudio/snd-indigodj.ko sound/pci/echoaudio/snd-indigodj.o sound/pci/echoaudio/snd-indigodj.mod.o .module-common.o

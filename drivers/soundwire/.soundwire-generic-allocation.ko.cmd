@@ -1,0 +1,1 @@
+savedcmd_drivers/soundwire/soundwire-generic-allocation.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/soundwire/soundwire-generic-allocation.ko drivers/soundwire/soundwire-generic-allocation.o drivers/soundwire/soundwire-generic-allocation.mod.o .module-common.o

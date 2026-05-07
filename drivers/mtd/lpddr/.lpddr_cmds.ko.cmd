@@ -1,0 +1,1 @@
+savedcmd_drivers/mtd/lpddr/lpddr_cmds.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/mtd/lpddr/lpddr_cmds.ko drivers/mtd/lpddr/lpddr_cmds.o drivers/mtd/lpddr/lpddr_cmds.mod.o .module-common.o

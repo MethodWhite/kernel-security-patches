@@ -1,0 +1,1 @@
+savedcmd_drivers/input/keyboard/applespi.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/input/keyboard/applespi.ko drivers/input/keyboard/applespi.o drivers/input/keyboard/applespi.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/vhost/vhost_net.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/vhost/vhost_net.ko drivers/vhost/vhost_net.o drivers/vhost/vhost_net.mod.o .module-common.o

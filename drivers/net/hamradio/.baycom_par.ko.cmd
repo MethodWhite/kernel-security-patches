@@ -1,0 +1,1 @@
+savedcmd_drivers/net/hamradio/baycom_par.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/hamradio/baycom_par.ko drivers/net/hamradio/baycom_par.o drivers/net/hamradio/baycom_par.mod.o .module-common.o

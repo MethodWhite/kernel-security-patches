@@ -1,0 +1,1 @@
+savedcmd_sound/soc/intel/avs/snd-soc-avs.mod := printf '%s\n'   dsp.o ipc.o messages.o utils.o core.o loader.o topology.o path.o pcm.o board_selection.o control.o sysfs.o cldma.o skl.o apl.o cnl.o icl.o tgl.o mtl.o lnl.o ptl.o trace.o probes.o debugfs.o | awk '!x[$$0]++ { print("sound/soc/intel/avs/"$$0) }' > sound/soc/intel/avs/snd-soc-avs.mod

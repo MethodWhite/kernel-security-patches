@@ -1,0 +1,1 @@
+savedcmd_drivers/message/fusion/mptbase.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/message/fusion/mptbase.ko drivers/message/fusion/mptbase.o drivers/message/fusion/mptbase.mod.o .module-common.o

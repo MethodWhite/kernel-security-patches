@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/intel/libeth/libeth_xdp.mod := printf '%s\n'   xdp.o xsk.o | awk '!x[$$0]++ { print("drivers/net/ethernet/intel/libeth/"$$0) }' > drivers/net/ethernet/intel/libeth/libeth_xdp.mod

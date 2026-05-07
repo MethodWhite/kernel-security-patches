@@ -1,0 +1,1 @@
+savedcmd_drivers/media/pci/tw5864/tw5864.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/pci/tw5864/tw5864.ko drivers/media/pci/tw5864/tw5864.o drivers/media/pci/tw5864/tw5864.mod.o .module-common.o

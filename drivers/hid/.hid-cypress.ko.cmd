@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/hid-cypress.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hid/hid-cypress.ko drivers/hid/hid-cypress.o drivers/hid/hid-cypress.mod.o .module-common.o

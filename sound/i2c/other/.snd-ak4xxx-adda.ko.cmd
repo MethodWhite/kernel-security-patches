@@ -1,0 +1,1 @@
+savedcmd_sound/i2c/other/snd-ak4xxx-adda.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/i2c/other/snd-ak4xxx-adda.ko sound/i2c/other/snd-ak4xxx-adda.o sound/i2c/other/snd-ak4xxx-adda.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/i2c/algos/i2c-algo-pca.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/i2c/algos/i2c-algo-pca.ko drivers/i2c/algos/i2c-algo-pca.o drivers/i2c/algos/i2c-algo-pca.mod.o .module-common.o

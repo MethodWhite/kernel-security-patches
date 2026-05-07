@@ -1,0 +1,1 @@
+savedcmd_net/netfilter/nf_dup_netdev.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o net/netfilter/nf_dup_netdev.ko net/netfilter/nf_dup_netdev.o net/netfilter/nf_dup_netdev.mod.o .module-common.o

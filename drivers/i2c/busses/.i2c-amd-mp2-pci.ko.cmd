@@ -1,0 +1,1 @@
+savedcmd_drivers/i2c/busses/i2c-amd-mp2-pci.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/i2c/busses/i2c-amd-mp2-pci.ko drivers/i2c/busses/i2c-amd-mp2-pci.o drivers/i2c/busses/i2c-amd-mp2-pci.mod.o .module-common.o

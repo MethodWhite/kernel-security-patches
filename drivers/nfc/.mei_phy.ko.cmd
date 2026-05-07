@@ -1,0 +1,1 @@
+savedcmd_drivers/nfc/mei_phy.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/nfc/mei_phy.ko drivers/nfc/mei_phy.o drivers/nfc/mei_phy.mod.o .module-common.o

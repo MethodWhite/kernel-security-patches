@@ -1,0 +1,1 @@
+savedcmd_sound/pci/riptide/snd-riptide.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/pci/riptide/snd-riptide.ko sound/pci/riptide/snd-riptide.o sound/pci/riptide/snd-riptide.mod.o .module-common.o

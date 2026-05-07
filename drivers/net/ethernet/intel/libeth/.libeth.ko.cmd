@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/intel/libeth/libeth.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/ethernet/intel/libeth/libeth.ko drivers/net/ethernet/intel/libeth/libeth.o drivers/net/ethernet/intel/libeth/libeth.mod.o .module-common.o

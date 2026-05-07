@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/roles/intel-xhci-usb-role-switch.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/usb/roles/intel-xhci-usb-role-switch.ko drivers/usb/roles/intel-xhci-usb-role-switch.o drivers/usb/roles/intel-xhci-usb-role-switch.mod.o .module-common.o

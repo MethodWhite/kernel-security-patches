@@ -1,0 +1,1 @@
+savedcmd_drivers/media/pci/saa7134/saa7134-dvb.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/pci/saa7134/saa7134-dvb.ko drivers/media/pci/saa7134/saa7134-dvb.o drivers/media/pci/saa7134/saa7134-dvb.mod.o .module-common.o

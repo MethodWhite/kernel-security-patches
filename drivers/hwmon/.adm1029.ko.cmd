@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/adm1029.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hwmon/adm1029.ko drivers/hwmon/adm1029.o drivers/hwmon/adm1029.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_sound/pci/au88x0/snd-au8820.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/pci/au88x0/snd-au8820.ko sound/pci/au88x0/snd-au8820.o sound/pci/au88x0/snd-au8820.mod.o .module-common.o

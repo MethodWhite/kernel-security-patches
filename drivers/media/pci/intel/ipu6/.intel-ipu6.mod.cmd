@@ -1,0 +1,1 @@
+savedcmd_drivers/media/pci/intel/ipu6/intel-ipu6.mod := printf '%s\n'   ipu6.o ipu6-bus.o ipu6-dma.o ipu6-mmu.o ipu6-buttress.o ipu6-cpd.o ipu6-fw-com.o | awk '!x[$$0]++ { print("drivers/media/pci/intel/ipu6/"$$0) }' > drivers/media/pci/intel/ipu6/intel-ipu6.mod

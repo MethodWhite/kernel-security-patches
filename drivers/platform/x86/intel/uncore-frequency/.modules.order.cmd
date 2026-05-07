@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/intel/uncore-frequency/modules.order := {   echo drivers/platform/x86/intel/uncore-frequency/intel-uncore-frequency.o;   echo drivers/platform/x86/intel/uncore-frequency/intel-uncore-frequency-common.o;   echo drivers/platform/x86/intel/uncore-frequency/intel-uncore-frequency-tpmi.o; :; } > drivers/platform/x86/intel/uncore-frequency/modules.order

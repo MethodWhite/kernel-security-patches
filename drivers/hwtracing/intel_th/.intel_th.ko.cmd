@@ -1,0 +1,1 @@
+savedcmd_drivers/hwtracing/intel_th/intel_th.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hwtracing/intel_th/intel_th.ko drivers/hwtracing/intel_th/intel_th.o drivers/hwtracing/intel_th/intel_th.mod.o .module-common.o

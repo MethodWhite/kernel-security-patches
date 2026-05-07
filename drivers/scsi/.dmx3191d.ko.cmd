@@ -1,0 +1,1 @@
+savedcmd_drivers/scsi/dmx3191d.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/scsi/dmx3191d.ko drivers/scsi/dmx3191d.o drivers/scsi/dmx3191d.mod.o .module-common.o

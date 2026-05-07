@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/surface-hid/surface_kbd.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hid/surface-hid/surface_kbd.ko drivers/hid/surface-hid/surface_kbd.o drivers/hid/surface-hid/surface_kbd.mod.o .module-common.o

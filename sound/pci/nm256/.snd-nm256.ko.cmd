@@ -1,0 +1,1 @@
+savedcmd_sound/pci/nm256/snd-nm256.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/pci/nm256/snd-nm256.ko sound/pci/nm256/snd-nm256.o sound/pci/nm256/snd-nm256.mod.o .module-common.o

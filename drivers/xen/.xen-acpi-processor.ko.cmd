@@ -1,0 +1,1 @@
+savedcmd_drivers/xen/xen-acpi-processor.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/xen/xen-acpi-processor.ko drivers/xen/xen-acpi-processor.o drivers/xen/xen-acpi-processor.mod.o .module-common.o

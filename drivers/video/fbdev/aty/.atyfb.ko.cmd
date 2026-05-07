@@ -1,0 +1,1 @@
+savedcmd_drivers/video/fbdev/aty/atyfb.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/video/fbdev/aty/atyfb.ko drivers/video/fbdev/aty/atyfb.o drivers/video/fbdev/aty/atyfb.mod.o .module-common.o

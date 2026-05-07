@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/industrialio-backend.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/iio/industrialio-backend.ko drivers/iio/industrialio-backend.o drivers/iio/industrialio-backend.mod.o .module-common.o

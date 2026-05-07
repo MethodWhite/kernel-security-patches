@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/amd/pmc/amd-pmc.mod := printf '%s\n'   pmc.o pmc-quirks.o mp1_stb.o mp2_stb.o | awk '!x[$$0]++ { print("drivers/platform/x86/amd/pmc/"$$0) }' > drivers/platform/x86/amd/pmc/amd-pmc.mod

@@ -1,0 +1,1 @@
+savedcmd_security/keys/encrypted-keys/built-in.a := rm -f security/keys/encrypted-keys/built-in.a;  printf "security/keys/encrypted-keys/%s " encrypted.o ecryptfs_format.o | xargs ar cDPrST security/keys/encrypted-keys/built-in.a

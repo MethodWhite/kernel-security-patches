@@ -1,0 +1,1 @@
+savedcmd_drivers/input/keyboard/stowaway.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/input/keyboard/stowaway.ko drivers/input/keyboard/stowaway.o drivers/input/keyboard/stowaway.mod.o .module-common.o

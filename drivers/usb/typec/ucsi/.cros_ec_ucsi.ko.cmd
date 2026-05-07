@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/typec/ucsi/cros_ec_ucsi.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/usb/typec/ucsi/cros_ec_ucsi.ko drivers/usb/typec/ucsi/cros_ec_ucsi.o drivers/usb/typec/ucsi/cros_ec_ucsi.mod.o .module-common.o

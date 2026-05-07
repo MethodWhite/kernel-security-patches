@@ -1,0 +1,1 @@
+savedcmd_drivers/thunderbolt/thunderbolt.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/thunderbolt/thunderbolt.ko drivers/thunderbolt/thunderbolt.o drivers/thunderbolt/thunderbolt.mod.o .module-common.o

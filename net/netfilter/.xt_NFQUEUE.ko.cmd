@@ -1,0 +1,1 @@
+savedcmd_net/netfilter/xt_NFQUEUE.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o net/netfilter/xt_NFQUEUE.ko net/netfilter/xt_NFQUEUE.o net/netfilter/xt_NFQUEUE.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_sound/pci/lx6464es/snd-lx6464es.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/pci/lx6464es/snd-lx6464es.ko sound/pci/lx6464es/snd-lx6464es.o sound/pci/lx6464es/snd-lx6464es.mod.o .module-common.o

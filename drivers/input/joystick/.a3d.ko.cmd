@@ -1,0 +1,1 @@
+savedcmd_drivers/input/joystick/a3d.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/input/joystick/a3d.ko drivers/input/joystick/a3d.o drivers/input/joystick/a3d.mod.o .module-common.o

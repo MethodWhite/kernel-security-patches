@@ -1,0 +1,1 @@
+savedcmd_drivers/powercap/intel_rapl_msr.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/powercap/intel_rapl_msr.ko drivers/powercap/intel_rapl_msr.o drivers/powercap/intel_rapl_msr.mod.o .module-common.o

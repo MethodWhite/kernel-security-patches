@@ -1,0 +1,1 @@
+savedcmd_drivers/pps/clients/pps-ldisc.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/pps/clients/pps-ldisc.ko drivers/pps/clients/pps-ldisc.o drivers/pps/clients/pps-ldisc.mod.o .module-common.o

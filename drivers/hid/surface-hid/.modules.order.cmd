@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/surface-hid/modules.order := {   echo drivers/hid/surface-hid/surface_hid_core.o;   echo drivers/hid/surface-hid/surface_hid.o;   echo drivers/hid/surface-hid/surface_kbd.o; :; } > drivers/hid/surface-hid/modules.order

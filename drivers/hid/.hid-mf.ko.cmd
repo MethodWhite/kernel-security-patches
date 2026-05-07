@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/hid-mf.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hid/hid-mf.ko drivers/hid/hid-mf.o drivers/hid/hid-mf.mod.o .module-common.o

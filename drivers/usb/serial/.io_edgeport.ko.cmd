@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/serial/io_edgeport.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/usb/serial/io_edgeport.ko drivers/usb/serial/io_edgeport.o drivers/usb/serial/io_edgeport.mod.o .module-common.o

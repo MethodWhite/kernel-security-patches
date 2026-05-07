@@ -1,0 +1,1 @@
+savedcmd_security/ipe/built-in.a := rm -f security/ipe/built-in.a;  printf "security/ipe/%s " boot_policy.o digest.o eval.o hooks.o fs.o ipe.o policy.o policy_fs.o policy_parser.o audit.o | xargs ar cDPrST security/ipe/built-in.a

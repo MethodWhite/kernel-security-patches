@@ -1,0 +1,1 @@
+savedcmd_sound/hda/codecs/side-codecs/snd-hda-cirrus-scodec.mod := printf '%s\n'   cirrus_scodec.o | awk '!x[$$0]++ { print("sound/hda/codecs/side-codecs/"$$0) }' > sound/hda/codecs/side-codecs/snd-hda-cirrus-scodec.mod

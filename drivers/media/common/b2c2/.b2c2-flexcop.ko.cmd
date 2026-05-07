@@ -1,0 +1,1 @@
+savedcmd_drivers/media/common/b2c2/b2c2-flexcop.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/common/b2c2/b2c2-flexcop.ko drivers/media/common/b2c2/b2c2-flexcop.o drivers/media/common/b2c2/b2c2-flexcop.mod.o .module-common.o

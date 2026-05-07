@@ -1,0 +1,1 @@
+savedcmd_drivers/net/phy/aquantia/aquantia.mod := printf '%s\n'   aquantia_main.o aquantia_firmware.o aquantia_leds.o aquantia_hwmon.o | awk '!x[$$0]++ { print("drivers/net/phy/aquantia/"$$0) }' > drivers/net/phy/aquantia/aquantia.mod

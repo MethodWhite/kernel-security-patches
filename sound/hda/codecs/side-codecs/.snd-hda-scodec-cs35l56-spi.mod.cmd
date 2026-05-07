@@ -1,0 +1,1 @@
+savedcmd_sound/hda/codecs/side-codecs/snd-hda-scodec-cs35l56-spi.mod := printf '%s\n'   cs35l56_hda_spi.o | awk '!x[$$0]++ { print("sound/hda/codecs/side-codecs/"$$0) }' > sound/hda/codecs/side-codecs/snd-hda-scodec-cs35l56-spi.mod

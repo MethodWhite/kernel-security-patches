@@ -1,0 +1,1 @@
+savedcmd_drivers/firmware/google/modules.order := {   echo drivers/firmware/google/gsmi.o;   echo drivers/firmware/google/memconsole.o;   echo drivers/firmware/google/memconsole-coreboot.o;   echo drivers/firmware/google/vpd-sysfs.o; :; } > drivers/firmware/google/modules.order

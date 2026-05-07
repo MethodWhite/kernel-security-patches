@@ -1,0 +1,1 @@
+savedcmd_sound/soc/sof/intel/snd-sof-intel-hda-generic.mod := printf '%s\n'   hda.o hda-common-ops.o | awk '!x[$$0]++ { print("sound/soc/sof/intel/"$$0) }' > sound/soc/sof/intel/snd-sof-intel-hda-generic.mod

@@ -1,0 +1,1 @@
+savedcmd_drivers/media/pci/intel/modules.order := {   cat drivers/media/pci/intel/ipu3/modules.order;   cat drivers/media/pci/intel/ivsc/modules.order;   echo drivers/media/pci/intel/ipu-bridge.o;   cat drivers/media/pci/intel/ipu6/modules.order; :; } > drivers/media/pci/intel/modules.order

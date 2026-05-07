@@ -1,0 +1,1 @@
+savedcmd_drivers/cpufreq/powernow-k8.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/cpufreq/powernow-k8.ko drivers/cpufreq/powernow-k8.o drivers/cpufreq/powernow-k8.mod.o .module-common.o

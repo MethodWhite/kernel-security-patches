@@ -1,0 +1,1 @@
+savedcmd_drivers/net/can/softing/softing.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/can/softing/softing.ko drivers/net/can/softing/softing.o drivers/net/can/softing/softing.mod.o .module-common.o

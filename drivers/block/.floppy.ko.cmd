@@ -1,0 +1,1 @@
+savedcmd_drivers/block/floppy.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/block/floppy.ko drivers/block/floppy.o drivers/block/floppy.mod.o .module-common.o

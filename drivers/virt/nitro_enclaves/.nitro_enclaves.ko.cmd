@@ -1,0 +1,1 @@
+savedcmd_drivers/virt/nitro_enclaves/nitro_enclaves.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/virt/nitro_enclaves/nitro_enclaves.ko drivers/virt/nitro_enclaves/nitro_enclaves.o drivers/virt/nitro_enclaves/nitro_enclaves.mod.o .module-common.o

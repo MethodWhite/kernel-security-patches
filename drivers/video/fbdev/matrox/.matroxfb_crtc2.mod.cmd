@@ -1,0 +1,1 @@
+savedcmd_drivers/video/fbdev/matrox/matroxfb_crtc2.mod := printf '%s\n'   matroxfb_crtc2.o | awk '!x[$$0]++ { print("drivers/video/fbdev/matrox/"$$0) }' > drivers/video/fbdev/matrox/matroxfb_crtc2.mod

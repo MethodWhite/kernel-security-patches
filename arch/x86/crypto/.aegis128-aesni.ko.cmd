@@ -1,0 +1,1 @@
+savedcmd_arch/x86/crypto/aegis128-aesni.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o arch/x86/crypto/aegis128-aesni.ko arch/x86/crypto/aegis128-aesni.o arch/x86/crypto/aegis128-aesni.mod.o .module-common.o

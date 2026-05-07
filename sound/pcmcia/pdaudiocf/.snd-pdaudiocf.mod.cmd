@@ -1,0 +1,1 @@
+savedcmd_sound/pcmcia/pdaudiocf/snd-pdaudiocf.mod := printf '%s\n'   pdaudiocf.o pdaudiocf_core.o pdaudiocf_irq.o pdaudiocf_pcm.o | awk '!x[$$0]++ { print("sound/pcmcia/pdaudiocf/"$$0) }' > sound/pcmcia/pdaudiocf/snd-pdaudiocf.mod

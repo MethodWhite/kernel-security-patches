@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/intel/ifs/intel_ifs.mod := printf '%s\n'   core.o load.o runtest.o sysfs.o | awk '!x[$$0]++ { print("drivers/platform/x86/intel/ifs/"$$0) }' > drivers/platform/x86/intel/ifs/intel_ifs.mod

@@ -1,0 +1,1 @@
+savedcmd_drivers/gpio/gpio-regmap.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/gpio/gpio-regmap.ko drivers/gpio/gpio-regmap.o drivers/gpio/gpio-regmap.mod.o .module-common.o

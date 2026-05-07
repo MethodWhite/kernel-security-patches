@@ -1,0 +1,1 @@
+savedcmd_drivers/mtd/maps/modules.order := {   echo drivers/mtd/maps/map_funcs.o;   echo drivers/mtd/maps/physmap.o;   echo drivers/mtd/maps/pcmciamtd.o;   echo drivers/mtd/maps/sbc_gxx.o;   echo drivers/mtd/maps/pci.o;   echo drivers/mtd/maps/nettel.o;   echo drivers/mtd/maps/plat-ram.o; :; } > drivers/mtd/maps/modules.order

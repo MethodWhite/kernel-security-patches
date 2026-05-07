@@ -1,0 +1,1 @@
+savedcmd_drivers/video/fbdev/macmodes.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/video/fbdev/macmodes.ko drivers/video/fbdev/macmodes.o drivers/video/fbdev/macmodes.mod.o .module-common.o

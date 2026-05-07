@@ -1,0 +1,18 @@
+!<thin>
+//                                              142       `
+gpiolib.o/
+gpiolib-devres.o/
+gpiolib-legacy.o/
+gpiolib-cdev.o/
+gpiolib-sysfs.o/
+gpiolib-acpi-core.o/
+gpiolib-acpi-quirks.o/
+gpiolib-swnode.o/
+/0              0           0     0     644     1373664   `
+/11             0           0     0     644     217136    `
+/29             0           0     0     644     198736    `
+/47             0           0     0     644     637800    `
+/63             0           0     0     644     386000    `
+/80             0           0     0     644     395496    `
+/101            0           0     0     644     187352    `
+/124            0           0     0     644     211328    `

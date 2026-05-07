@@ -1,0 +1,1 @@
+savedcmd_sound/core/seq/snd-seq-midi-emul.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/core/seq/snd-seq-midi-emul.ko sound/core/seq/snd-seq-midi-emul.o sound/core/seq/snd-seq-midi-emul.mod.o .module-common.o

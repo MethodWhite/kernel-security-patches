@@ -1,0 +1,1 @@
+savedcmd_drivers/input/sparse-keymap.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/input/sparse-keymap.ko drivers/input/sparse-keymap.o drivers/input/sparse-keymap.mod.o .module-common.o

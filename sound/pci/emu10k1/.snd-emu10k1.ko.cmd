@@ -1,0 +1,1 @@
+savedcmd_sound/pci/emu10k1/snd-emu10k1.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/pci/emu10k1/snd-emu10k1.ko sound/pci/emu10k1/snd-emu10k1.o sound/pci/emu10k1/snd-emu10k1.mod.o .module-common.o

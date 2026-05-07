@@ -1,0 +1,27 @@
+!<thin>
+//                                              178       `
+input.o/
+input-compat.o/
+input-mt.o/
+input-poller.o/
+ff-core.o/
+touchscreen.o/
+touch-overlay.o/
+vivaldi-fmap.o/
+input-leds.o/
+mousedev.o/
+keyboard/atkbd.o/
+misc/xen-kbdfront.o/
+
+/0              0           0     0     644     648328    `
+/9              0           0     0     644     174952    `
+/25             0           0     0     644     235536    `
+/37             0           0     0     644     210816    `
+/53             0           0     0     644     234320    `
+/64             0           0     0     644     210072    `
+/79             0           0     0     644     203152    `
+/96             0           0     0     644     15656     `
+/112            0           0     0     644     208464    `
+/126            0           0     0     644     312696    `
+/138            0           0     0     644     418624    `
+/156            0           0     0     644     283736    `

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/microchip/lan743x.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/ethernet/microchip/lan743x.ko drivers/net/ethernet/microchip/lan743x.o drivers/net/ethernet/microchip/lan743x.mod.o .module-common.o

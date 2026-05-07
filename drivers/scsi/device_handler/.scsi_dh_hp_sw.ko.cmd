@@ -1,0 +1,1 @@
+savedcmd_drivers/scsi/device_handler/scsi_dh_hp_sw.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/scsi/device_handler/scsi_dh_hp_sw.ko drivers/scsi/device_handler/scsi_dh_hp_sw.o drivers/scsi/device_handler/scsi_dh_hp_sw.mod.o .module-common.o

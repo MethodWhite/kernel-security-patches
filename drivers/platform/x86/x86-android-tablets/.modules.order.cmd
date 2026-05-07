@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/x86-android-tablets/modules.order := {   echo drivers/platform/x86/x86-android-tablets/vexia_atla10_ec.o;   echo drivers/platform/x86/x86-android-tablets/x86-android-tablets.o; :; } > drivers/platform/x86/x86-android-tablets/modules.order

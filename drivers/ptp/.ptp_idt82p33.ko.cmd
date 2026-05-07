@@ -1,0 +1,1 @@
+savedcmd_drivers/ptp/ptp_idt82p33.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/ptp/ptp_idt82p33.ko drivers/ptp/ptp_idt82p33.o drivers/ptp/ptp_idt82p33.mod.o .module-common.o

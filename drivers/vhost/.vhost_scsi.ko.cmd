@@ -1,0 +1,1 @@
+savedcmd_drivers/vhost/vhost_scsi.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/vhost/vhost_scsi.ko drivers/vhost/vhost_scsi.o drivers/vhost/vhost_scsi.mod.o .module-common.o

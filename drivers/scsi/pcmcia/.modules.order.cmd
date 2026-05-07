@@ -1,0 +1,1 @@
+savedcmd_drivers/scsi/pcmcia/modules.order := {   echo drivers/scsi/pcmcia/qlogic_cs.o;   echo drivers/scsi/pcmcia/aha152x_cs.o;   echo drivers/scsi/pcmcia/sym53c500_cs.o; :; } > drivers/scsi/pcmcia/modules.order

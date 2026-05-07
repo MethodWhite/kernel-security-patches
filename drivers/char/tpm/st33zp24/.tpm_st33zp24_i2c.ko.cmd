@@ -1,0 +1,1 @@
+savedcmd_drivers/char/tpm/st33zp24/tpm_st33zp24_i2c.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/char/tpm/st33zp24/tpm_st33zp24_i2c.ko drivers/char/tpm/st33zp24/tpm_st33zp24_i2c.o drivers/char/tpm/st33zp24/tpm_st33zp24_i2c.mod.o .module-common.o

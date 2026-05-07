@@ -1,0 +1,1 @@
+savedcmd_drivers/mmc/core/mmc_core.mod := printf '%s\n'   core.o bus.o host.o mmc.o mmc_ops.o sd.o sd_ops.o sdio.o sdio_ops.o sdio_bus.o sdio_cis.o sdio_io.o sdio_irq.o sd_uhs2.o slot-gpio.o regulator.o debugfs.o | awk '!x[$$0]++ { print("drivers/mmc/core/"$$0) }' > drivers/mmc/core/mmc_core.mod

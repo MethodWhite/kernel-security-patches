@@ -1,0 +1,1 @@
+savedcmd_sound/i2c/other/modules.order := {   echo sound/i2c/other/snd-ak4117.o;   echo sound/i2c/other/snd-ak4xxx-adda.o;   echo sound/i2c/other/snd-ak4114.o;   echo sound/i2c/other/snd-ak4113.o;   echo sound/i2c/other/snd-pt2258.o; :; } > sound/i2c/other/modules.order

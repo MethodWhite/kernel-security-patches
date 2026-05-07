@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/gadget/udc/dummy_hcd.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/usb/gadget/udc/dummy_hcd.ko drivers/usb/gadget/udc/dummy_hcd.o drivers/usb/gadget/udc/dummy_hcd.mod.o .module-common.o

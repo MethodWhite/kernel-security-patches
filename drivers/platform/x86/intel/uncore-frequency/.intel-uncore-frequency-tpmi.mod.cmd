@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/intel/uncore-frequency/intel-uncore-frequency-tpmi.mod := printf '%s\n'   uncore-frequency-tpmi.o | awk '!x[$$0]++ { print("drivers/platform/x86/intel/uncore-frequency/"$$0) }' > drivers/platform/x86/intel/uncore-frequency/intel-uncore-frequency-tpmi.mod

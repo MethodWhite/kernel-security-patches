@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/realtek/rtw89/rtw89_8851b.mod := printf '%s\n'   rtw8851b.o rtw8851b_table.o rtw8851b_rfk.o rtw8851b_rfk_table.o | awk '!x[$$0]++ { print("drivers/net/wireless/realtek/rtw89/"$$0) }' > drivers/net/wireless/realtek/rtw89/rtw89_8851b.mod

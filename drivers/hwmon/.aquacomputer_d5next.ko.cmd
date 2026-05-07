@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/aquacomputer_d5next.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hwmon/aquacomputer_d5next.ko drivers/hwmon/aquacomputer_d5next.o drivers/hwmon/aquacomputer_d5next.mod.o .module-common.o

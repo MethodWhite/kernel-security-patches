@@ -1,0 +1,1 @@
+savedcmd_drivers/net/phy/national.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/phy/national.ko drivers/net/phy/national.o drivers/net/phy/national.mod.o .module-common.o

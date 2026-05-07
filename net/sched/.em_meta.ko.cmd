@@ -1,0 +1,1 @@
+savedcmd_net/sched/em_meta.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o net/sched/em_meta.ko net/sched/em_meta.o net/sched/em_meta.mod.o .module-common.o

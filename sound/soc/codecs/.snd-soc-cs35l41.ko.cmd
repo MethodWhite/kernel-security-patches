@@ -1,0 +1,1 @@
+savedcmd_sound/soc/codecs/snd-soc-cs35l41.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/soc/codecs/snd-soc-cs35l41.ko sound/soc/codecs/snd-soc-cs35l41.o sound/soc/codecs/snd-soc-cs35l41.mod.o .module-common.o

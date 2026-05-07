@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/intel/built-in.a := rm -f drivers/platform/x86/intel/built-in.a;  printf "drivers/platform/x86/intel/%s " atomisp2/built-in.a wmi/built-in.a turbo_max_3.o | xargs ar cDPrST drivers/platform/x86/intel/built-in.a

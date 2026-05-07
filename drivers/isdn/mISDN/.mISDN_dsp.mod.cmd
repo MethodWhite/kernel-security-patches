@@ -1,0 +1,1 @@
+savedcmd_drivers/isdn/mISDN/mISDN_dsp.mod := printf '%s\n'   dsp_core.o dsp_cmx.o dsp_tones.o dsp_dtmf.o dsp_audio.o dsp_blowfish.o dsp_pipeline.o dsp_hwec.o | awk '!x[$$0]++ { print("drivers/isdn/mISDN/"$$0) }' > drivers/isdn/mISDN/mISDN_dsp.mod

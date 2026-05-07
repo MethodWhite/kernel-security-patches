@@ -1,0 +1,1 @@
+savedcmd_sound/soc/sof/intel/snd-sof-pci-intel-mtl.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/soc/sof/intel/snd-sof-pci-intel-mtl.ko sound/soc/sof/intel/snd-sof-pci-intel-mtl.o sound/soc/sof/intel/snd-sof-pci-intel-mtl.mod.o .module-common.o

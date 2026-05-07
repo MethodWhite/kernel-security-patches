@@ -1,0 +1,1 @@
+savedcmd_drivers/input/touchscreen/ad7877.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/input/touchscreen/ad7877.ko drivers/input/touchscreen/ad7877.o drivers/input/touchscreen/ad7877.mod.o .module-common.o

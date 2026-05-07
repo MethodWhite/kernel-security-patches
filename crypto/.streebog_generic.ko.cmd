@@ -1,0 +1,1 @@
+savedcmd_crypto/streebog_generic.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o crypto/streebog_generic.ko crypto/streebog_generic.o crypto/streebog_generic.mod.o .module-common.o

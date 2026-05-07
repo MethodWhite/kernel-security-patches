@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/intel/uncore-frequency/intel-uncore-frequency.mod := printf '%s\n'   uncore-frequency.o | awk '!x[$$0]++ { print("drivers/platform/x86/intel/uncore-frequency/"$$0) }' > drivers/platform/x86/intel/uncore-frequency/intel-uncore-frequency.mod

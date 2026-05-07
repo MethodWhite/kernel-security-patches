@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/gl520sm.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hwmon/gl520sm.ko drivers/hwmon/gl520sm.o drivers/hwmon/gl520sm.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/video/fbdev/aty/radeonfb.mod := printf '%s\n'   radeon_base.o radeon_pm.o radeon_monitor.o radeon_accel.o radeon_i2c.o radeon_backlight.o radeon_base.o radeon_pm.o radeon_monitor.o radeon_accel.o radeon_i2c.o radeon_backlight.o | awk '!x[$$0]++ { print("drivers/video/fbdev/aty/"$$0) }' > drivers/video/fbdev/aty/radeonfb.mod

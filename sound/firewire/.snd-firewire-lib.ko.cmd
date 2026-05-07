@@ -1,0 +1,1 @@
+savedcmd_sound/firewire/snd-firewire-lib.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/firewire/snd-firewire-lib.ko sound/firewire/snd-firewire-lib.o sound/firewire/snd-firewire-lib.mod.o .module-common.o

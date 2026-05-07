@@ -1,0 +1,1 @@
+savedcmd_drivers/isdn/mISDN/modules.order := {   echo drivers/isdn/mISDN/mISDN_core.o;   echo drivers/isdn/mISDN/mISDN_dsp.o;   echo drivers/isdn/mISDN/l1oip.o; :; } > drivers/isdn/mISDN/modules.order

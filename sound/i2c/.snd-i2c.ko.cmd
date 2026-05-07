@@ -1,0 +1,1 @@
+savedcmd_sound/i2c/snd-i2c.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/i2c/snd-i2c.ko sound/i2c/snd-i2c.o sound/i2c/snd-i2c.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/reset/built-in.a := rm -f drivers/reset/built-in.a;  printf "drivers/reset/%s " core.o amlogic/built-in.a hisilicon/built-in.a starfive/built-in.a sti/built-in.a tegra/built-in.a | xargs ar cDPrST drivers/reset/built-in.a

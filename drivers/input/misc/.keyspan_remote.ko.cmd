@@ -1,0 +1,1 @@
+savedcmd_drivers/input/misc/keyspan_remote.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/input/misc/keyspan_remote.ko drivers/input/misc/keyspan_remote.o drivers/input/misc/keyspan_remote.mod.o .module-common.o

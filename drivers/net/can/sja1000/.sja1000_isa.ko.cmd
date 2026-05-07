@@ -1,0 +1,1 @@
+savedcmd_drivers/net/can/sja1000/sja1000_isa.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/can/sja1000/sja1000_isa.ko drivers/net/can/sja1000/sja1000_isa.o drivers/net/can/sja1000/sja1000_isa.mod.o .module-common.o

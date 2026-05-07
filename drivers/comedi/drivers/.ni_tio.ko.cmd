@@ -1,0 +1,1 @@
+savedcmd_drivers/comedi/drivers/ni_tio.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/comedi/drivers/ni_tio.ko drivers/comedi/drivers/ni_tio.o drivers/comedi/drivers/ni_tio.mod.o .module-common.o

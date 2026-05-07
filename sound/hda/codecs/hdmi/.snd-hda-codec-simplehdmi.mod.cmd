@@ -1,0 +1,1 @@
+savedcmd_sound/hda/codecs/hdmi/snd-hda-codec-simplehdmi.mod := printf '%s\n'   simplehdmi.o | awk '!x[$$0]++ { print("sound/hda/codecs/hdmi/"$$0) }' > sound/hda/codecs/hdmi/snd-hda-codec-simplehdmi.mod

@@ -1,0 +1,1 @@
+savedcmd_sound/synth/emux/snd-emux-synth.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/synth/emux/snd-emux-synth.ko sound/synth/emux/snd-emux-synth.o sound/synth/emux/snd-emux-synth.mod.o .module-common.o

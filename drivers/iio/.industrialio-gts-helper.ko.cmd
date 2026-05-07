@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/industrialio-gts-helper.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/iio/industrialio-gts-helper.ko drivers/iio/industrialio-gts-helper.o drivers/iio/industrialio-gts-helper.mod.o .module-common.o

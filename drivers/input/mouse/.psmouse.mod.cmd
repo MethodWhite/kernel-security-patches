@@ -1,0 +1,1 @@
+savedcmd_drivers/input/mouse/psmouse.mod := printf '%s\n'   psmouse-base.o synaptics.o focaltech.o alps.o byd.o elantech.o logips2pp.o lifebook.o sentelic.o trackpoint.o cypress_ps2.o vmmouse.o psmouse-smbus.o | awk '!x[$$0]++ { print("drivers/input/mouse/"$$0) }' > drivers/input/mouse/psmouse.mod

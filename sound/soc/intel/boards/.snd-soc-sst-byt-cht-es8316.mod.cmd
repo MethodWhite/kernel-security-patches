@@ -1,0 +1,1 @@
+savedcmd_sound/soc/intel/boards/snd-soc-sst-byt-cht-es8316.mod := printf '%s\n'   bytcht_es8316.o | awk '!x[$$0]++ { print("sound/soc/intel/boards/"$$0) }' > sound/soc/intel/boards/snd-soc-sst-byt-cht-es8316.mod

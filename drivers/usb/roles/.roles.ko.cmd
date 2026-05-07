@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/roles/roles.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/usb/roles/roles.ko drivers/usb/roles/roles.o drivers/usb/roles/roles.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/8390/modules.order := {   echo drivers/net/ethernet/8390/ne2k-pci.o;   echo drivers/net/ethernet/8390/8390.o;   echo drivers/net/ethernet/8390/axnet_cs.o;   echo drivers/net/ethernet/8390/pcnet_cs.o; :; } > drivers/net/ethernet/8390/modules.order

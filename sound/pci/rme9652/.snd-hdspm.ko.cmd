@@ -1,0 +1,1 @@
+savedcmd_sound/pci/rme9652/snd-hdspm.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/pci/rme9652/snd-hdspm.ko sound/pci/rme9652/snd-hdspm.o sound/pci/rme9652/snd-hdspm.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/atm/idt77105.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/atm/idt77105.ko drivers/atm/idt77105.o drivers/atm/idt77105.mod.o .module-common.o

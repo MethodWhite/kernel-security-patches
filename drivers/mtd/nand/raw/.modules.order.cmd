@@ -1,0 +1,1 @@
+savedcmd_drivers/mtd/nand/raw/modules.order := {   cat drivers/mtd/nand/raw/ingenic/modules.order;   echo drivers/mtd/nand/raw/nand.o;   echo drivers/mtd/nand/raw/sm_common.o;   echo drivers/mtd/nand/raw/cafe_nand.o;   echo drivers/mtd/nand/raw/diskonchip.o;   echo drivers/mtd/nand/raw/nandsim.o;   echo drivers/mtd/nand/raw/r852.o; :; } > drivers/mtd/nand/raw/modules.order

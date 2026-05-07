@@ -1,0 +1,1 @@
+savedcmd_sound/usb/line6/snd-usb-toneport.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/usb/line6/snd-usb-toneport.ko sound/usb/line6/snd-usb-toneport.o sound/usb/line6/snd-usb-toneport.mod.o .module-common.o

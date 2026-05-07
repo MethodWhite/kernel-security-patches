@@ -1,0 +1,1 @@
+savedcmd_drivers/bluetooth/btintel_pcie.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/bluetooth/btintel_pcie.ko drivers/bluetooth/btintel_pcie.o drivers/bluetooth/btintel_pcie.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_sound/hda/core/modules.order := {   echo sound/hda/core/snd-hda-core.o;   cat sound/hda/core/ext/modules.order;   echo sound/hda/core/snd-intel-dspcfg.o;   echo sound/hda/core/snd-intel-sdw-acpi.o; :; } > sound/hda/core/modules.order

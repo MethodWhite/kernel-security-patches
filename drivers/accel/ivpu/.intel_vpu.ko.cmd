@@ -1,0 +1,1 @@
+savedcmd_drivers/accel/ivpu/intel_vpu.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/accel/ivpu/intel_vpu.ko drivers/accel/ivpu/intel_vpu.o drivers/accel/ivpu/intel_vpu.mod.o .module-common.o

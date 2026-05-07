@@ -1,0 +1,1 @@
+savedcmd_drivers/tee/amdtee/amdtee.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/tee/amdtee/amdtee.ko drivers/tee/amdtee/amdtee.o drivers/tee/amdtee/amdtee.mod.o .module-common.o

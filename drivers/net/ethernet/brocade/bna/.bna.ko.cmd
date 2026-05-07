@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/brocade/bna/bna.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/ethernet/brocade/bna/bna.ko drivers/net/ethernet/brocade/bna/bna.o drivers/net/ethernet/brocade/bna/bna.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/media/pci/ttpci/modules.order := {   echo drivers/media/pci/ttpci/budget-core.o;   echo drivers/media/pci/ttpci/budget.o;   echo drivers/media/pci/ttpci/budget-av.o;   echo drivers/media/pci/ttpci/budget-ci.o; :; } > drivers/media/pci/ttpci/modules.order

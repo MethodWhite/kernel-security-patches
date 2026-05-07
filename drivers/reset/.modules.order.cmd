@@ -1,0 +1,1 @@
+savedcmd_drivers/reset/modules.order := {   cat drivers/reset/amlogic/modules.order;   cat drivers/reset/hisilicon/modules.order;   cat drivers/reset/starfive/modules.order;   cat drivers/reset/sti/modules.order;   cat drivers/reset/tegra/modules.order; :; } > drivers/reset/modules.order

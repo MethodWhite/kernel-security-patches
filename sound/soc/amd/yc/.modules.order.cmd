@@ -1,0 +1,1 @@
+savedcmd_sound/soc/amd/yc/modules.order := {   echo sound/soc/amd/yc/snd-pci-acp6x.o;   echo sound/soc/amd/yc/snd-acp6x-pdm-dma.o;   echo sound/soc/amd/yc/snd-soc-acp6x-mach.o; :; } > sound/soc/amd/yc/modules.order

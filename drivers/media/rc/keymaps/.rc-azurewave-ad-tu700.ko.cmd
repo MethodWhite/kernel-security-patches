@@ -1,0 +1,1 @@
+savedcmd_drivers/media/rc/keymaps/rc-azurewave-ad-tu700.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/rc/keymaps/rc-azurewave-ad-tu700.ko drivers/media/rc/keymaps/rc-azurewave-ad-tu700.o drivers/media/rc/keymaps/rc-azurewave-ad-tu700.mod.o .module-common.o

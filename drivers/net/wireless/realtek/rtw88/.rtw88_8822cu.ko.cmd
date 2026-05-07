@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/realtek/rtw88/rtw88_8822cu.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/wireless/realtek/rtw88/rtw88_8822cu.ko drivers/net/wireless/realtek/rtw88/rtw88_8822cu.o drivers/net/wireless/realtek/rtw88/rtw88_8822cu.mod.o .module-common.o

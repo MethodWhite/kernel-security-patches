@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/accel/bmc150-accel-spi.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/iio/accel/bmc150-accel-spi.ko drivers/iio/accel/bmc150-accel-spi.o drivers/iio/accel/bmc150-accel-spi.mod.o .module-common.o

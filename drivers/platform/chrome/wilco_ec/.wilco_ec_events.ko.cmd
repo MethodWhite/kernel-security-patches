@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/chrome/wilco_ec/wilco_ec_events.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/platform/chrome/wilco_ec/wilco_ec_events.ko drivers/platform/chrome/wilco_ec/wilco_ec_events.o drivers/platform/chrome/wilco_ec/wilco_ec_events.mod.o .module-common.o

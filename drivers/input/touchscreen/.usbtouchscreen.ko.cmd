@@ -1,0 +1,1 @@
+savedcmd_drivers/input/touchscreen/usbtouchscreen.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/input/touchscreen/usbtouchscreen.ko drivers/input/touchscreen/usbtouchscreen.o drivers/input/touchscreen/usbtouchscreen.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/virt/vboxguest/vboxguest.mod := printf '%s\n'   vboxguest_linux.o vboxguest_core.o vboxguest_utils.o | awk '!x[$$0]++ { print("drivers/virt/vboxguest/"$$0) }' > drivers/virt/vboxguest/vboxguest.mod

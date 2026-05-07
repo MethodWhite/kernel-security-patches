@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/sis/sis190.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/ethernet/sis/sis190.ko drivers/net/ethernet/sis/sis190.o drivers/net/ethernet/sis/sis190.mod.o .module-common.o

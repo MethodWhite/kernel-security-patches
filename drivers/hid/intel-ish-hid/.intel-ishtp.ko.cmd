@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/intel-ish-hid/intel-ishtp.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hid/intel-ish-hid/intel-ishtp.ko drivers/hid/intel-ish-hid/intel-ishtp.o drivers/hid/intel-ish-hid/intel-ishtp.mod.o .module-common.o

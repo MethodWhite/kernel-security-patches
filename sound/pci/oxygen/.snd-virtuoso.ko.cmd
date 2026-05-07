@@ -1,0 +1,1 @@
+savedcmd_sound/pci/oxygen/snd-virtuoso.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/pci/oxygen/snd-virtuoso.ko sound/pci/oxygen/snd-virtuoso.o sound/pci/oxygen/snd-virtuoso.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_sound/hda/codecs/side-codecs/snd-hda-scodec-component.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/hda/codecs/side-codecs/snd-hda-scodec-component.ko sound/hda/codecs/side-codecs/snd-hda-scodec-component.o sound/hda/codecs/side-codecs/snd-hda-scodec-component.mod.o .module-common.o

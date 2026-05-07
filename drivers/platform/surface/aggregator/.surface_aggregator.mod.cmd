@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/surface/aggregator/surface_aggregator.mod := printf '%s\n'   core.o ssh_parser.o ssh_packet_layer.o ssh_request_layer.o bus.o controller.o | awk '!x[$$0]++ { print("drivers/platform/surface/aggregator/"$$0) }' > drivers/platform/surface/aggregator/surface_aggregator.mod

@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/proximity/ping.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/iio/proximity/ping.ko drivers/iio/proximity/ping.o drivers/iio/proximity/ping.mod.o .module-common.o

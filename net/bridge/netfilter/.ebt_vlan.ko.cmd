@@ -1,0 +1,1 @@
+savedcmd_net/bridge/netfilter/ebt_vlan.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o net/bridge/netfilter/ebt_vlan.ko net/bridge/netfilter/ebt_vlan.o net/bridge/netfilter/ebt_vlan.mod.o .module-common.o

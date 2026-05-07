@@ -1,0 +1,1 @@
+savedcmd_block/kyber-iosched.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o block/kyber-iosched.ko block/kyber-iosched.o block/kyber-iosched.mod.o .module-common.o

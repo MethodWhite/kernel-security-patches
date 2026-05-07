@@ -1,0 +1,5 @@
+linux-upstream (1) echo; urgency=low
+
+  * Custom built Linux kernel.
+
+ -- root <root@CachyOS>  Wed, 06 May 2026 21:39:11 -0400

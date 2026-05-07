@@ -1,0 +1,1 @@
+savedcmd_drivers/media/dvb-frontends/isl6423.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/dvb-frontends/isl6423.ko drivers/media/dvb-frontends/isl6423.o drivers/media/dvb-frontends/isl6423.mod.o .module-common.o

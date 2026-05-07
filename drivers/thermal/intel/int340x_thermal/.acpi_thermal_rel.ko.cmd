@@ -1,0 +1,1 @@
+savedcmd_drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.ko drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.o drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.mod.o .module-common.o

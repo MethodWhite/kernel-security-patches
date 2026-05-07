@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/imu/inv_icm42600/modules.order := {   echo drivers/iio/imu/inv_icm42600/inv-icm42600.o;   echo drivers/iio/imu/inv_icm42600/inv-icm42600-i2c.o;   echo drivers/iio/imu/inv_icm42600/inv-icm42600-spi.o; :; } > drivers/iio/imu/inv_icm42600/modules.order

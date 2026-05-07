@@ -1,0 +1,1 @@
+savedcmd_drivers/video/fbdev/matrox/matroxfb_accel.mod := printf '%s\n'   matroxfb_accel.o | awk '!x[$$0]++ { print("drivers/video/fbdev/matrox/"$$0) }' > drivers/video/fbdev/matrox/matroxfb_accel.mod

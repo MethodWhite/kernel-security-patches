@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/chrome/cros_ec_lpcs.mod := printf '%s\n'   cros_ec_lpc.o cros_ec_lpc_mec.o | awk '!x[$$0]++ { print("drivers/platform/chrome/"$$0) }' > drivers/platform/chrome/cros_ec_lpcs.mod

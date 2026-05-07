@@ -1,0 +1,1 @@
+savedcmd_drivers/infiniband/hw/irdma/irdma.mod := printf '%s\n'   cm.o ctrl.o hmc.o hw.o i40iw_hw.o i40iw_if.o ig3rdma_if.o icrdma_if.o icrdma_hw.o ig3rdma_hw.o main.o pble.o puda.o trace.o uda.o uk.o utils.o verbs.o virtchnl.o ws.o | awk '!x[$$0]++ { print("drivers/infiniband/hw/irdma/"$$0) }' > drivers/infiniband/hw/irdma/irdma.mod

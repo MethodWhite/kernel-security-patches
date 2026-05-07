@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/atheros/atl1e/atl1e.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/ethernet/atheros/atl1e/atl1e.ko drivers/net/ethernet/atheros/atl1e/atl1e.o drivers/net/ethernet/atheros/atl1e/atl1e.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_sound/soc/sof/intel/snd-sof-intel-hda-common.mod := printf '%s\n'   hda-loader.o hda-stream.o hda-trace.o hda-dsp.o hda-ipc.o hda-ctrl.o hda-pcm.o hda-dai.o hda-dai-ops.o hda-bus.o telemetry.o tracepoints.o hda-probes.o | awk '!x[$$0]++ { print("sound/soc/sof/intel/"$$0) }' > sound/soc/sof/intel/snd-sof-intel-hda-common.mod

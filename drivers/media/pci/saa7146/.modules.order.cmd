@@ -1,0 +1,1 @@
+savedcmd_drivers/media/pci/saa7146/modules.order := {   echo drivers/media/pci/saa7146/mxb.o;   echo drivers/media/pci/saa7146/hexium_orion.o;   echo drivers/media/pci/saa7146/hexium_gemini.o; :; } > drivers/media/pci/saa7146/modules.order

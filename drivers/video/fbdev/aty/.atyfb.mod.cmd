@@ -1,0 +1,1 @@
+savedcmd_drivers/video/fbdev/aty/atyfb.mod := printf '%s\n'   atyfb_base.o mach64_accel.o mach64_cursor.o mach64_gx.o mach64_ct.o atyfb_base.o mach64_accel.o mach64_cursor.o mach64_gx.o mach64_ct.o | awk '!x[$$0]++ { print("drivers/video/fbdev/aty/"$$0) }' > drivers/video/fbdev/aty/atyfb.mod

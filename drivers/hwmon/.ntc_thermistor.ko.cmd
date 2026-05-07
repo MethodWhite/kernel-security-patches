@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/ntc_thermistor.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hwmon/ntc_thermistor.ko drivers/hwmon/ntc_thermistor.o drivers/hwmon/ntc_thermistor.mod.o .module-common.o

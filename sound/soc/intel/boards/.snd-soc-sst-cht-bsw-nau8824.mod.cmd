@@ -1,0 +1,1 @@
+savedcmd_sound/soc/intel/boards/snd-soc-sst-cht-bsw-nau8824.mod := printf '%s\n'   cht_bsw_nau8824.o | awk '!x[$$0]++ { print("sound/soc/intel/boards/"$$0) }' > sound/soc/intel/boards/snd-soc-sst-cht-bsw-nau8824.mod

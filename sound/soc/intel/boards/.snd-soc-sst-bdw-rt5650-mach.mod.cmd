@@ -1,0 +1,1 @@
+savedcmd_sound/soc/intel/boards/snd-soc-sst-bdw-rt5650-mach.mod := printf '%s\n'   bdw-rt5650.o | awk '!x[$$0]++ { print("sound/soc/intel/boards/"$$0) }' > sound/soc/intel/boards/snd-soc-sst-bdw-rt5650-mach.mod

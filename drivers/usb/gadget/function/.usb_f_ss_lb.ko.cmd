@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/gadget/function/usb_f_ss_lb.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/usb/gadget/function/usb_f_ss_lb.ko drivers/usb/gadget/function/usb_f_ss_lb.o drivers/usb/gadget/function/usb_f_ss_lb.mod.o .module-common.o

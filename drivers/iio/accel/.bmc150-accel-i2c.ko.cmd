@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/accel/bmc150-accel-i2c.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/iio/accel/bmc150-accel-i2c.ko drivers/iio/accel/bmc150-accel-i2c.o drivers/iio/accel/bmc150-accel-i2c.mod.o .module-common.o

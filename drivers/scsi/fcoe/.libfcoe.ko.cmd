@@ -1,0 +1,1 @@
+savedcmd_drivers/scsi/fcoe/libfcoe.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/scsi/fcoe/libfcoe.ko drivers/scsi/fcoe/libfcoe.o drivers/scsi/fcoe/libfcoe.mod.o .module-common.o

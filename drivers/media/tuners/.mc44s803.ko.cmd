@@ -1,0 +1,1 @@
+savedcmd_drivers/media/tuners/mc44s803.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/tuners/mc44s803.ko drivers/media/tuners/mc44s803.o drivers/media/tuners/mc44s803.mod.o .module-common.o

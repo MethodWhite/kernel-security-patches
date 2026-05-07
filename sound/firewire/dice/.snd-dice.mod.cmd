@@ -1,0 +1,1 @@
+savedcmd_sound/firewire/dice/snd-dice.mod := printf '%s\n'   dice-transaction.o dice-stream.o dice-proc.o dice-midi.o dice-pcm.o dice-hwdep.o dice.o dice-tcelectronic.o dice-alesis.o dice-extension.o dice-mytek.o dice-presonus.o dice-harman.o dice-focusrite.o dice-weiss.o dice-teac.o | awk '!x[$$0]++ { print("sound/firewire/dice/"$$0) }' > sound/firewire/dice/snd-dice.mod

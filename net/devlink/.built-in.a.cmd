@@ -1,0 +1,1 @@
+savedcmd_net/devlink/built-in.a := rm -f net/devlink/built-in.a;  printf "net/devlink/%s " core.o netlink.o netlink_gen.o dev.o port.o sb.o dpipe.o resource.o param.o region.o health.o trap.o rate.o linecard.o | xargs ar cDPrST net/devlink/built-in.a

@@ -1,0 +1,1 @@
+savedcmd_drivers/scsi/isci/isci.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/scsi/isci/isci.ko drivers/scsi/isci/isci.o drivers/scsi/isci/isci.mod.o .module-common.o

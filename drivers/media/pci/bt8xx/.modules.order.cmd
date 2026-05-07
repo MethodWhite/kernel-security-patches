@@ -1,0 +1,1 @@
+savedcmd_drivers/media/pci/bt8xx/modules.order := {   echo drivers/media/pci/bt8xx/bttv.o;   echo drivers/media/pci/bt8xx/bt878.o;   echo drivers/media/pci/bt8xx/dvb-bt8xx.o;   echo drivers/media/pci/bt8xx/dst.o;   echo drivers/media/pci/bt8xx/dst_ca.o; :; } > drivers/media/pci/bt8xx/modules.order

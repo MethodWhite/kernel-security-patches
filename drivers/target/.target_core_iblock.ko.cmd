@@ -1,0 +1,1 @@
+savedcmd_drivers/target/target_core_iblock.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/target/target_core_iblock.ko drivers/target/target_core_iblock.o drivers/target/target_core_iblock.mod.o .module-common.o

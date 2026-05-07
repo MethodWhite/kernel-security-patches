@@ -1,0 +1,1 @@
+savedcmd_drivers/power/supply/surface_charger.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/power/supply/surface_charger.ko drivers/power/supply/surface_charger.o drivers/power/supply/surface_charger.mod.o .module-common.o

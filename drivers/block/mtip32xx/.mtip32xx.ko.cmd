@@ -1,0 +1,1 @@
+savedcmd_drivers/block/mtip32xx/mtip32xx.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/block/mtip32xx/mtip32xx.ko drivers/block/mtip32xx/mtip32xx.o drivers/block/mtip32xx/mtip32xx.mod.o .module-common.o

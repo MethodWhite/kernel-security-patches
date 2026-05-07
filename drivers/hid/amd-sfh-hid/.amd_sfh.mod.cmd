@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/amd-sfh-hid/amd_sfh.mod := printf '%s\n'   amd_sfh_hid.o amd_sfh_client.o amd_sfh_pcie.o hid_descriptor/amd_sfh_hid_desc.o sfh1_1/amd_sfh_init.o sfh1_1/amd_sfh_interface.o sfh1_1/amd_sfh_desc.o | awk '!x[$$0]++ { print("drivers/hid/amd-sfh-hid/"$$0) }' > drivers/hid/amd-sfh-hid/amd_sfh.mod

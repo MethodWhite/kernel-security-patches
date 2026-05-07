@@ -1,0 +1,1 @@
+savedcmd_drivers/media/pci/cx88/cx8800.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/pci/cx88/cx8800.ko drivers/media/pci/cx88/cx8800.o drivers/media/pci/cx88/cx8800.mod.o .module-common.o

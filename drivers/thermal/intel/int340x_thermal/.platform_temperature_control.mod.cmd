@@ -1,0 +1,1 @@
+savedcmd_drivers/thermal/intel/int340x_thermal/platform_temperature_control.mod := printf '%s\n'   platform_temperature_control.o | awk '!x[$$0]++ { print("drivers/thermal/intel/int340x_thermal/"$$0) }' > drivers/thermal/intel/int340x_thermal/platform_temperature_control.mod

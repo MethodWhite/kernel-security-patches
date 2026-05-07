@@ -1,0 +1,1 @@
+savedcmd_drivers/virt/coco/tdx-guest/tdx-guest.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/virt/coco/tdx-guest/tdx-guest.ko drivers/virt/coco/tdx-guest/tdx-guest.o drivers/virt/coco/tdx-guest/tdx-guest.mod.o .module-common.o

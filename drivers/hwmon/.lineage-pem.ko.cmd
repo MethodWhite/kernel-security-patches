@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/lineage-pem.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hwmon/lineage-pem.ko drivers/hwmon/lineage-pem.o drivers/hwmon/lineage-pem.mod.o .module-common.o

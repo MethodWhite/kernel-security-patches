@@ -1,0 +1,1 @@
+savedcmd_drivers/comedi/drivers/adv_pci1720.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/comedi/drivers/adv_pci1720.ko drivers/comedi/drivers/adv_pci1720.o drivers/comedi/drivers/adv_pci1720.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/input/serio/modules.order := {   echo drivers/input/serio/parkbd.o;   echo drivers/input/serio/serport.o;   echo drivers/input/serio/ct82c710.o;   echo drivers/input/serio/pcips2.o;   echo drivers/input/serio/serio_raw.o;   echo drivers/input/serio/altera_ps2.o; :; } > drivers/input/serio/modules.order

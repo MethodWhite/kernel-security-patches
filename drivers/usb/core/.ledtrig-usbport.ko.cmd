@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/core/ledtrig-usbport.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/usb/core/ledtrig-usbport.ko drivers/usb/core/ledtrig-usbport.o drivers/usb/core/ledtrig-usbport.mod.o .module-common.o

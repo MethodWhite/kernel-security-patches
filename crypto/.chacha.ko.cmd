@@ -1,0 +1,1 @@
+savedcmd_crypto/chacha.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o crypto/chacha.ko crypto/chacha.o crypto/chacha.mod.o .module-common.o

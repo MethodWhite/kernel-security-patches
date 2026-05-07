@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/atm/ueagle-atm.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/usb/atm/ueagle-atm.ko drivers/usb/atm/ueagle-atm.o drivers/usb/atm/ueagle-atm.mod.o .module-common.o

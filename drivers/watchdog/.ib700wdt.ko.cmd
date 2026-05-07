@@ -1,0 +1,1 @@
+savedcmd_drivers/watchdog/ib700wdt.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/watchdog/ib700wdt.ko drivers/watchdog/ib700wdt.o drivers/watchdog/ib700wdt.mod.o .module-common.o

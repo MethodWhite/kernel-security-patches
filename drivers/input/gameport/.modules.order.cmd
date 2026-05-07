@@ -1,0 +1,1 @@
+savedcmd_drivers/input/gameport/modules.order := {   echo drivers/input/gameport/gameport.o;   echo drivers/input/gameport/emu10k1-gp.o;   echo drivers/input/gameport/fm801-gp.o; :; } > drivers/input/gameport/modules.order

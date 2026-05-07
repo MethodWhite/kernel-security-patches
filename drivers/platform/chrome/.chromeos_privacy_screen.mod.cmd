@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/chrome/chromeos_privacy_screen.mod := printf '%s\n'   chromeos_privacy_screen.o | awk '!x[$$0]++ { print("drivers/platform/chrome/"$$0) }' > drivers/platform/chrome/chromeos_privacy_screen.mod

@@ -1,0 +1,1 @@
+savedcmd_drivers/scsi/mpi3mr/mpi3mr.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/scsi/mpi3mr/mpi3mr.ko drivers/scsi/mpi3mr/mpi3mr.o drivers/scsi/mpi3mr/mpi3mr.mod.o .module-common.o

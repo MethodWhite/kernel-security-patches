@@ -1,0 +1,1 @@
+savedcmd_sound/soc/intel/atom/sst/snd-intel-sst-core.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/soc/intel/atom/sst/snd-intel-sst-core.ko sound/soc/intel/atom/sst/snd-intel-sst-core.o sound/soc/intel/atom/sst/snd-intel-sst-core.mod.o .module-common.o

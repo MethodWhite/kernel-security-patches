@@ -1,0 +1,1 @@
+savedcmd_sound/soc/intel/common/snd-soc-acpi-intel-sdca-quirks.mod := printf '%s\n'   soc-acpi-intel-sdca-quirks.o | awk '!x[$$0]++ { print("sound/soc/intel/common/"$$0) }' > sound/soc/intel/common/snd-soc-acpi-intel-sdca-quirks.mod

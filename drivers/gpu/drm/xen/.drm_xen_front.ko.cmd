@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/xen/drm_xen_front.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/gpu/drm/xen/drm_xen_front.ko drivers/gpu/drm/xen/drm_xen_front.o drivers/gpu/drm/xen/drm_xen_front.mod.o .module-common.o

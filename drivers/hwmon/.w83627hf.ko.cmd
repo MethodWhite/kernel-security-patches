@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/w83627hf.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hwmon/w83627hf.ko drivers/hwmon/w83627hf.o drivers/hwmon/w83627hf.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/cavium/liquidio/liquidio.mod := printf '%s\n'   lio_main.o octeon_console.o lio_vf_rep.o | awk '!x[$$0]++ { print("drivers/net/ethernet/cavium/liquidio/"$$0) }' > drivers/net/ethernet/cavium/liquidio/liquidio.mod

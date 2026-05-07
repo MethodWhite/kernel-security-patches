@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/sfc/sfc.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/ethernet/sfc/sfc.ko drivers/net/ethernet/sfc/sfc.o drivers/net/ethernet/sfc/sfc.mod.o .module-common.o

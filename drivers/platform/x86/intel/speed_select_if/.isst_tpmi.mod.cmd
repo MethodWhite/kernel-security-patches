@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/intel/speed_select_if/isst_tpmi.mod := printf '%s\n'   isst_tpmi.o | awk '!x[$$0]++ { print("drivers/platform/x86/intel/speed_select_if/"$$0) }' > drivers/platform/x86/intel/speed_select_if/isst_tpmi.mod

@@ -1,0 +1,1 @@
+savedcmd_sound/drivers/vx/snd-vx-lib.mod := printf '%s\n'   vx_core.o vx_hwdep.o vx_pcm.o vx_mixer.o vx_cmd.o vx_uer.o | awk '!x[$$0]++ { print("sound/drivers/vx/"$$0) }' > sound/drivers/vx/snd-vx-lib.mod

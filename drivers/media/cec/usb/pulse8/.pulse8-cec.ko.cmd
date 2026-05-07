@@ -1,0 +1,1 @@
+savedcmd_drivers/media/cec/usb/pulse8/pulse8-cec.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/cec/usb/pulse8/pulse8-cec.ko drivers/media/cec/usb/pulse8/pulse8-cec.o drivers/media/cec/usb/pulse8/pulse8-cec.mod.o .module-common.o

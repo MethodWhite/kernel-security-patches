@@ -1,0 +1,1 @@
+savedcmd_drivers/crypto/intel/qat/qat_dh895xccvf/qat_dh895xccvf.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/crypto/intel/qat/qat_dh895xccvf/qat_dh895xccvf.ko drivers/crypto/intel/qat/qat_dh895xccvf/qat_dh895xccvf.o drivers/crypto/intel/qat/qat_dh895xccvf/qat_dh895xccvf.mod.o .module-common.o

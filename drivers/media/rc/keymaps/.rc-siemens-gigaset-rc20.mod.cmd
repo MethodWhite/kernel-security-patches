@@ -1,0 +1,1 @@
+savedcmd_drivers/media/rc/keymaps/rc-siemens-gigaset-rc20.mod := printf '%s\n'   rc-siemens-gigaset-rc20.o | awk '!x[$$0]++ { print("drivers/media/rc/keymaps/"$$0) }' > drivers/media/rc/keymaps/rc-siemens-gigaset-rc20.mod

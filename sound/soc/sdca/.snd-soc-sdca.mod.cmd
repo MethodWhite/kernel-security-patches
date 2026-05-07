@@ -1,0 +1,1 @@
+savedcmd_sound/soc/sdca/snd-soc-sdca.mod := printf '%s\n'   sdca_functions.o sdca_device.o sdca_function_device.o sdca_regmap.o sdca_asoc.o sdca_ump.o sdca_hid.o sdca_interrupts.o sdca_jack.o sdca_fdl.o | awk '!x[$$0]++ { print("sound/soc/sdca/"$$0) }' > sound/soc/sdca/snd-soc-sdca.mod

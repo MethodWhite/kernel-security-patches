@@ -1,0 +1,1 @@
+savedcmd_net/bluetooth/rfcomm/rfcomm.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o net/bluetooth/rfcomm/rfcomm.ko net/bluetooth/rfcomm/rfcomm.o net/bluetooth/rfcomm/rfcomm.mod.o .module-common.o

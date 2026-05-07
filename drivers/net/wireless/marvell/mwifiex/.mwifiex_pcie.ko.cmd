@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/marvell/mwifiex/mwifiex_pcie.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/wireless/marvell/mwifiex/mwifiex_pcie.ko drivers/net/wireless/marvell/mwifiex/mwifiex_pcie.o drivers/net/wireless/marvell/mwifiex/mwifiex_pcie.mod.o .module-common.o

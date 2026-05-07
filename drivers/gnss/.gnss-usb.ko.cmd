@@ -1,0 +1,1 @@
+savedcmd_drivers/gnss/gnss-usb.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/gnss/gnss-usb.ko drivers/gnss/gnss-usb.o drivers/gnss/gnss-usb.mod.o .module-common.o

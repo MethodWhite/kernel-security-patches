@@ -1,0 +1,1 @@
+savedcmd_drivers/staging/media/ipu3/ipu3-imgu.mod := printf '%s\n'   ipu3-mmu.o ipu3-dmamap.o ipu3-tables.o ipu3-css-pool.o ipu3-css-fw.o ipu3-css-params.o ipu3-css.o ipu3-v4l2.o ipu3.o | awk '!x[$$0]++ { print("drivers/staging/media/ipu3/"$$0) }' > drivers/staging/media/ipu3/ipu3-imgu.mod

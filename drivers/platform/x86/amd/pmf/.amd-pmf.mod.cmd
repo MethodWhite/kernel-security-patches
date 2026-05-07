@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/amd/pmf/amd-pmf.mod := printf '%s\n'   core.o acpi.o sps.o auto-mode.o cnqf.o tee-if.o spc.o | awk '!x[$$0]++ { print("drivers/platform/x86/amd/pmf/"$$0) }' > drivers/platform/x86/amd/pmf/amd-pmf.mod

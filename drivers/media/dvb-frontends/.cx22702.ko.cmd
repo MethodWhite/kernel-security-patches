@@ -1,0 +1,1 @@
+savedcmd_drivers/media/dvb-frontends/cx22702.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/dvb-frontends/cx22702.ko drivers/media/dvb-frontends/cx22702.o drivers/media/dvb-frontends/cx22702.mod.o .module-common.o

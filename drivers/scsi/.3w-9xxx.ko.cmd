@@ -1,0 +1,1 @@
+savedcmd_drivers/scsi/3w-9xxx.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/scsi/3w-9xxx.ko drivers/scsi/3w-9xxx.o drivers/scsi/3w-9xxx.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_sound/soc/amd/raven/modules.order := {   echo sound/soc/amd/raven/snd-pci-acp3x.o;   echo sound/soc/amd/raven/snd-acp3x-pcm-dma.o;   echo sound/soc/amd/raven/snd-acp3x-i2s.o; :; } > sound/soc/amd/raven/modules.order

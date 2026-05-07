@@ -1,0 +1,1 @@
+savedcmd_drivers/staging/iio/modules.order := {   cat drivers/staging/iio/accel/modules.order;   cat drivers/staging/iio/adc/modules.order;   cat drivers/staging/iio/addac/modules.order;   cat drivers/staging/iio/frequency/modules.order;   cat drivers/staging/iio/impedance-analyzer/modules.order; :; } > drivers/staging/iio/modules.order

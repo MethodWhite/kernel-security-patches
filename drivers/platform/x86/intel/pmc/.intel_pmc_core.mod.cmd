@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/intel/pmc/intel_pmc_core.mod := printf '%s\n'   core.o spt.o cnp.o icl.o tgl.o adl.o mtl.o arl.o lnl.o ptl.o wcl.o | awk '!x[$$0]++ { print("drivers/platform/x86/intel/pmc/"$$0) }' > drivers/platform/x86/intel/pmc/intel_pmc_core.mod

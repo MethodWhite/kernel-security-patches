@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/dec/tulip/de2104x.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/ethernet/dec/tulip/de2104x.ko drivers/net/ethernet/dec/tulip/de2104x.o drivers/net/ethernet/dec/tulip/de2104x.mod.o .module-common.o

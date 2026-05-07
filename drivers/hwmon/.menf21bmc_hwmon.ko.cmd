@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/menf21bmc_hwmon.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hwmon/menf21bmc_hwmon.ko drivers/hwmon/menf21bmc_hwmon.o drivers/hwmon/menf21bmc_hwmon.mod.o .module-common.o

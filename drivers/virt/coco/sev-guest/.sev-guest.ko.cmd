@@ -1,0 +1,1 @@
+savedcmd_drivers/virt/coco/sev-guest/sev-guest.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/virt/coco/sev-guest/sev-guest.ko drivers/virt/coco/sev-guest/sev-guest.o drivers/virt/coco/sev-guest/sev-guest.mod.o .module-common.o

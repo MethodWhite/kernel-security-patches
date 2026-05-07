@@ -1,0 +1,1 @@
+savedcmd_sound/hda/common/snd-hda-codec.mod := printf '%s\n'   bind.o codec.o jack.o auto_parser.o sysfs.o controller.o proc.o hwdep.o beep.o | awk '!x[$$0]++ { print("sound/hda/common/"$$0) }' > sound/hda/common/snd-hda-codec.mod

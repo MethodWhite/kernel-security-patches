@@ -1,0 +1,1 @@
+savedcmd_drivers/watchdog/mei_wdt.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/watchdog/mei_wdt.ko drivers/watchdog/mei_wdt.o drivers/watchdog/mei_wdt.mod.o .module-common.o

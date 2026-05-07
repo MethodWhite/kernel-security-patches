@@ -1,0 +1,1 @@
+savedcmd_drivers/virtio/virtio_input.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/virtio/virtio_input.ko drivers/virtio/virtio_input.o drivers/virtio/virtio_input.mod.o .module-common.o

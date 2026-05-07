@@ -1,0 +1,1 @@
+savedcmd_drivers/net/arcnet/com20020_cs.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/arcnet/com20020_cs.ko drivers/net/arcnet/com20020_cs.o drivers/net/arcnet/com20020_cs.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/hwtracing/stm/dummy_stm.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hwtracing/stm/dummy_stm.ko drivers/hwtracing/stm/dummy_stm.o drivers/hwtracing/stm/dummy_stm.mod.o .module-common.o

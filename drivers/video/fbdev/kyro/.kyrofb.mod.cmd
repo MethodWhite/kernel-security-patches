@@ -1,0 +1,1 @@
+savedcmd_drivers/video/fbdev/kyro/kyrofb.mod := printf '%s\n'   STG4000Ramdac.o STG4000VTG.o STG4000OverlayDevice.o STG4000InitDevice.o fbdev.o | awk '!x[$$0]++ { print("drivers/video/fbdev/kyro/"$$0) }' > drivers/video/fbdev/kyro/kyrofb.mod

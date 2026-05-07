@@ -1,0 +1,1 @@
+savedcmd_drivers/media/pci/mantis/modules.order := {   echo drivers/media/pci/mantis/mantis_core.o;   echo drivers/media/pci/mantis/mantis.o;   echo drivers/media/pci/mantis/hopper.o; :; } > drivers/media/pci/mantis/modules.order

@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/hwmon-vid.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hwmon/hwmon-vid.ko drivers/hwmon/hwmon-vid.o drivers/hwmon/hwmon-vid.mod.o .module-common.o

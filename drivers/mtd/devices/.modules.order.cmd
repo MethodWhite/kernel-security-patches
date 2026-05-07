@@ -1,0 +1,1 @@
+savedcmd_drivers/mtd/devices/modules.order := {   echo drivers/mtd/devices/slram.o;   echo drivers/mtd/devices/phram.o;   echo drivers/mtd/devices/mtdram.o;   echo drivers/mtd/devices/block2mtd.o;   echo drivers/mtd/devices/mtd_dataflash.o;   echo drivers/mtd/devices/sst25l.o; :; } > drivers/mtd/devices/modules.order

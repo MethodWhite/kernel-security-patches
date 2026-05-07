@@ -1,0 +1,1 @@
+savedcmd_arch/x86/crypto/serpent-avx-x86_64.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o arch/x86/crypto/serpent-avx-x86_64.ko arch/x86/crypto/serpent-avx-x86_64.o arch/x86/crypto/serpent-avx-x86_64.mod.o .module-common.o

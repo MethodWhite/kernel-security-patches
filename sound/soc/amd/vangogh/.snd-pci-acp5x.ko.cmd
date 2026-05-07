@@ -1,0 +1,1 @@
+savedcmd_sound/soc/amd/vangogh/snd-pci-acp5x.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/soc/amd/vangogh/snd-pci-acp5x.ko sound/soc/amd/vangogh/snd-pci-acp5x.o sound/soc/amd/vangogh/snd-pci-acp5x.mod.o .module-common.o

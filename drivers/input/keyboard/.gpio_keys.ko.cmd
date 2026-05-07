@@ -1,0 +1,1 @@
+savedcmd_drivers/input/keyboard/gpio_keys.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/input/keyboard/gpio_keys.ko drivers/input/keyboard/gpio_keys.o drivers/input/keyboard/gpio_keys.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/watchdog/sbc60xxwdt.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/watchdog/sbc60xxwdt.ko drivers/watchdog/sbc60xxwdt.o drivers/watchdog/sbc60xxwdt.mod.o .module-common.o

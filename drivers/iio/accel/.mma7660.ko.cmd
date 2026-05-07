@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/accel/mma7660.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/iio/accel/mma7660.ko drivers/iio/accel/mma7660.o drivers/iio/accel/mma7660.mod.o .module-common.o

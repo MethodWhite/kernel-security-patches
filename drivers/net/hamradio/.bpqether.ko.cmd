@@ -1,0 +1,1 @@
+savedcmd_drivers/net/hamradio/bpqether.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/hamradio/bpqether.ko drivers/net/hamradio/bpqether.o drivers/net/hamradio/bpqether.mod.o .module-common.o

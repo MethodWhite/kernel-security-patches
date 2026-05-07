@@ -1,0 +1,1 @@
+savedcmd_sound/soc/intel/atom/sst/modules.order := {   echo sound/soc/intel/atom/sst/snd-intel-sst-core.o;   echo sound/soc/intel/atom/sst/snd-intel-sst-acpi.o; :; } > sound/soc/intel/atom/sst/modules.order

@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/light/tsl2583.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/iio/light/tsl2583.ko drivers/iio/light/tsl2583.o drivers/iio/light/tsl2583.mod.o .module-common.o

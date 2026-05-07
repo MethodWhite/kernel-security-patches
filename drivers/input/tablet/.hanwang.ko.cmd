@@ -1,0 +1,1 @@
+savedcmd_drivers/input/tablet/hanwang.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/input/tablet/hanwang.ko drivers/input/tablet/hanwang.o drivers/input/tablet/hanwang.mod.o .module-common.o

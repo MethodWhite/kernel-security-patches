@@ -1,0 +1,1 @@
+savedcmd_drivers/misc/isl29003.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/misc/isl29003.ko drivers/misc/isl29003.o drivers/misc/isl29003.mod.o .module-common.o

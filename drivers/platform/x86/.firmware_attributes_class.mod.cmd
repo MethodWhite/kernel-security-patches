@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/firmware_attributes_class.mod := printf '%s\n'   firmware_attributes_class.o | awk '!x[$$0]++ { print("drivers/platform/x86/"$$0) }' > drivers/platform/x86/firmware_attributes_class.mod

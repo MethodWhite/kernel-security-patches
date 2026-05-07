@@ -1,0 +1,1 @@
+savedcmd_drivers/ras/amd/atl/amd_atl.mod := printf '%s\n'   access.o core.o dehash.o denormalize.o map.o system.o umc.o prm.o | awk '!x[$$0]++ { print("drivers/ras/amd/atl/"$$0) }' > drivers/ras/amd/atl/amd_atl.mod

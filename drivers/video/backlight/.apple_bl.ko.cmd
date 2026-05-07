@@ -1,0 +1,1 @@
+savedcmd_drivers/video/backlight/apple_bl.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/video/backlight/apple_bl.ko drivers/video/backlight/apple_bl.o drivers/video/backlight/apple_bl.mod.o .module-common.o

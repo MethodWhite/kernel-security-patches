@@ -1,0 +1,1 @@
+savedcmd_drivers/media/rc/fintek-cir.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/rc/fintek-cir.ko drivers/media/rc/fintek-cir.o drivers/media/rc/fintek-cir.mod.o .module-common.o

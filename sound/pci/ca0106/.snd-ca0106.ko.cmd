@@ -1,0 +1,1 @@
+savedcmd_sound/pci/ca0106/snd-ca0106.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/pci/ca0106/snd-ca0106.ko sound/pci/ca0106/snd-ca0106.o sound/pci/ca0106/snd-ca0106.mod.o .module-common.o

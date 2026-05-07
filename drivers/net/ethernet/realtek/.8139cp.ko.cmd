@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/realtek/8139cp.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/ethernet/realtek/8139cp.ko drivers/net/ethernet/realtek/8139cp.o drivers/net/ethernet/realtek/8139cp.mod.o .module-common.o

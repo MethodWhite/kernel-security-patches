@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/sfc/falcon/sfc-falcon.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/ethernet/sfc/falcon/sfc-falcon.ko drivers/net/ethernet/sfc/falcon/sfc-falcon.o drivers/net/ethernet/sfc/falcon/sfc-falcon.mod.o .module-common.o

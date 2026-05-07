@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/magnetometer/hid-sensor-magn-3d.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/iio/magnetometer/hid-sensor-magn-3d.ko drivers/iio/magnetometer/hid-sensor-magn-3d.o drivers/iio/magnetometer/hid-sensor-magn-3d.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/pcmcia/modules.order := {   echo drivers/pcmcia/pcmcia_core.o;   echo drivers/pcmcia/pcmcia.o;   echo drivers/pcmcia/pcmcia_rsrc.o;   echo drivers/pcmcia/yenta_socket.o;   echo drivers/pcmcia/pd6729.o;   echo drivers/pcmcia/i82092.o; :; } > drivers/pcmcia/modules.order

@@ -1,0 +1,1 @@
+savedcmd_drivers/scsi/isci/isci.mod := printf '%s\n'   init.o phy.o request.o remote_device.o port.o host.o task.o probe_roms.o remote_node_context.o remote_node_table.o unsolicited_frame_control.o port_config.o | awk '!x[$$0]++ { print("drivers/scsi/isci/"$$0) }' > drivers/scsi/isci/isci.mod

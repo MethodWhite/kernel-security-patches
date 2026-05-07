@@ -1,0 +1,1 @@
+savedcmd_drivers/video/fbdev/via/viafb.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/video/fbdev/via/viafb.ko drivers/video/fbdev/via/viafb.o drivers/video/fbdev/via/viafb.mod.o .module-common.o

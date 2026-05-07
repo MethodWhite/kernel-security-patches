@@ -1,0 +1,1 @@
+savedcmd_drivers/staging/media/av7110/sp8870.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/staging/media/av7110/sp8870.ko drivers/staging/media/av7110/sp8870.o drivers/staging/media/av7110/sp8870.mod.o .module-common.o

@@ -1,0 +1,13 @@
+!<thin>
+//                                              74        `
+loopback.o/
+netkit.o/
+phy/stubs.o/
+phy/mii_timestamper.o/
+phy/sfp-bus.o/
+
+/0              0           0     0     644     538744    `
+/12             0           0     0     644     652376    `
+/22             0           0     0     644     14432     `
+/35             0           0     0     644     326280    `
+/58             0           0     0     644     619256    `

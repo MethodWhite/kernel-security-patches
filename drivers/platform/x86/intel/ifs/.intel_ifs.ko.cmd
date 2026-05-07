@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/intel/ifs/intel_ifs.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/platform/x86/intel/ifs/intel_ifs.ko drivers/platform/x86/intel/ifs/intel_ifs.o drivers/platform/x86/intel/ifs/intel_ifs.mod.o .module-common.o

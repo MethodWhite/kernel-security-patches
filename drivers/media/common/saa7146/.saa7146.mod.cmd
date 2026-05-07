@@ -1,0 +1,1 @@
+savedcmd_drivers/media/common/saa7146/saa7146.mod := printf '%s\n'   saa7146_i2c.o saa7146_core.o | awk '!x[$$0]++ { print("drivers/media/common/saa7146/"$$0) }' > drivers/media/common/saa7146/saa7146.mod

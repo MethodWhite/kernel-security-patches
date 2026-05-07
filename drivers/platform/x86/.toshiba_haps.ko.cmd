@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/toshiba_haps.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/platform/x86/toshiba_haps.ko drivers/platform/x86/toshiba_haps.o drivers/platform/x86/toshiba_haps.mod.o .module-common.o

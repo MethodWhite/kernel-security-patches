@@ -1,0 +1,1 @@
+savedcmd_net/sched/act_meta_skbtcindex.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o net/sched/act_meta_skbtcindex.ko net/sched/act_meta_skbtcindex.o net/sched/act_meta_skbtcindex.mod.o .module-common.o

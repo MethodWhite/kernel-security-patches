@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/intel/e1000e/e1000e.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/ethernet/intel/e1000e/e1000e.ko drivers/net/ethernet/intel/e1000e/e1000e.o drivers/net/ethernet/intel/e1000e/e1000e.mod.o .module-common.o

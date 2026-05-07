@@ -1,0 +1,1 @@
+savedcmd_sound/hda/codecs/cirrus/modules.order := {   echo sound/hda/codecs/cirrus/snd-hda-codec-cs420x.o;   echo sound/hda/codecs/cirrus/snd-hda-codec-cs421x.o;   echo sound/hda/codecs/cirrus/snd-hda-codec-cs8409.o; :; } > sound/hda/codecs/cirrus/modules.order

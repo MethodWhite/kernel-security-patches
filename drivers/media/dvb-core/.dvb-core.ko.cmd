@@ -1,0 +1,1 @@
+savedcmd_drivers/media/dvb-core/dvb-core.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/dvb-core/dvb-core.ko drivers/media/dvb-core/dvb-core.o drivers/media/dvb-core/dvb-core.mod.o .module-common.o

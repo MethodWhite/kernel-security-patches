@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ieee802154/cc2520.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/ieee802154/cc2520.ko drivers/net/ieee802154/cc2520.o drivers/net/ieee802154/cc2520.mod.o .module-common.o

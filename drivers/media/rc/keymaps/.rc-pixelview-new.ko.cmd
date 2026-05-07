@@ -1,0 +1,1 @@
+savedcmd_drivers/media/rc/keymaps/rc-pixelview-new.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/rc/keymaps/rc-pixelview-new.ko drivers/media/rc/keymaps/rc-pixelview-new.o drivers/media/rc/keymaps/rc-pixelview-new.mod.o .module-common.o

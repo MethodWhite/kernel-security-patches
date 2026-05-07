@@ -1,0 +1,1 @@
+savedcmd_drivers/video/fbdev/matrox/matroxfb_Ti3026.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/video/fbdev/matrox/matroxfb_Ti3026.ko drivers/video/fbdev/matrox/matroxfb_Ti3026.o drivers/video/fbdev/matrox/matroxfb_Ti3026.mod.o .module-common.o

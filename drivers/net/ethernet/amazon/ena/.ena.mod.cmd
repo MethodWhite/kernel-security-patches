@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/amazon/ena/ena.mod := printf '%s\n'   ena_netdev.o ena_com.o ena_eth_com.o ena_ethtool.o ena_xdp.o ena_phc.o ena_devlink.o ena_debugfs.o | awk '!x[$$0]++ { print("drivers/net/ethernet/amazon/ena/"$$0) }' > drivers/net/ethernet/amazon/ena/ena.mod

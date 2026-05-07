@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/magnetometer/rm3100-core.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/iio/magnetometer/rm3100-core.ko drivers/iio/magnetometer/rm3100-core.o drivers/iio/magnetometer/rm3100-core.mod.o .module-common.o

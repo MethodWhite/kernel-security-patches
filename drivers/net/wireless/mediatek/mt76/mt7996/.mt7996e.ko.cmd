@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/mediatek/mt76/mt7996/mt7996e.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/wireless/mediatek/mt76/mt7996/mt7996e.ko drivers/net/wireless/mediatek/mt76/mt7996/mt7996e.o drivers/net/wireless/mediatek/mt76/mt7996/mt7996e.mod.o .module-common.o

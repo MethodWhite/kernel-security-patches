@@ -1,0 +1,1 @@
+savedcmd_drivers/isdn/hardware/mISDN/hfcmulti.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/isdn/hardware/mISDN/hfcmulti.ko drivers/isdn/hardware/mISDN/hfcmulti.o drivers/isdn/hardware/mISDN/hfcmulti.mod.o .module-common.o

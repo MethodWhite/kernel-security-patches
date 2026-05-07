@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/realtek/rtlwifi/rtl8192d/rtl8192d-common.mod := printf '%s\n'   dm_common.o fw_common.o hw_common.o main.o phy_common.o rf_common.o trx_common.o | awk '!x[$$0]++ { print("drivers/net/wireless/realtek/rtlwifi/rtl8192d/"$$0) }' > drivers/net/wireless/realtek/rtlwifi/rtl8192d/rtl8192d-common.mod

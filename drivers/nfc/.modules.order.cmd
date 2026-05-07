@@ -1,0 +1,1 @@
+savedcmd_drivers/nfc/modules.order := {   cat drivers/nfc/pn544/modules.order;   cat drivers/nfc/pn533/modules.order;   echo drivers/nfc/mei_phy.o;   echo drivers/nfc/nfcsim.o;   echo drivers/nfc/port100.o;   cat drivers/nfc/nxp-nci/modules.order; :; } > drivers/nfc/modules.order

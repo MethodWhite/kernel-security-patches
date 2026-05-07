@@ -1,0 +1,1 @@
+savedcmd_drivers/net/usb/rtl8150.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/usb/rtl8150.ko drivers/net/usb/rtl8150.o drivers/net/usb/rtl8150.mod.o .module-common.o

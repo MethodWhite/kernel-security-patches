@@ -1,0 +1,1 @@
+savedcmd_sound/soc/intel/catpt/snd-soc-catpt.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/soc/intel/catpt/snd-soc-catpt.ko sound/soc/intel/catpt/snd-soc-catpt.o sound/soc/intel/catpt/snd-soc-catpt.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_arch/x86/crypto/camellia-aesni-avx2.mod := printf '%s\n'   camellia-aesni-avx2-asm_64.o camellia_aesni_avx2_glue.o | awk '!x[$$0]++ { print("arch/x86/crypto/"$$0) }' > arch/x86/crypto/camellia-aesni-avx2.mod

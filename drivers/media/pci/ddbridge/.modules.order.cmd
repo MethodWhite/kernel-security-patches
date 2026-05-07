@@ -1,0 +1,1 @@
+savedcmd_drivers/media/pci/ddbridge/modules.order := {   echo drivers/media/pci/ddbridge/ddbridge.o;   echo drivers/media/pci/ddbridge/ddbridge-dummy-fe.o; :; } > drivers/media/pci/ddbridge/modules.order

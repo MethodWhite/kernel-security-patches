@@ -1,0 +1,19 @@
+!<thin>
+//                                              130       `
+efi/memmap.o/
+efi/quirks.o/
+efi/efi.o/
+efi/efi_64.o/
+efi/efi_stub_64.o/
+efi/efi_thunk_64.o/
+efi/runtime-map.o/
+intel/iosf_mbi.o/
+
+/0              0           0     0     644     263104    `
+/14             0           0     0     644     297976    `
+/28             0           0     0     644     326648    `
+/39             0           0     0     644     436344    `
+/53             0           0     0     644     2640      `
+/72             0           0     0     644     3016      `
+/92             0           0     0     644     263456    `
+/111            0           0     0     644     261648    `

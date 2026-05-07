@@ -1,0 +1,1 @@
+savedcmd_drivers/scsi/mvsas/mvsas.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/scsi/mvsas/mvsas.ko drivers/scsi/mvsas/mvsas.o drivers/scsi/mvsas/mvsas.mod.o .module-common.o

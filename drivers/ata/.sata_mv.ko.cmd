@@ -1,0 +1,1 @@
+savedcmd_drivers/ata/sata_mv.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/ata/sata_mv.ko drivers/ata/sata_mv.o drivers/ata/sata_mv.mod.o .module-common.o

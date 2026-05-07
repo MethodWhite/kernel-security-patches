@@ -1,0 +1,1 @@
+savedcmd_drivers/misc/ics932s401.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/misc/ics932s401.ko drivers/misc/ics932s401.o drivers/misc/ics932s401.mod.o .module-common.o

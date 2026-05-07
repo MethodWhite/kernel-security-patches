@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu.mod := printf '%s\n'   core.o 8192e.o 8723b.o 8723a.o 8192c.o 8188f.o 8188e.o 8710b.o 8192f.o | awk '!x[$$0]++ { print("drivers/net/wireless/realtek/rtl8xxxu/"$$0) }' > drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu.mod

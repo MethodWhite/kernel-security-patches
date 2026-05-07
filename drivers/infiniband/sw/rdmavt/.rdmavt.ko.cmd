@@ -1,0 +1,1 @@
+savedcmd_drivers/infiniband/sw/rdmavt/rdmavt.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/infiniband/sw/rdmavt/rdmavt.ko drivers/infiniband/sw/rdmavt/rdmavt.o drivers/infiniband/sw/rdmavt/rdmavt.mod.o .module-common.o

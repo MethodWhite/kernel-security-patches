@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/intel/idpf/idpf.mod := printf '%s\n'   idpf_controlq.o idpf_controlq_setup.o idpf_dev.o idpf_ethtool.o idpf_idc.o idpf_lib.o idpf_main.o idpf_txrx.o idpf_virtchnl.o idpf_vf_dev.o idpf_ptp.o idpf_virtchnl_ptp.o xdp.o xsk.o | awk '!x[$$0]++ { print("drivers/net/ethernet/intel/idpf/"$$0) }' > drivers/net/ethernet/intel/idpf/idpf.mod

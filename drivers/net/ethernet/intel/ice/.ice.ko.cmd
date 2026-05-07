@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/intel/ice/ice.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/ethernet/intel/ice/ice.ko drivers/net/ethernet/intel/ice/ice.o drivers/net/ethernet/intel/ice/ice.mod.o .module-common.o

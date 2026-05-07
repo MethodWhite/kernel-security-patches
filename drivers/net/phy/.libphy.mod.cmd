@@ -1,0 +1,1 @@
+savedcmd_drivers/net/phy/libphy.mod := printf '%s\n'   phy.o phy-c45.o phy-core.o phy_device.o linkmode.o phy_link_topology.o phy_caps.o mdio_bus_provider.o swphy.o phy_led_triggers.o | awk '!x[$$0]++ { print("drivers/net/phy/"$$0) }' > drivers/net/phy/libphy.mod

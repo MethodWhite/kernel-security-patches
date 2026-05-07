@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/intel/pmc/intel_pmc_ssram_telemetry.mod := printf '%s\n'   ssram_telemetry.o | awk '!x[$$0]++ { print("drivers/platform/x86/intel/pmc/"$$0) }' > drivers/platform/x86/intel/pmc/intel_pmc_ssram_telemetry.mod

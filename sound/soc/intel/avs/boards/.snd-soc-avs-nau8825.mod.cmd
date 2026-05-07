@@ -1,0 +1,1 @@
+savedcmd_sound/soc/intel/avs/boards/snd-soc-avs-nau8825.mod := printf '%s\n'   nau8825.o | awk '!x[$$0]++ { print("sound/soc/intel/avs/boards/"$$0) }' > sound/soc/intel/avs/boards/snd-soc-avs-nau8825.mod

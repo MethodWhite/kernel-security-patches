@@ -1,0 +1,1 @@
+savedcmd_drivers/pinctrl/intel/pinctrl-meteorpoint.mod := printf '%s\n'   pinctrl-meteorpoint.o | awk '!x[$$0]++ { print("drivers/pinctrl/intel/"$$0) }' > drivers/pinctrl/intel/pinctrl-meteorpoint.mod

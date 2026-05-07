@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/ltc4215.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hwmon/ltc4215.ko drivers/hwmon/ltc4215.o drivers/hwmon/ltc4215.mod.o .module-common.o

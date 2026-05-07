@@ -1,0 +1,1 @@
+savedcmd_drivers/spi/modules.order := {   echo drivers/spi/spi-bitbang.o;   echo drivers/spi/spi-butterfly.o;   echo drivers/spi/spi-cs42l43.o;   echo drivers/spi/spi-ljca.o;   echo drivers/spi/spi-lm70llp.o;   echo drivers/spi/spi-pxa2xx-core.o;   echo drivers/spi/spi-pxa2xx-platform.o;   echo drivers/spi/spi-pxa2xx-pci.o; :; } > drivers/spi/modules.order

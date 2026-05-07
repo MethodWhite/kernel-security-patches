@@ -1,0 +1,1 @@
+savedcmd_sound/drivers/snd-virmidi.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/drivers/snd-virmidi.ko sound/drivers/snd-virmidi.o sound/drivers/snd-virmidi.mod.o .module-common.o

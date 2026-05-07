@@ -1,0 +1,1 @@
+savedcmd_sound/soc/codecs/snd-soc-rt1308.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/soc/codecs/snd-soc-rt1308.ko sound/soc/codecs/snd-soc-rt1308.o sound/soc/codecs/snd-soc-rt1308.mod.o .module-common.o

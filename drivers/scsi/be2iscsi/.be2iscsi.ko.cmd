@@ -1,0 +1,1 @@
+savedcmd_drivers/scsi/be2iscsi/be2iscsi.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/scsi/be2iscsi/be2iscsi.ko drivers/scsi/be2iscsi/be2iscsi.o drivers/scsi/be2iscsi/be2iscsi.mod.o .module-common.o

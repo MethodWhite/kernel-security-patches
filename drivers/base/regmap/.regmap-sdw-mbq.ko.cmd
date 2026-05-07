@@ -1,0 +1,1 @@
+savedcmd_drivers/base/regmap/regmap-sdw-mbq.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/base/regmap/regmap-sdw-mbq.ko drivers/base/regmap/regmap-sdw-mbq.o drivers/base/regmap/regmap-sdw-mbq.mod.o .module-common.o

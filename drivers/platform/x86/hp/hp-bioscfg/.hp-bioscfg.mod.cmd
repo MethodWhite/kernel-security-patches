@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/hp/hp-bioscfg/hp-bioscfg.mod := printf '%s\n'   bioscfg.o biosattr-interface.o enum-attributes.o int-attributes.o order-list-attributes.o passwdobj-attributes.o spmobj-attributes.o string-attributes.o surestart-attributes.o | awk '!x[$$0]++ { print("drivers/platform/x86/hp/hp-bioscfg/"$$0) }' > drivers/platform/x86/hp/hp-bioscfg/hp-bioscfg.mod

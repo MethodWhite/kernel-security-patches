@@ -1,0 +1,1 @@
+savedcmd_drivers/infiniband/sw/rdmavt/rdmavt.mod := printf '%s\n'   vt.o ah.o cq.o mad.o mcast.o mmap.o mr.o pd.o qp.o rc.o srq.o trace.o | awk '!x[$$0]++ { print("drivers/infiniband/sw/rdmavt/"$$0) }' > drivers/infiniband/sw/rdmavt/rdmavt.mod

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/huawei/hinic/hinic.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/ethernet/huawei/hinic/hinic.ko drivers/net/ethernet/huawei/hinic/hinic.o drivers/net/ethernet/huawei/hinic/hinic.mod.o .module-common.o

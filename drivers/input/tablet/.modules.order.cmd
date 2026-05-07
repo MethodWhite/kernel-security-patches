@@ -1,0 +1,1 @@
+savedcmd_drivers/input/tablet/modules.order := {   echo drivers/input/tablet/acecad.o;   echo drivers/input/tablet/aiptek.o;   echo drivers/input/tablet/hanwang.o;   echo drivers/input/tablet/kbtab.o;   echo drivers/input/tablet/pegasus_notetaker.o;   echo drivers/input/tablet/wacom_serial4.o; :; } > drivers/input/tablet/modules.order

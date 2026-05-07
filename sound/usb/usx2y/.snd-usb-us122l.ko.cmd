@@ -1,0 +1,1 @@
+savedcmd_sound/usb/usx2y/snd-usb-us122l.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/usb/usx2y/snd-usb-us122l.ko sound/usb/usx2y/snd-usb-us122l.o sound/usb/usx2y/snd-usb-us122l.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/input/touchscreen/penmount.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/input/touchscreen/penmount.ko drivers/input/touchscreen/penmount.o drivers/input/touchscreen/penmount.mod.o .module-common.o

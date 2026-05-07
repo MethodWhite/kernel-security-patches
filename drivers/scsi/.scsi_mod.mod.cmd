@@ -1,0 +1,1 @@
+savedcmd_drivers/scsi/scsi_mod.mod := printf '%s\n'   scsi.o hosts.o scsi_ioctl.o scsicam.o scsi_error.o scsi_lib.o constants.o scsi_lib_dma.o scsi_scan.o scsi_sysfs.o scsi_devinfo.o scsi_netlink.o scsi_sysctl.o scsi_debugfs.o scsi_trace.o scsi_logging.o scsi_pm.o scsi_dh.o scsi_bsg.o | awk '!x[$$0]++ { print("drivers/scsi/"$$0) }' > drivers/scsi/scsi_mod.mod

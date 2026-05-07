@@ -1,0 +1,1 @@
+savedcmd_drivers/firewire/firewire-sbp2.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/firewire/firewire-sbp2.ko drivers/firewire/firewire-sbp2.o drivers/firewire/firewire-sbp2.mod.o .module-common.o

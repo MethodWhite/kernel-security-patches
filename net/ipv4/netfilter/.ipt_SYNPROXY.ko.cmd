@@ -1,0 +1,1 @@
+savedcmd_net/ipv4/netfilter/ipt_SYNPROXY.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o net/ipv4/netfilter/ipt_SYNPROXY.ko net/ipv4/netfilter/ipt_SYNPROXY.o net/ipv4/netfilter/ipt_SYNPROXY.mod.o .module-common.o

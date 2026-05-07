@@ -1,0 +1,1 @@
+savedcmd_drivers/firmware/google/built-in.a := rm -f drivers/firmware/google/built-in.a;  printf "drivers/firmware/google/%s " coreboot_table.o framebuffer-coreboot.o | xargs ar cDPrST drivers/firmware/google/built-in.a

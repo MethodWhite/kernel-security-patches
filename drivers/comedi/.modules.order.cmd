@@ -1,0 +1,1 @@
+savedcmd_drivers/comedi/modules.order := {   echo drivers/comedi/comedi_pci.o;   echo drivers/comedi/comedi_pcmcia.o;   echo drivers/comedi/comedi_usb.o;   echo drivers/comedi/comedi.o;   cat drivers/comedi/kcomedilib/modules.order;   cat drivers/comedi/drivers/modules.order; :; } > drivers/comedi/modules.order

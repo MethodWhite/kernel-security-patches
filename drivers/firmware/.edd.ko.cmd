@@ -1,0 +1,1 @@
+savedcmd_drivers/firmware/edd.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/firmware/edd.ko drivers/firmware/edd.o drivers/firmware/edd.mod.o .module-common.o

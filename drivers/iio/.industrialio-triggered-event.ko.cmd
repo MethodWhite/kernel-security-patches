@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/industrialio-triggered-event.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/iio/industrialio-triggered-event.ko drivers/iio/industrialio-triggered-event.o drivers/iio/industrialio-triggered-event.mod.o .module-common.o

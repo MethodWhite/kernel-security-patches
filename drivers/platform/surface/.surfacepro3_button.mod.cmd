@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/surface/surfacepro3_button.mod := printf '%s\n'   surfacepro3_button.o | awk '!x[$$0]++ { print("drivers/platform/surface/"$$0) }' > drivers/platform/surface/surfacepro3_button.mod

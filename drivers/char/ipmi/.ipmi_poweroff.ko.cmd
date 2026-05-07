@@ -1,0 +1,1 @@
+savedcmd_drivers/char/ipmi/ipmi_poweroff.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/char/ipmi/ipmi_poweroff.ko drivers/char/ipmi/ipmi_poweroff.o drivers/char/ipmi/ipmi_poweroff.mod.o .module-common.o

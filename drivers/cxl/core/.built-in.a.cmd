@@ -1,0 +1,1 @@
+savedcmd_drivers/cxl/core/built-in.a := rm -f drivers/cxl/core/built-in.a;  printf "drivers/cxl/core/%s " port.o pmem.o regs.o memdev.o mbox.o pci.o hdm.o pmu.o cdat.o ras.o trace.o region.o mce.o suspend.o | xargs ar cDPrST drivers/cxl/core/built-in.a

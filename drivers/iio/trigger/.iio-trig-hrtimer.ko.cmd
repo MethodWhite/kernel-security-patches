@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/trigger/iio-trig-hrtimer.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/iio/trigger/iio-trig-hrtimer.ko drivers/iio/trigger/iio-trig-hrtimer.o drivers/iio/trigger/iio-trig-hrtimer.mod.o .module-common.o

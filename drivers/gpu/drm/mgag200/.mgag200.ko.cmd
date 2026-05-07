@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/mgag200/mgag200.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/gpu/drm/mgag200/mgag200.ko drivers/gpu/drm/mgag200/mgag200.o drivers/gpu/drm/mgag200/mgag200.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/intel-ish-hid/intel-ishtp.mod := printf '%s\n'   ishtp/init.o ishtp/hbm.o ishtp/client.o ishtp/bus.o ishtp/dma-if.o ishtp/client-buffers.o ishtp/loader.o | awk '!x[$$0]++ { print("drivers/hid/intel-ish-hid/"$$0) }' > drivers/hid/intel-ish-hid/intel-ishtp.mod

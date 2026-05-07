@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/vt8231.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hwmon/vt8231.ko drivers/hwmon/vt8231.o drivers/hwmon/vt8231.mod.o .module-common.o

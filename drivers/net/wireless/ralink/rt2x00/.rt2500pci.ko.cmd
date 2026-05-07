@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/ralink/rt2x00/rt2500pci.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/wireless/ralink/rt2x00/rt2500pci.ko drivers/net/wireless/ralink/rt2x00/rt2500pci.o drivers/net/wireless/ralink/rt2x00/rt2500pci.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/pci/pcie/aer_inject.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/pci/pcie/aer_inject.ko drivers/pci/pcie/aer_inject.o drivers/pci/pcie/aer_inject.mod.o .module-common.o

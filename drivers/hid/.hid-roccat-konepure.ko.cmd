@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/hid-roccat-konepure.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hid/hid-roccat-konepure.ko drivers/hid/hid-roccat-konepure.o drivers/hid/hid-roccat-konepure.mod.o .module-common.o

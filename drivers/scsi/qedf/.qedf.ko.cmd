@@ -1,0 +1,1 @@
+savedcmd_drivers/scsi/qedf/qedf.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/scsi/qedf/qedf.ko drivers/scsi/qedf/qedf.o drivers/scsi/qedf/qedf.mod.o .module-common.o

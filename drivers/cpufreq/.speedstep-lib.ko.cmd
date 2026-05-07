@@ -1,0 +1,1 @@
+savedcmd_drivers/cpufreq/speedstep-lib.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/cpufreq/speedstep-lib.ko drivers/cpufreq/speedstep-lib.o drivers/cpufreq/speedstep-lib.mod.o .module-common.o

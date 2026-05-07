@@ -1,0 +1,1 @@
+savedcmd_drivers/misc/pvpanic/pvpanic-mmio.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/misc/pvpanic/pvpanic-mmio.ko drivers/misc/pvpanic/pvpanic-mmio.o drivers/misc/pvpanic/pvpanic-mmio.mod.o .module-common.o

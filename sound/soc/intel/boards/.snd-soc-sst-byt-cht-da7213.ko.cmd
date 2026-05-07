@@ -1,0 +1,1 @@
+savedcmd_sound/soc/intel/boards/snd-soc-sst-byt-cht-da7213.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/soc/intel/boards/snd-soc-sst-byt-cht-da7213.ko sound/soc/intel/boards/snd-soc-sst-byt-cht-da7213.o sound/soc/intel/boards/snd-soc-sst-byt-cht-da7213.mod.o .module-common.o

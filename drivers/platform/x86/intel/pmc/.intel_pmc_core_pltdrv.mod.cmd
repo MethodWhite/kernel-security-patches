@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/intel/pmc/intel_pmc_core_pltdrv.mod := printf '%s\n'   pltdrv.o | awk '!x[$$0]++ { print("drivers/platform/x86/intel/pmc/"$$0) }' > drivers/platform/x86/intel/pmc/intel_pmc_core_pltdrv.mod

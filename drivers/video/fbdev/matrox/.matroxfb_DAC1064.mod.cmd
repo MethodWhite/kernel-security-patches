@@ -1,0 +1,1 @@
+savedcmd_drivers/video/fbdev/matrox/matroxfb_DAC1064.mod := printf '%s\n'   matroxfb_DAC1064.o | awk '!x[$$0]++ { print("drivers/video/fbdev/matrox/"$$0) }' > drivers/video/fbdev/matrox/matroxfb_DAC1064.mod

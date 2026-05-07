@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/gadget/function/usb_f_printer.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/usb/gadget/function/usb_f_printer.ko drivers/usb/gadget/function/usb_f_printer.o drivers/usb/gadget/function/usb_f_printer.mod.o .module-common.o

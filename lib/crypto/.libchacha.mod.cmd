@@ -1,0 +1,1 @@
+savedcmd_lib/crypto/libchacha.mod := printf '%s\n'   chacha.o x86/chacha-ssse3-x86_64.o x86/chacha-avx2-x86_64.o x86/chacha-avx512vl-x86_64.o | awk '!x[$$0]++ { print("lib/crypto/"$$0) }' > lib/crypto/libchacha.mod

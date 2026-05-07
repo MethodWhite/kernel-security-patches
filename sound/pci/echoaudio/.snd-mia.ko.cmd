@@ -1,0 +1,1 @@
+savedcmd_sound/pci/echoaudio/snd-mia.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/pci/echoaudio/snd-mia.ko sound/pci/echoaudio/snd-mia.o sound/pci/echoaudio/snd-mia.mod.o .module-common.o

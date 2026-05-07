@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/intel/atomisp2/intel_atomisp2_pm.mod := printf '%s\n'   pm.o | awk '!x[$$0]++ { print("drivers/platform/x86/intel/atomisp2/"$$0) }' > drivers/platform/x86/intel/atomisp2/intel_atomisp2_pm.mod

@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/intel/pmc/modules.order := {   echo drivers/platform/x86/intel/pmc/intel_pmc_core.o;   echo drivers/platform/x86/intel/pmc/intel_pmc_core_pltdrv.o;   echo drivers/platform/x86/intel/pmc/intel_pmc_ssram_telemetry.o; :; } > drivers/platform/x86/intel/pmc/modules.order

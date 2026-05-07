@@ -1,0 +1,1 @@
+savedcmd_drivers/accessibility/speakup/speakup_decext.mod := printf '%s\n'   speakup_decext.o | awk '!x[$$0]++ { print("drivers/accessibility/speakup/"$$0) }' > drivers/accessibility/speakup/speakup_decext.mod

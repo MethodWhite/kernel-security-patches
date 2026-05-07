@@ -1,0 +1,69 @@
+!<thin>
+//                                              556       `
+core/fb_notify.o/
+core/fb_info.o/
+core/fbmem.o/
+core/fbcmap.o/
+core/modedb.o/
+core/fbcvt.o/
+core/fb_cmdline.o/
+core/fb_backlight.o/
+core/fbmon.o/
+core/fb_defio.o/
+core/fb_chrdev.o/
+core/fb_procfs.o/
+core/fbsysfs.o/
+core/fbcon.o/
+core/bitblit.o/
+core/softcursor.o/
+core/tileblit.o/
+core/fbcon_rotate.o/
+core/fbcon_cw.o/
+core/fbcon_ud.o/
+core/fbcon_ccw.o/
+core/cfbfillrect.o/
+core/cfbcopyarea.o/
+core/cfbimgblt.o/
+core/fb_io_fops.o/
+core/sysfillrect.o/
+core/syscopyarea.o/
+core/sysimgblt.o/
+core/fb_sys_fops.o/
+xen-fbfront.o/
+vesafb.o/
+efifb.o/
+simplefb.o/
+
+/0              0           0     0     644     31376     `
+/18             0           0     0     644     264536    `
+/34             0           0     0     644     339512    `
+/48             0           0     0     644     318824    `
+/63             0           0     0     644     318480    `
+/78             0           0     0     644     52840     `
+/92             0           0     0     644     29648     `
+/111            0           0     0     644     259056    `
+/132            0           0     0     644     341632    `
+/146            0           0     0     644     330088    `
+/163            0           0     0     644     334256    `
+/181            0           0     0     644     258560    `
+/199            0           0     0     644     323136    `
+/215            0           0     0     644     631224    `
+/229            0           0     0     644     295936    `
+/245            0           0     0     644     270536    `
+/264            0           0     0     644     272488    `
+/281            0           0     0     644     278232    `
+/302            0           0     0     644     301776    `
+/319            0           0     0     644     297400    `
+/336            0           0     0     644     302808    `
+/354            0           0     0     644     365064    `
+/374            0           0     0     644     514120    `
+/394            0           0     0     644     346032    `
+/412            0           0     0     644     282664    `
+/431            0           0     0     644     332528    `
+/451            0           0     0     644     363824    `
+/471            0           0     0     644     310096    `
+/489            0           0     0     644     271448    `
+/509            0           0     0     644     352912    `
+/524            0           0     0     644     305456    `
+/534            0           0     0     644     291464    `
+/543            0           0     0     644     273904    `

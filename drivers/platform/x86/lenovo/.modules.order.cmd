@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/lenovo/modules.order := {   echo drivers/platform/x86/lenovo/ideapad-laptop.o;   echo drivers/platform/x86/lenovo/think-lmi.o;   echo drivers/platform/x86/lenovo/thinkpad_acpi.o;   echo drivers/platform/x86/lenovo/lenovo-ymc.o; :; } > drivers/platform/x86/lenovo/modules.order

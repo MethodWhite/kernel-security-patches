@@ -1,0 +1,1 @@
+savedcmd_drivers/isdn/hardware/mISDN/mISDNinfineon.mod := printf '%s\n'   mISDNinfineon.o | awk '!x[$$0]++ { print("drivers/isdn/hardware/mISDN/"$$0) }' > drivers/isdn/hardware/mISDN/mISDNinfineon.mod

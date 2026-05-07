@@ -1,0 +1,12 @@
+Package: linux-image-6.19.13.parrot.custom+1.0
+Source: linux-upstream
+Version: 1
+Architecture: amd64
+Maintainer: root <root@CachyOS>
+Installed-Size: 173307
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 6.19.13.parrot.custom+1.0
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.19.13.parrot.custom+1.0.

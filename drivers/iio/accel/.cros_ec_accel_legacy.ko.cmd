@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/accel/cros_ec_accel_legacy.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/iio/accel/cros_ec_accel_legacy.ko drivers/iio/accel/cros_ec_accel_legacy.o drivers/iio/accel/cros_ec_accel_legacy.mod.o .module-common.o

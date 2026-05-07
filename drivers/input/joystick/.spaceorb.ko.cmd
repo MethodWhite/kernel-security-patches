@@ -1,0 +1,1 @@
+savedcmd_drivers/input/joystick/spaceorb.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/input/joystick/spaceorb.ko drivers/input/joystick/spaceorb.o drivers/input/joystick/spaceorb.mod.o .module-common.o

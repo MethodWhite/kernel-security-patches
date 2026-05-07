@@ -1,0 +1,13 @@
+Package: linux-headers-6.19.13.parrot.custom+1.0
+Source: linux-upstream
+Version: 1
+Architecture: amd64
+Maintainer: root <root@CachyOS>
+Installed-Size: 59298
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 6.19.13.parrot.custom+1.0 on amd64
+ This package provides kernel header files for 6.19.13.parrot.custom+1.0 on amd64
+ .
+ This is useful for people who need to build external modules

@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/intel/intel-crystal_cove_charger.mod := printf '%s\n'   crystal_cove_charger.o | awk '!x[$$0]++ { print("drivers/platform/x86/intel/"$$0) }' > drivers/platform/x86/intel/intel-crystal_cove_charger.mod

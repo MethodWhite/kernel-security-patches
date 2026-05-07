@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/imu/inv_mpu6050/inv-mpu6050-i2c.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/iio/imu/inv_mpu6050/inv-mpu6050-i2c.ko drivers/iio/imu/inv_mpu6050/inv-mpu6050-i2c.o drivers/iio/imu/inv_mpu6050/inv-mpu6050-i2c.mod.o .module-common.o

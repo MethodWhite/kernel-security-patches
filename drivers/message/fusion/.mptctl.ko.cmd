@@ -1,0 +1,1 @@
+savedcmd_drivers/message/fusion/mptctl.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/message/fusion/mptctl.ko drivers/message/fusion/mptctl.o drivers/message/fusion/mptctl.mod.o .module-common.o

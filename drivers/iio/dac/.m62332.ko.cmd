@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/dac/m62332.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/iio/dac/m62332.ko drivers/iio/dac/m62332.o drivers/iio/dac/m62332.mod.o .module-common.o

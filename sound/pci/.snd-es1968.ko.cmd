@@ -1,0 +1,1 @@
+savedcmd_sound/pci/snd-es1968.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/pci/snd-es1968.ko sound/pci/snd-es1968.o sound/pci/snd-es1968.mod.o .module-common.o

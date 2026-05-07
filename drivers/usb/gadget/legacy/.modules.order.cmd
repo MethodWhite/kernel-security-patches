@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/gadget/legacy/modules.order := {   echo drivers/usb/gadget/legacy/g_ether.o;   echo drivers/usb/gadget/legacy/gadgetfs.o;   echo drivers/usb/gadget/legacy/g_ffs.o;   echo drivers/usb/gadget/legacy/g_mass_storage.o;   echo drivers/usb/gadget/legacy/g_serial.o; :; } > drivers/usb/gadget/legacy/modules.order

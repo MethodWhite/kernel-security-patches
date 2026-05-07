@@ -1,0 +1,1 @@
+savedcmd_drivers/video/fbdev/core/fb_ddc.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/video/fbdev/core/fb_ddc.ko drivers/video/fbdev/core/fb_ddc.o drivers/video/fbdev/core/fb_ddc.mod.o .module-common.o

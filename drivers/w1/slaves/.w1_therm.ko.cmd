@@ -1,0 +1,1 @@
+savedcmd_drivers/w1/slaves/w1_therm.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/w1/slaves/w1_therm.ko drivers/w1/slaves/w1_therm.o drivers/w1/slaves/w1_therm.mod.o .module-common.o

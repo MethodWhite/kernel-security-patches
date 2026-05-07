@@ -1,0 +1,1 @@
+savedcmd_drivers/comedi/drivers/cb_pcidda.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/comedi/drivers/cb_pcidda.ko drivers/comedi/drivers/cb_pcidda.o drivers/comedi/drivers/cb_pcidda.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/crypto/intel/iaa/iaa_crypto.mod := printf '%s\n'   iaa_crypto_main.o iaa_crypto_comp_fixed.o | awk '!x[$$0]++ { print("drivers/crypto/intel/iaa/"$$0) }' > drivers/crypto/intel/iaa/iaa_crypto.mod

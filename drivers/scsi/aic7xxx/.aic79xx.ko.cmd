@@ -1,0 +1,1 @@
+savedcmd_drivers/scsi/aic7xxx/aic79xx.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/scsi/aic7xxx/aic79xx.ko drivers/scsi/aic7xxx/aic79xx.o drivers/scsi/aic7xxx/aic79xx.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/crypto/intel/qat/qat_c62x/qat_c62x.mod := printf '%s\n'   adf_drv.o adf_c62x_hw_data.o | awk '!x[$$0]++ { print("drivers/crypto/intel/qat/qat_c62x/"$$0) }' > drivers/crypto/intel/qat/qat_c62x/qat_c62x.mod

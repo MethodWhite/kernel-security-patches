@@ -1,0 +1,1 @@
+savedcmd_drivers/media/pci/intel/ipu6/intel-ipu6-isys.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/pci/intel/ipu6/intel-ipu6-isys.ko drivers/media/pci/intel/ipu6/intel-ipu6-isys.o drivers/media/pci/intel/ipu6/intel-ipu6-isys.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/hid-holtekff.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hid/hid-holtekff.ko drivers/hid/hid-holtekff.o drivers/hid/hid-holtekff.mod.o .module-common.o

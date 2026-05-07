@@ -1,0 +1,1 @@
+savedcmd_security/integrity/ima/built-in.a := rm -f security/integrity/ima/built-in.a;  printf "security/integrity/ima/%s " ima_fs.o ima_queue.o ima_init.o ima_main.o ima_crypto.o ima_api.o ima_policy.o ima_template.o ima_template_lib.o ima_appraise.o ima_kexec.o ima_asymmetric_keys.o ima_queue_keys.o ima_efi.o ima_iint.o | xargs ar cDPrST security/integrity/ima/built-in.a

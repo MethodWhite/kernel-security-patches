@@ -1,0 +1,1 @@
+savedcmd_sound/soc/sof/intel/snd-sof-intel-hda-mlink.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/soc/sof/intel/snd-sof-intel-hda-mlink.ko sound/soc/sof/intel/snd-sof-intel-hda-mlink.o sound/soc/sof/intel/snd-sof-intel-hda-mlink.mod.o .module-common.o

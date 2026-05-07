@@ -1,0 +1,1 @@
+savedcmd_drivers/net/phy/mdio_devres.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/phy/mdio_devres.ko drivers/net/phy/mdio_devres.o drivers/net/phy/mdio_devres.mod.o .module-common.o

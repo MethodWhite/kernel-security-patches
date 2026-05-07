@@ -1,0 +1,1 @@
+savedcmd_drivers/media/tuners/e4000.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/tuners/e4000.ko drivers/media/tuners/e4000.o drivers/media/tuners/e4000.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/intel/pmt/pmt_crashlog.mod := printf '%s\n'   crashlog.o | awk '!x[$$0]++ { print("drivers/platform/x86/intel/pmt/"$$0) }' > drivers/platform/x86/intel/pmt/pmt_crashlog.mod

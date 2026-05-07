@@ -1,0 +1,1 @@
+savedcmd_sound/pcmcia/vx/snd-vxpocket.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/pcmcia/vx/snd-vxpocket.ko sound/pcmcia/vx/snd-vxpocket.o sound/pcmcia/vx/snd-vxpocket.mod.o .module-common.o

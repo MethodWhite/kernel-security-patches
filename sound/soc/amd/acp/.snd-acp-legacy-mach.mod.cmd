@@ -1,0 +1,1 @@
+savedcmd_sound/soc/amd/acp/snd-acp-legacy-mach.mod := printf '%s\n'   acp-legacy-mach.o acp3x-es83xx/acp3x-es83xx.o | awk '!x[$$0]++ { print("sound/soc/amd/acp/"$$0) }' > sound/soc/amd/acp/snd-acp-legacy-mach.mod

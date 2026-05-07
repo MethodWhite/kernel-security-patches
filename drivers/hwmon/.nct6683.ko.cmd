@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/nct6683.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hwmon/nct6683.ko drivers/hwmon/nct6683.o drivers/hwmon/nct6683.mod.o .module-common.o

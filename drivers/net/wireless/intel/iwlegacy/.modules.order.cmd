@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/intel/iwlegacy/modules.order := {   echo drivers/net/wireless/intel/iwlegacy/iwlegacy.o;   echo drivers/net/wireless/intel/iwlegacy/iwl4965.o;   echo drivers/net/wireless/intel/iwlegacy/iwl3945.o; :; } > drivers/net/wireless/intel/iwlegacy/modules.order

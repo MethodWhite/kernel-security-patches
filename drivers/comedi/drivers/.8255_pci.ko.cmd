@@ -1,0 +1,1 @@
+savedcmd_drivers/comedi/drivers/8255_pci.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/comedi/drivers/8255_pci.ko drivers/comedi/drivers/8255_pci.o drivers/comedi/drivers/8255_pci.mod.o .module-common.o

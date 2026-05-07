@@ -1,0 +1,1 @@
+savedcmd_drivers/isdn/mISDN/mISDN_core.mod := printf '%s\n'   core.o fsm.o socket.o clock.o hwchannel.o stack.o layer1.o layer2.o tei.o timerdev.o | awk '!x[$$0]++ { print("drivers/isdn/mISDN/"$$0) }' > drivers/isdn/mISDN/mISDN_core.mod

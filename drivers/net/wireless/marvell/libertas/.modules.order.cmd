@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/marvell/libertas/modules.order := {   echo drivers/net/wireless/marvell/libertas/libertas.o;   echo drivers/net/wireless/marvell/libertas/usb8xxx.o;   echo drivers/net/wireless/marvell/libertas/libertas_sdio.o; :; } > drivers/net/wireless/marvell/libertas/modules.order

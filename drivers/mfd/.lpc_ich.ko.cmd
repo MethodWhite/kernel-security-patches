@@ -1,0 +1,1 @@
+savedcmd_drivers/mfd/lpc_ich.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/mfd/lpc_ich.ko drivers/mfd/lpc_ich.o drivers/mfd/lpc_ich.mod.o .module-common.o

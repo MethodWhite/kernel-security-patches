@@ -1,0 +1,1 @@
+savedcmd_drivers/scsi/cxgbi/modules.order := {   echo drivers/scsi/cxgbi/libcxgbi.o;   cat drivers/scsi/cxgbi/cxgb3i/modules.order;   cat drivers/scsi/cxgbi/cxgb4i/modules.order; :; } > drivers/scsi/cxgbi/modules.order

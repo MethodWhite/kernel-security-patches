@@ -1,0 +1,1 @@
+savedcmd_drivers/ras/amd/fmpm.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/ras/amd/fmpm.ko drivers/ras/amd/fmpm.o drivers/ras/amd/fmpm.mod.o .module-common.o

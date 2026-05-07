@@ -1,0 +1,1 @@
+savedcmd_drivers/input/mouse/vsxxxaa.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/input/mouse/vsxxxaa.ko drivers/input/mouse/vsxxxaa.o drivers/input/mouse/vsxxxaa.mod.o .module-common.o

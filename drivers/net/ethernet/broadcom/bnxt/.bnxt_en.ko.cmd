@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/broadcom/bnxt/bnxt_en.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/ethernet/broadcom/bnxt/bnxt_en.ko drivers/net/ethernet/broadcom/bnxt/bnxt_en.o drivers/net/ethernet/broadcom/bnxt/bnxt_en.mod.o .module-common.o

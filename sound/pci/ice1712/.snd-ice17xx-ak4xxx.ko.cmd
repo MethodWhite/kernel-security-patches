@@ -1,0 +1,1 @@
+savedcmd_sound/pci/ice1712/snd-ice17xx-ak4xxx.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/pci/ice1712/snd-ice17xx-ak4xxx.ko sound/pci/ice1712/snd-ice17xx-ak4xxx.o sound/pci/ice1712/snd-ice17xx-ak4xxx.mod.o .module-common.o

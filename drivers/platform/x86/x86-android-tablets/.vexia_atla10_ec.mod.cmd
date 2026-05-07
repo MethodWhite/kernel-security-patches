@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/x86-android-tablets/vexia_atla10_ec.mod := printf '%s\n'   vexia_atla10_ec.o | awk '!x[$$0]++ { print("drivers/platform/x86/x86-android-tablets/"$$0) }' > drivers/platform/x86/x86-android-tablets/vexia_atla10_ec.mod

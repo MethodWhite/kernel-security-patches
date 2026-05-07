@@ -1,0 +1,1 @@
+savedcmd_crypto/crc32c-cryptoapi.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o crypto/crc32c-cryptoapi.ko crypto/crc32c-cryptoapi.o crypto/crc32c-cryptoapi.mod.o .module-common.o

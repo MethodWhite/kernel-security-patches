@@ -1,0 +1,1 @@
+savedcmd_drivers/bus/mhi/host/mhi.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/bus/mhi/host/mhi.ko drivers/bus/mhi/host/mhi.o drivers/bus/mhi/host/mhi.mod.o .module-common.o

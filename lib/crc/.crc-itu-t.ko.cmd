@@ -1,0 +1,1 @@
+savedcmd_lib/crc/crc-itu-t.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o lib/crc/crc-itu-t.ko lib/crc/crc-itu-t.o lib/crc/crc-itu-t.mod.o .module-common.o

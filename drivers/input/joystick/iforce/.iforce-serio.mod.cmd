@@ -1,0 +1,1 @@
+savedcmd_drivers/input/joystick/iforce/iforce-serio.mod := printf '%s\n'   iforce-serio.o | awk '!x[$$0]++ { print("drivers/input/joystick/iforce/"$$0) }' > drivers/input/joystick/iforce/iforce-serio.mod

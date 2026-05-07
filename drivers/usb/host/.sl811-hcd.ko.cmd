@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/host/sl811-hcd.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/usb/host/sl811-hcd.ko drivers/usb/host/sl811-hcd.o drivers/usb/host/sl811-hcd.mod.o .module-common.o

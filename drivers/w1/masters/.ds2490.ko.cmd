@@ -1,0 +1,1 @@
+savedcmd_drivers/w1/masters/ds2490.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/w1/masters/ds2490.ko drivers/w1/masters/ds2490.o drivers/w1/masters/ds2490.mod.o .module-common.o

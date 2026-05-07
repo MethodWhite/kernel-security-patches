@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/chrome/chromeos_pstore.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/platform/chrome/chromeos_pstore.ko drivers/platform/chrome/chromeos_pstore.o drivers/platform/chrome/chromeos_pstore.mod.o .module-common.o

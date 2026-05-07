@@ -1,0 +1,1 @@
+savedcmd_sound/soc/amd/ps/modules.order := {   echo sound/soc/amd/ps/snd-pci-ps.o;   echo sound/soc/amd/ps/snd-ps-pdm-dma.o;   echo sound/soc/amd/ps/snd-ps-sdw-dma.o;   echo sound/soc/amd/ps/snd-soc-ps-mach.o; :; } > sound/soc/amd/ps/modules.order

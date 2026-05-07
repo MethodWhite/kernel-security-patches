@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/clients/drm_client_lib.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/gpu/drm/clients/drm_client_lib.ko drivers/gpu/drm/clients/drm_client_lib.o drivers/gpu/drm/clients/drm_client_lib.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/video/fbdev/arcfb.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/video/fbdev/arcfb.ko drivers/video/fbdev/arcfb.o drivers/video/fbdev/arcfb.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/media/pci/ttpci/budget.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/pci/ttpci/budget.ko drivers/media/pci/ttpci/budget.o drivers/media/pci/ttpci/budget.mod.o .module-common.o

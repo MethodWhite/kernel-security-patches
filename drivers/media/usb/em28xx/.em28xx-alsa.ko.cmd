@@ -1,0 +1,1 @@
+savedcmd_drivers/media/usb/em28xx/em28xx-alsa.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/usb/em28xx/em28xx-alsa.ko drivers/media/usb/em28xx/em28xx-alsa.o drivers/media/usb/em28xx/em28xx-alsa.mod.o .module-common.o

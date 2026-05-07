@@ -1,0 +1,1 @@
+savedcmd_drivers/staging/media/av7110/modules.order := {   echo drivers/staging/media/av7110/dvb-ttpci.o;   echo drivers/staging/media/av7110/sp8870.o; :; } > drivers/staging/media/av7110/modules.order

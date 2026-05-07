@@ -1,0 +1,1 @@
+savedcmd_drivers/media/usb/dvb-usb/dvb-usb-af9005.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/usb/dvb-usb/dvb-usb-af9005.ko drivers/media/usb/dvb-usb/dvb-usb-af9005.o drivers/media/usb/dvb-usb/dvb-usb-af9005.mod.o .module-common.o

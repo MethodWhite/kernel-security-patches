@@ -1,0 +1,1 @@
+savedcmd_drivers/gpio/gpio-ljca.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/gpio/gpio-ljca.ko drivers/gpio/gpio-ljca.o drivers/gpio/gpio-ljca.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/amd/modules.order := {   echo drivers/net/ethernet/amd/amd8111e.o;   echo drivers/net/ethernet/amd/nmclan_cs.o;   echo drivers/net/ethernet/amd/pcnet32.o;   cat drivers/net/ethernet/amd/xgbe/modules.order; :; } > drivers/net/ethernet/amd/modules.order

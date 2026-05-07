@@ -1,0 +1,1 @@
+savedcmd_sound/x86/snd-hdmi-lpe-audio.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/x86/snd-hdmi-lpe-audio.ko sound/x86/snd-hdmi-lpe-audio.o sound/x86/snd-hdmi-lpe-audio.mod.o .module-common.o

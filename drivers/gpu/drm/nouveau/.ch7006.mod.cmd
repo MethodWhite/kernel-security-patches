@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/nouveau/ch7006.mod := printf '%s\n'   dispnv04/i2c/ch7006_drv.o dispnv04/i2c/ch7006_mode.o | awk '!x[$$0]++ { print("drivers/gpu/drm/nouveau/"$$0) }' > drivers/gpu/drm/nouveau/ch7006.mod

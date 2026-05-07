@@ -1,0 +1,1 @@
+savedcmd_sound/hda/codecs/cirrus/snd-hda-codec-cs420x.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/hda/codecs/cirrus/snd-hda-codec-cs420x.ko sound/hda/codecs/cirrus/snd-hda-codec-cs420x.o sound/hda/codecs/cirrus/snd-hda-codec-cs420x.mod.o .module-common.o

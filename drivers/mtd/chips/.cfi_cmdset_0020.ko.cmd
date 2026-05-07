@@ -1,0 +1,1 @@
+savedcmd_drivers/mtd/chips/cfi_cmdset_0020.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/mtd/chips/cfi_cmdset_0020.ko drivers/mtd/chips/cfi_cmdset_0020.o drivers/mtd/chips/cfi_cmdset_0020.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/md/bcache/bcache.mod := printf '%s\n'   alloc.o bset.o btree.o debug.o extents.o io.o journal.o movinggc.o request.o stats.o super.o sysfs.o trace.o util.o writeback.o features.o | awk '!x[$$0]++ { print("drivers/md/bcache/"$$0) }' > drivers/md/bcache/bcache.mod

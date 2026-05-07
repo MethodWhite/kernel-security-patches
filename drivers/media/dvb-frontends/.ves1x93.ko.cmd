@@ -1,0 +1,1 @@
+savedcmd_drivers/media/dvb-frontends/ves1x93.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/dvb-frontends/ves1x93.ko drivers/media/dvb-frontends/ves1x93.o drivers/media/dvb-frontends/ves1x93.mod.o .module-common.o

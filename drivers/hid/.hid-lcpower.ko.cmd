@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/hid-lcpower.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hid/hid-lcpower.ko drivers/hid/hid-lcpower.o drivers/hid/hid-lcpower.mod.o .module-common.o

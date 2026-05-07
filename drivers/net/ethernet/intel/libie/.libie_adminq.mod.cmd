@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/intel/libie/libie_adminq.mod := printf '%s\n'   adminq.o | awk '!x[$$0]++ { print("drivers/net/ethernet/intel/libie/"$$0) }' > drivers/net/ethernet/intel/libie/libie_adminq.mod

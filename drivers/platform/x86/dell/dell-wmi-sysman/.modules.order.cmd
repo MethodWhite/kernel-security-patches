@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/dell/dell-wmi-sysman/modules.order := {   echo drivers/platform/x86/dell/dell-wmi-sysman/dell-wmi-sysman.o; :; } > drivers/platform/x86/dell/dell-wmi-sysman/modules.order

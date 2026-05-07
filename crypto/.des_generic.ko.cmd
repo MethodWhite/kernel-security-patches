@@ -1,0 +1,1 @@
+savedcmd_crypto/des_generic.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o crypto/des_generic.ko crypto/des_generic.o crypto/des_generic.mod.o .module-common.o

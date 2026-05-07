@@ -1,0 +1,1 @@
+savedcmd_drivers/soundwire/soundwire-intel.mod := printf '%s\n'   intel.o intel_ace2x.o intel_ace2x_debugfs.o intel_auxdevice.o intel_init.o dmi-quirks.o intel_bus_common.o | awk '!x[$$0]++ { print("drivers/soundwire/"$$0) }' > drivers/soundwire/soundwire-intel.mod

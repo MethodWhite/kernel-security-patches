@@ -1,0 +1,1 @@
+savedcmd_sound/hda/codecs/hdmi/snd-hda-codec-hdmi.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/hda/codecs/hdmi/snd-hda-codec-hdmi.ko sound/hda/codecs/hdmi/snd-hda-codec-hdmi.o sound/hda/codecs/hdmi/snd-hda-codec-hdmi.mod.o .module-common.o

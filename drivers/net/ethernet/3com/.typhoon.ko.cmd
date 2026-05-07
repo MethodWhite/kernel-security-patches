@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/3com/typhoon.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/ethernet/3com/typhoon.ko drivers/net/ethernet/3com/typhoon.o drivers/net/ethernet/3com/typhoon.mod.o .module-common.o

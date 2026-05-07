@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/intel/intel-tpmi_power_domains.mod := printf '%s\n'   tpmi_power_domains.o | awk '!x[$$0]++ { print("drivers/platform/x86/intel/"$$0) }' > drivers/platform/x86/intel/intel-tpmi_power_domains.mod

@@ -1,0 +1,1 @@
+savedcmd_drivers/spi/spi-pxa2xx-core.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/spi/spi-pxa2xx-core.ko drivers/spi/spi-pxa2xx-core.o drivers/spi/spi-pxa2xx-core.mod.o .module-common.o

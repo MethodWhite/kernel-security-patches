@@ -1,0 +1,1 @@
+savedcmd_drivers/infiniband/hw/usnic/usnic_verbs.mod := printf '%s\n'   usnic_fwd.o usnic_transport.o usnic_uiom.o usnic_uiom_interval_tree.o usnic_vnic.o usnic_ib_main.o usnic_ib_qp_grp.o usnic_ib_sysfs.o usnic_ib_verbs.o usnic_debugfs.o | awk '!x[$$0]++ { print("drivers/infiniband/hw/usnic/"$$0) }' > drivers/infiniband/hw/usnic/usnic_verbs.mod

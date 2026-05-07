@@ -1,0 +1,1 @@
+savedcmd_sound/soc/intel/avs/boards/snd-soc-avs-dmic.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/soc/intel/avs/boards/snd-soc-avs-dmic.ko sound/soc/intel/avs/boards/snd-soc-avs-dmic.o sound/soc/intel/avs/boards/snd-soc-avs-dmic.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/phy/uPD60620.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/phy/uPD60620.ko drivers/net/phy/uPD60620.o drivers/net/phy/uPD60620.mod.o .module-common.o

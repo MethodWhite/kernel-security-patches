@@ -1,0 +1,1 @@
+savedcmd_fs/nfs_common/nfs_acl.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o fs/nfs_common/nfs_acl.ko fs/nfs_common/nfs_acl.o fs/nfs_common/nfs_acl.mod.o .module-common.o

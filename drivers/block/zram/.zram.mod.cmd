@@ -1,0 +1,1 @@
+savedcmd_drivers/block/zram/zram.mod := printf '%s\n'   zcomp.o zram_drv.o backend_lz4.o backend_lz4hc.o backend_zstd.o backend_deflate.o | awk '!x[$$0]++ { print("drivers/block/zram/"$$0) }' > drivers/block/zram/zram.mod

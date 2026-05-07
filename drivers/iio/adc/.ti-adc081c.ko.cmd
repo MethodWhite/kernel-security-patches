@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/adc/ti-adc081c.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/iio/adc/ti-adc081c.ko drivers/iio/adc/ti-adc081c.o drivers/iio/adc/ti-adc081c.mod.o .module-common.o

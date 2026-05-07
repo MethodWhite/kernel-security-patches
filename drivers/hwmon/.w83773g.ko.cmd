@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/w83773g.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/hwmon/w83773g.ko drivers/hwmon/w83773g.o drivers/hwmon/w83773g.mod.o .module-common.o

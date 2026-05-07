@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/light/st_uvis25_spi.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/iio/light/st_uvis25_spi.ko drivers/iio/light/st_uvis25_spi.o drivers/iio/light/st_uvis25_spi.mod.o .module-common.o

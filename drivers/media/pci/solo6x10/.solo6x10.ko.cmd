@@ -1,0 +1,1 @@
+savedcmd_drivers/media/pci/solo6x10/solo6x10.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/pci/solo6x10/solo6x10.ko drivers/media/pci/solo6x10/solo6x10.o drivers/media/pci/solo6x10/solo6x10.mod.o .module-common.o

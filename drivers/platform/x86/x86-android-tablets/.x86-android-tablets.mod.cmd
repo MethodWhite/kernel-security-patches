@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/x86-android-tablets/x86-android-tablets.mod := printf '%s\n'   core.o dmi.o shared-psy-info.o acer.o asus.o lenovo.o other.o | awk '!x[$$0]++ { print("drivers/platform/x86/x86-android-tablets/"$$0) }' > drivers/platform/x86/x86-android-tablets/x86-android-tablets.mod

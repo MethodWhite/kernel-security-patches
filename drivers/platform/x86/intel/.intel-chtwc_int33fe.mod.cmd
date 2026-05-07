@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/intel/intel-chtwc_int33fe.mod := printf '%s\n'   chtwc_int33fe.o | awk '!x[$$0]++ { print("drivers/platform/x86/intel/"$$0) }' > drivers/platform/x86/intel/intel-chtwc_int33fe.mod

@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/marvell/cafe_ccic.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/platform/marvell/cafe_ccic.ko drivers/media/platform/marvell/cafe_ccic.o drivers/media/platform/marvell/cafe_ccic.mod.o .module-common.o

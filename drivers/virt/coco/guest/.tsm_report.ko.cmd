@@ -1,0 +1,1 @@
+savedcmd_drivers/virt/coco/guest/tsm_report.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/virt/coco/guest/tsm_report.ko drivers/virt/coco/guest/tsm_report.o drivers/virt/coco/guest/tsm_report.mod.o .module-common.o

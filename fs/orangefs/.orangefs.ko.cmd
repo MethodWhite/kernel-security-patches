@@ -1,0 +1,1 @@
+savedcmd_fs/orangefs/orangefs.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o fs/orangefs/orangefs.ko fs/orangefs/orangefs.o fs/orangefs/orangefs.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/input/mouse/appletouch.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/input/mouse/appletouch.ko drivers/input/mouse/appletouch.o drivers/input/mouse/appletouch.mod.o .module-common.o

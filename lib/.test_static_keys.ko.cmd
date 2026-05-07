@@ -1,0 +1,1 @@
+savedcmd_lib/test_static_keys.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o lib/test_static_keys.ko lib/test_static_keys.o lib/test_static_keys.mod.o .module-common.o

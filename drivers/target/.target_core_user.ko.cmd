@@ -1,0 +1,1 @@
+savedcmd_drivers/target/target_core_user.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/target/target_core_user.ko drivers/target/target_core_user.o drivers/target/target_core_user.mod.o .module-common.o

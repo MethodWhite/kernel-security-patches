@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireguard/wireguard.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/wireguard/wireguard.ko drivers/net/wireguard/wireguard.o drivers/net/wireguard/wireguard.mod.o .module-common.o

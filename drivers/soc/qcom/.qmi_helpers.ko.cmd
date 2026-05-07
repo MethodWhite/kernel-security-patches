@@ -1,0 +1,1 @@
+savedcmd_drivers/soc/qcom/qmi_helpers.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/soc/qcom/qmi_helpers.ko drivers/soc/qcom/qmi_helpers.o drivers/soc/qcom/qmi_helpers.mod.o .module-common.o

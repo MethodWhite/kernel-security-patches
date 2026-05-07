@@ -1,0 +1,1 @@
+savedcmd_drivers/media/common/videobuf2/videobuf2-common.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/media/common/videobuf2/videobuf2-common.ko drivers/media/common/videobuf2/videobuf2-common.o drivers/media/common/videobuf2/videobuf2-common.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/vdpa/vdpa_user/vduse.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/vdpa/vdpa_user/vduse.ko drivers/vdpa/vdpa_user/vduse.o drivers/vdpa/vdpa_user/vduse.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/common/st_sensors/st_sensors_spi.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/iio/common/st_sensors/st_sensors_spi.ko drivers/iio/common/st_sensors/st_sensors_spi.o drivers/iio/common/st_sensors/st_sensors_spi.mod.o .module-common.o

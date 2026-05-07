@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/x86/dell/dell-wmi-sysman/dell-wmi-sysman.mod := printf '%s\n'   sysman.o enum-attributes.o int-attributes.o string-attributes.o passobj-attributes.o biosattr-interface.o passwordattr-interface.o | awk '!x[$$0]++ { print("drivers/platform/x86/dell/dell-wmi-sysman/"$$0) }' > drivers/platform/x86/dell/dell-wmi-sysman/dell-wmi-sysman.mod

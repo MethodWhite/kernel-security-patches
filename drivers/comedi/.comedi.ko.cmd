@@ -1,0 +1,1 @@
+savedcmd_drivers/comedi/comedi.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/comedi/comedi.ko drivers/comedi/comedi.o drivers/comedi/comedi.mod.o .module-common.o

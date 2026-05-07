@@ -1,0 +1,1 @@
+savedcmd_sound/soc/intel/catpt/snd-soc-catpt.mod := printf '%s\n'   device.o dsp.o loader.o ipc.o messages.o pcm.o sysfs.o | awk '!x[$$0]++ { print("sound/soc/intel/catpt/"$$0) }' > sound/soc/intel/catpt/snd-soc-catpt.mod

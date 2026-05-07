@@ -1,0 +1,91 @@
+!<thin>
+//                                              932       `
+aperture.o/
+screen_info_generic.o/
+screen_info_pci.o/
+cmdline.o/
+nomodeset.o/
+hdmi.o/
+console/dummycon.o/
+console/vgacon.o/
+backlight/backlight.o/
+fbdev/core/fb_notify.o/
+fbdev/core/fb_info.o/
+fbdev/core/fbmem.o/
+fbdev/core/fbcmap.o/
+fbdev/core/modedb.o/
+fbdev/core/fbcvt.o/
+fbdev/core/fb_cmdline.o/
+fbdev/core/fb_backlight.o/
+fbdev/core/fbmon.o/
+fbdev/core/fb_defio.o/
+fbdev/core/fb_chrdev.o/
+fbdev/core/fb_procfs.o/
+fbdev/core/fbsysfs.o/
+fbdev/core/fbcon.o/
+fbdev/core/bitblit.o/
+fbdev/core/softcursor.o/
+fbdev/core/tileblit.o/
+fbdev/core/fbcon_rotate.o/
+fbdev/core/fbcon_cw.o/
+fbdev/core/fbcon_ud.o/
+fbdev/core/fbcon_ccw.o/
+fbdev/core/cfbfillrect.o/
+fbdev/core/cfbcopyarea.o/
+fbdev/core/cfbimgblt.o/
+fbdev/core/fb_io_fops.o/
+fbdev/core/sysfillrect.o/
+fbdev/core/syscopyarea.o/
+fbdev/core/sysimgblt.o/
+fbdev/core/fb_sys_fops.o/
+fbdev/xen-fbfront.o/
+fbdev/vesafb.o/
+fbdev/efifb.o/
+fbdev/simplefb.o/
+display_timing.o/
+videomode.o/
+
+/0              0           0     0     644     280016    `
+/12             0           0     0     644     36640     `
+/35             0           0     0     644     203208    `
+/54             0           0     0     644     38080     `
+/65             0           0     0     644     15264     `
+/78             0           0     0     644     302016    `
+/86             0           0     0     644     209936    `
+/106            0           0     0     644     525200    `
+/124            0           0     0     644     266888    `
+/147            0           0     0     644     31376     `
+/171            0           0     0     644     264536    `
+/193            0           0     0     644     339512    `
+/213            0           0     0     644     318824    `
+/234            0           0     0     644     318480    `
+/255            0           0     0     644     52840     `
+/275            0           0     0     644     29648     `
+/300            0           0     0     644     259056    `
+/327            0           0     0     644     341632    `
+/347            0           0     0     644     330088    `
+/370            0           0     0     644     334256    `
+/394            0           0     0     644     258560    `
+/418            0           0     0     644     323136    `
+/440            0           0     0     644     631224    `
+/460            0           0     0     644     295936    `
+/482            0           0     0     644     270536    `
+/507            0           0     0     644     272488    `
+/530            0           0     0     644     278232    `
+/557            0           0     0     644     301776    `
+/580            0           0     0     644     297400    `
+/603            0           0     0     644     302808    `
+/627            0           0     0     644     365064    `
+/653            0           0     0     644     514120    `
+/679            0           0     0     644     346032    `
+/703            0           0     0     644     282664    `
+/728            0           0     0     644     332528    `
+/754            0           0     0     644     363824    `
+/780            0           0     0     644     310096    `
+/804            0           0     0     644     271448    `
+/830            0           0     0     644     352912    `
+/851            0           0     0     644     305456    `
+/867            0           0     0     644     291464    `
+/882            0           0     0     644     273904    `
+/900            0           0     0     644     19264     `
+/918            0           0     0     644     11328     `

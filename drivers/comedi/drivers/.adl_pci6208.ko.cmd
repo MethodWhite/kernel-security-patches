@@ -1,0 +1,1 @@
+savedcmd_drivers/comedi/drivers/adl_pci6208.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/comedi/drivers/adl_pci6208.ko drivers/comedi/drivers/adl_pci6208.o drivers/comedi/drivers/adl_pci6208.mod.o .module-common.o

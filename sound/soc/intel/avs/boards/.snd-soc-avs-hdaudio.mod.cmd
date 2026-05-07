@@ -1,0 +1,1 @@
+savedcmd_sound/soc/intel/avs/boards/snd-soc-avs-hdaudio.mod := printf '%s\n'   hdaudio.o | awk '!x[$$0]++ { print("sound/soc/intel/avs/boards/"$$0) }' > sound/soc/intel/avs/boards/snd-soc-avs-hdaudio.mod

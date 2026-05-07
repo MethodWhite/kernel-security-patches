@@ -1,0 +1,1 @@
+savedcmd_arch/x86/crypto/aesni-intel.mod := printf '%s\n'   aesni-intel_asm.o aesni-intel_glue.o aes-ctr-avx-x86_64.o aes-gcm-aesni-x86_64.o aes-gcm-vaes-avx2.o aes-gcm-vaes-avx512.o aes-xts-avx-x86_64.o | awk '!x[$$0]++ { print("arch/x86/crypto/"$$0) }' > arch/x86/crypto/aesni-intel.mod

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/mediatek/mt76/mt7921/mt7921u.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/net/wireless/mediatek/mt76/mt7921/mt7921u.ko drivers/net/wireless/mediatek/mt76/mt7921/mt7921u.o drivers/net/wireless/mediatek/mt76/mt7921/mt7921u.mod.o .module-common.o

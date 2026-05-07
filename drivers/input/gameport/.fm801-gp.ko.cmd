@@ -1,0 +1,1 @@
+savedcmd_drivers/input/gameport/fm801-gp.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o drivers/input/gameport/fm801-gp.ko drivers/input/gameport/fm801-gp.o drivers/input/gameport/fm801-gp.mod.o .module-common.o

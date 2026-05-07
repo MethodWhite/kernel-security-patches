@@ -1,0 +1,1 @@
+savedcmd_sound/soc/amd/acp/snd-acp-renoir.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T ./scripts/module.lds -o sound/soc/amd/acp/snd-acp-renoir.ko sound/soc/amd/acp/snd-acp-renoir.o sound/soc/amd/acp/snd-acp-renoir.mod.o .module-common.o
