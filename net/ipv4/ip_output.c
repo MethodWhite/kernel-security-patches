@@ -1234,6 +1234,9 @@ alloc_new_skb:
 				goto error;
 			copy = err;
 			wmem_alloc_delta += copy;
+
+			if (!(flags & MSG_NO_SHARED_FRAGS))
+				skb_shinfo(skb)->flags |= SKBFL_SHARED_FRAG;
 		} else if (!zc) {
 			int i = skb_shinfo(skb)->nr_frags;
 
