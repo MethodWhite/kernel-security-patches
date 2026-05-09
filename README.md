@@ -77,6 +77,24 @@ sudo make install
 sudo update-grub
 ```
 
+### Hardening Comparison
+
+How our custom kernel compares against major distro kernels:
+
+| Hardening Option | Our Kernel 6.19 | Solus LTS 6.18 | Debian 6.12 |
+|---|---|---|---|
+| **CPU Mitigations (24)** | ✅ All | ✅ All | ✅ All |
+| **Struct Randomization** | ✅ PERFORMANCE | ❌ NONE | ❌ NONE |
+| **Module Signing (Force)** | ✅ SHA-512 | ❌ | ❌ |
+| **Kernel Lockdown** | ✅ INTEGRITY | ❌ | ❌ |
+| **INIT_ON_FREE** | ✅ Zero on kfree | ❌ | ❌ |
+| **ZERO_CALL_USED_REGS** | ✅ | ❌ | ❌ |
+| **DMESG_RESTRICT** | ✅ | ❌ | ❌ |
+| **IO_STRICT_DEVMEM** | ✅ | ❌ | ❌ |
+| **Dirty Frag LPE** | ✅ Patched | ❌ Vulnerable | ❌ Vulnerable |
+
+> Solus comparison based on [PR #8790](https://github.com/getsolus/packages/pull/8790) (linux-lts 6.18.28).
+
 ### Kernel Config
 
 - [configs/defconfig](configs/defconfig) — boot config (minimal, what ships in /boot)
