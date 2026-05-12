@@ -14,15 +14,15 @@ Pre-built, hardened Linux kernel with 27+ security mitigations enabled, Dirty Fr
 
 | Package | Size | Download |
 |---------|------|----------|
-| **linux-image** | 156 MB | [Releases](https://github.com/MethodWhite/kernel-security-patches/releases) |
+| **linux-image** | 292 MB | [Releases](https://github.com/MethodWhite/kernel-security-patches/releases) |
 | **linux-headers** | 11 MB | [Releases](https://github.com/MethodWhite/kernel-security-patches/releases) |
-| **linux-image-dbg** | 1 GB | [Releases](https://github.com/MethodWhite/kernel-security-patches/releases) |
+| **linux-image-dbg** | 1.3 GB | [Releases](https://github.com/MethodWhite/kernel-security-patches/releases) |
 
 ### Install
 
 ```bash
-sudo dpkg -i linux-image-6.19.13.parrot.custom+1.0_1_amd64.deb \
-            linux-headers-6.19.13.parrot.custom+1.0_1_amd64.deb
+sudo dpkg -i linux-image-6.19.13-parrot.custom+2.0-cachyos-g372c9ba96bd4-dirty_6.19.13-g372c9ba96bd4-8_amd64.deb \
+            linux-headers-6.19.13-parrot.custom+2.0-cachyos-g372c9ba96bd4-dirty_6.19.13-g372c9ba96bd4-8_amd64.deb
 sudo update-grub
 sudo reboot
 ```
@@ -35,6 +35,7 @@ sudo reboot
 | **Module Security** | `MODULE_SIG_FORCE`, `MODULE_SIG_ALL`, `MODULE_SIG_SHA512` |
 | **Kernel Lockdown** | `LOCK_DOWN_KERNEL_FORCE_INTEGRITY` |
 | **CPU Mitigations** | SLS, RETBLEED, SRSO, GDS, RFDS, Spectre BHI, MMIO Stale Data |
+| **Scheduler** | BORE + CachyOS optimizations |
 | **Access Control** | `SECURITY_DMESG_RESTRICT`, `STRICT_DEVMEM`, `IO_STRICT_DEVMEM` |
 | **Attack Surface** | `NET_SCH_QFQ` disabled (CVE-2026-22976), `INET_DIAG_DESTROY` disabled |
 
@@ -69,6 +70,9 @@ cd linux-6.19
 # Apply our hardened config
 cp configs/defconfig .config
 make olddefconfig
+
+# Apply NVIDIA compat patch (if using NVIDIA proprietary driver)
+patch -p1 < ../nvidia-compat-mutex_destroy.patch
 
 # Build
 make -j$(nproc)
@@ -114,6 +118,7 @@ How our custom kernel compares against major distro kernels:
 | `CVE-2026-31649-stmmac-integer-underflow.patch` | CVE-2026-31649 | CRITICAL (9.8) | Integer underflow in stmmac Ethernet driver |
 | `CVE-2026-31533-tls-uaf.patch` | CVE-2026-31533 | HIGH (7.8) | Use-after-free in TLS subsystem |
 | `CVE-2026-31408-bluetooth-sco-uaf.patch` | CVE-2026-31408 | MEDIUM (5.5) | Use-after-free in Bluetooth SCO |
+| `nvidia-compat-mutex_destroy.patch` | N/A (compat) | — | Export `mutex_destroy` as non-GPL for NVIDIA DKMS |
 
 ### Apply Patches
 
@@ -180,6 +185,7 @@ sysctl kernel.dmesg_restrict             # = 1
 ├── CVE-2026-31649-stmmac-integer-underflow.patch
 ├── CVE-2026-31533-tls-uaf.patch
 ├── CVE-2026-31408-bluetooth-sco-uaf.patch
+├── nvidia-compat-mutex_destroy.patch  # NVIDIA DKMS compat (EXPORT_SYMBOL)
 ├── apply-kernel-fixes.sh              # Kernel patch applicator
 ├── apply-fixes-immediate.sh           # System hardening
 ├── apply-security-patches.sh          # Security-only patcher
@@ -207,4 +213,4 @@ MIT License — Free to use, modify, and distribute.
 Patches provided as-is. Always backup before applying kernel updates. Test in a VM/sandbox before deploying to production.
 
 ---
-**Last Updated**: 2026-05-09 — **Kernel**: 6.19.13.parrot.custom+1.0 (hardened) · 6.12.x (patch series)
+**Last Updated**: 2026-05-12 — **Kernel**: 6.19.13.parrot.custom+2.0-cachyos (hardened) · 6.12.x (patch series)

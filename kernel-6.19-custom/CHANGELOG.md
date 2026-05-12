@@ -1,4 +1,42 @@
-# Kernel 6.19.13.parrot.custom+1.0 — Build Changelog
+# Kernel 6.19.13.parrot.custom+2.0 — Build Changelog
+
+## Build #8 (2026-05-12) — v2.0 Release
+
+### New Features
+- **CachyOS scheduling**: enabled BORE scheduler + CachyOS CPU optimizations
+- **LOCALVERSION**: `.parrot.custom+2.0-cachyos`
+
+### Bugfix: NVIDIA DKMS (mutex_destroy GPL symbol)
+- **Patch**: `EXPORT_SYMBOL_GPL(mutex_destroy)` → `EXPORT_SYMBOL(mutex_destroy)`
+- **File**: `kernel/locking/mutex-debug.c`
+- **Root cause**: kernel `6.19` marks `mutex_destroy` as GPL-only via `EXPORT_SYMBOL_GPL`
+- **Fix**: changed to `EXPORT_SYMBOL` (non-GPL) for NVIDIA proprietary driver compatibility
+- **Patch file**: `nvidia-compat-mutex_destroy.patch` in repo root
+
+### DKMS Status
+- `nvidia-current/550.163.01` — ✅ installed for new kernel
+- `broadcom-sta/6.30.223.271` — ✅ installed for new kernel
+
+### Networking
+- Restored `INET_AH`, `INET_ESP`, `INET_ESP_OFFLOAD`, `INET_IPCOMP`
+- Restored `INET_DIAG`, `INET_TCP_DIAG`, `INET_UDP_DIAG`, `INET_RAW_DIAG`
+- Restored `IP_SCTP`, `RDS`, `TIPC` protocol support
+- Added `INET_MPTCP_DIAG` for Multipath TCP diagnostics
+
+### Build Environment
+- GCC 14.2.0 (Debian)
+- GNU ld 2.44 (Binutils)
+- Build #6 (SMP PREEMPT_DYNAMIC)
+- QEMU sandbox-tested: no panics, no oops
+
+### Packages (Release 2.0)
+
+| Package | Size |
+|---------|------|
+| `linux-image` | 292 MB |
+| `linux-headers` | 11 MB |
+| `linux-image-dbg` | 1.3 GB |
+| `linux-libc-dev` | 1.5 MB |
 
 ## Build #5 (2026-05-07)
 
